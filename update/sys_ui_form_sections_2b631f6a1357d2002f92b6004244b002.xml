@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="2b631f6a1357d2002f92b6004244b002" sys_domain="global" table="x_snc_it_purchase_assignment_rules" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-13 12:53:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af631f6a1357d2002f92b6004244b002</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_it_purchase_assignment_rules" name="x_snc_it_purchase_assignment_rules" sys_domain="global" view="Default view">2b631f6a1357d2002f92b6004244b002</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_assignment_rules" sys_domain="global" view="Default view">db23d76a1357d2002f92b6004244b0a1</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-13 12:53:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-27 17:15:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1cc5dcdb4f6312009b8670f24210c7ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_it_purchase_assignment_rules" name="x_snc_it_purchase_assignment_rules" sys_domain="global" view="Default view">2b631f6a1357d2002f92b6004244b002</sys_ui_form>
+            <sys_ui_section caption="Applies To" display_value="Applies To" name="x_snc_it_purchase_assignment_rules" sys_domain="global" view="Default view">18c5dcdb4f6312009b8670f24210c7ef</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-27 17:15:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-27 17:15:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08d5dcdb4f6312009b8670f24210c7f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_it_purchase_assignment_rules" name="x_snc_it_purchase_assignment_rules" sys_domain="global" view="Default view">2b631f6a1357d2002f92b6004244b002</sys_ui_form>
+            <sys_ui_section caption="Assign To" display_value="Assign To" name="x_snc_it_purchase_assignment_rules" sys_domain="global" view="Default view">04d5dcdb4f6312009b8670f24210c7f1</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-27 17:15:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_it_purchase_assignment_rules</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-13 12:53:00</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b631f6a1357d2002f92b6004244b002</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_it_purchase_assignment_rules</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+            <sys_update_name>sys_ui_form_sections_2b631f6a1357d2002f92b6004244b002</sys_update_name>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-13 12:53:00</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

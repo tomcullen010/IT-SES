@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>f0dcb0f5139792002f92b6004244b0e6</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="kb_knowledge_base">
+    <kb_knowledge_base action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <approval_description/>
+        <card_color/>
+        <data_policy display_value="Data policy for IT Purchase Request Knowledge knowledge base">34dcb0f5139792002f92b6004244b0e6</data_policy>
+        <description>A default description for IT Purchase Request Knowledge base</description>
+        <disable_category_editing>false</disable_category_editing>
+        <disable_commenting>false</disable_commenting>
+        <disable_suggesting>false</disable_suggesting>
+        <enable_socialqa>true</enable_socialqa>
+        <icon/>
+        <kb_managers/>
+        <kb_version>3</kb_version>
+        <mandatory_fields/>
+        <order/>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <question_annotation/>
+        <retire_workflow display_value="Knowledge - Instant Retire">3d18ef12c30031000096dfdc64d3aeb6</retire_workflow>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-05-10 17:59:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f0dcb0f5139792002f92b6004244b0e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-05-10 17:59:33</sys_updated_on>
+        <table>kb_knowledge</table>
+        <template/>
+        <title>IT Purchase Request Knowledge</title>
+        <workflow display_value="Knowledge - Instant Publish">fbe441019f112100d8f8700c267fcf1a</workflow>
+    </kb_knowledge_base>
+    <sys_translated_text action="delete_multiple" query="documentkey=f0dcb0f5139792002f92b6004244b0e6"/>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-05-10 17:59:44</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>17dcf0f5139792002f92b6004244b088</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT Purchase Request Knowledge</sys_name>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>sys_metadata_link_17dcf0f5139792002f92b6004244b088</sys_update_name>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-05-10 17:59:44</sys_updated_on>
+        <tablename>kb_knowledge_base</tablename>
+    </sys_metadata_link>
+</record_update>

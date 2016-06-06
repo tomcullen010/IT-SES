@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_snc_it_purchase_request_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Telecom</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-05-11 17:23:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97dd75c613db92002f92b6004244b0f6</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:03:55</sys_updated_on>
+            <value>Telecom</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Information Security</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-05-11 17:25:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>80aefdc613db92002f92b6004244b0b1</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:03:55</sys_updated_on>
+            <value>Information Security</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Supporting Assets &amp; Services</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-05-11 17:26:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7ae310a13db92002f92b6004244b060</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:03:55</sys_updated_on>
+            <value>Supporting Assets &amp; Services</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application and SaaS</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-05-11 17:26:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7dce310a13db92002f92b6004244b052</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:03:55</sys_updated_on>
+            <value>Application and SaaS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Infrastructure</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>4</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-05-11 17:26:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5fdeb10a13db92002f92b6004244b077</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:03:55</sys_updated_on>
+            <value>Infrastructure</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Solution Delivery w/non-Preferred Supplier</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>5</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-05-11 17:27:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93eef10a13db92002f92b6004244b00f</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:03:55</sys_updated_on>
+            <value>Solution Delivery w/non-Prefered Supplier</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Production Support w/non-Preferred Supplier</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>6</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-05-11 17:28:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>411ff10a13db92002f92b6004244b0ac</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:03:55</sys_updated_on>
+            <value>Production Support w/non-Preferred Supplier</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other Professional Services</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>7</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-05-11 17:29:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>686f750a13db92002f92b6004244b06d</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:03:55</sys_updated_on>
+            <value>Other Professional Services</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Strategic Supplier Vendor Governance</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>8</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-05-11 17:29:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>028f750a13db92002f92b6004244b06e</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:03:55</sys_updated_on>
+            <value>Strategic Supplier Vendor Governance</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <name>x_snc_it_purchase_request_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-05-11 17:23:55</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>104ef9c613db92002f92b6004244b0f4</sys_id>
+            <sys_mod_count>38</sys_mod_count>
+            <sys_name>category</sys_name>
+            <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+            <sys_update_name>sys_choice_x_snc_it_purchase_request_request_category</sys_update_name>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:36:39</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

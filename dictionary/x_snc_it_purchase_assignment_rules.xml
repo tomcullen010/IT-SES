@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Assignment Rules" max_length="40" name="x_snc_it_purchase_assignment_rules" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" dependent="table" dependent_on_field="table" label="Conditions" max_length="4000" name="conditions" type="conditions" use_dependent_field="true"/>
+        <element dependent="finance_group" dependent_on_field="finance_group" label="Finance Assignee" max_length="32" name="finance_assignee" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element label="Finance Group" max_length="32" name="finance_group" reference="sys_user_group" type="reference"/>
+        <element dependent="legal_group" dependent_on_field="legal_group" label="Legal Assignee" max_length="32" name="legal_assignee" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element label="Legal Group" max_length="32" name="legal_group" reference="sys_user_group" type="reference"/>
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <element label="Order" max_length="40" name="order" type="integer"/>
+        <element dependent="procurement_group" dependent_on_field="procurement_group" label="Procurement Assignee" max_length="32" name="procurement_assignee" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element label="Procurement Group" max_length="32" name="procurement_group" reference="sys_user_group" type="reference"/>
+        <element attributes="base_start=true" default="x_snc_it_purchase_request_request" label="Table" max_length="80" name="table" type="table_name"/>
+        <element dependent="vendor_governance_group" dependent_on_field="vendor_governance_group" label="Vendor Governance Assignee" max_length="32" name="vendor_governance_assignee" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element label="Vendor Governance Group" max_length="32" name="vendor_governance_group" reference="sys_user_group" type="reference"/>
+        <index name="index">
+            <element name="vendor_governance_assignee"/>
+        </index>
+        <index name="index2">
+            <element name="finance_group"/>
+        </index>
+        <index name="index3">
+            <element name="legal_group"/>
+        </index>
+        <index name="index4">
+            <element name="procurement_assignee"/>
+        </index>
+        <index name="index5">
+            <element name="vendor_governance_group"/>
+        </index>
+        <index name="index6">
+            <element name="finance_assignee"/>
+        </index>
+        <index name="index7">
+            <element name="procurement_group"/>
+        </index>
+        <index name="index8">
+            <element name="legal_assignee"/>
+        </index>
+    </element>
+</database>

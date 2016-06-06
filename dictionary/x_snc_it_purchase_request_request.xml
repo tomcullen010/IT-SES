@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="sm_order" label="IT Purchase Request" max_length="40" name="x_snc_it_purchase_request_request" sizeclass="10" type="collection">
+        <element label="Actionable Request" max_length="40" name="actionable_request" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Addressee Name" max_length="40" name="addressee_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" hint="Currently this is a CCNAG and CONA requirement. This is the contract number from eSourcing." label="Agreement ID" max_length="40" name="agreement_id" type="string"/>
+        <element hint="Select the IT team that owns this agreement" label="Business Area" max_length="32" name="business_area" reference="cmn_department" type="reference"/>
+        <element attributes="omit_sys_original=true" label="CAPEX total" max_length="15" name="capex_total" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="Please indicate the security classification for this contract." label="Contract Classification" max_length="40" name="contract_classification" type="string">
+            <choice>
+                <element label="Unclassified" sequence="0" value="Unclassified"/>
+                <element label="Confidential" sequence="1" value="Confidential"/>
+                <element label="Highly Restricted" sequence="2" value="Highly Restricted"/>
+                <element label="Other" sequence="3" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="Was the contract classified as confidential?" label="Contract Classified As Confidential" max_length="40" name="contract_classified_as_confidential" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element hint="Please enter the effective date as documented in the contract" label="Contract Effective Date" max_length="40" name="contract_effective_date" type="glide_date"/>
+        <element hint="Please enter the date that the fully executed contract was loaded into iManage" label="Contract Filed Date" max_length="40" name="contract_filed_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" hint="Enter the total amount of cost avoidance achieved through negotiations." label="Cost Avoidance" max_length="40" name="cost_avoidance" type="string"/>
+        <element label="Duration of NDA(# of Years)" max_length="40" name="duration_of_nda_of_years" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="Answer 'Yes' if there is a penalty for early termination. Describe how the early termination fee is calculated in the following explanation field." label="Are There Fees for Early Termination" max_length="40" name="early_termination_fees" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Early Termination Fee Explanation" max_length="250" name="early_termination_fee_explanation" type="multi_two_lines"/>
+        <element hint="This field will indicate if the contract is evergreen. Check this if this is an evergreen account" label="Evergreen" max_length="40" name="evergreen" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="Was an exception PO issued for this contract?" label="Exception PO" max_length="40" name="exception_po" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element hint="Enter the date this contract expires." label="Expiration Date" max_length="40" name="expiration_date" type="glide_date"/>
+        <element dependent="finance_group" dependent_on_field="finance_group" label="Finance Assignee" max_length="32" name="finance_assignee" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element label="Finance Group" max_length="32" name="finance_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Financial Analysis Explanation" max_length="250" name="financial_analysis_explanation" type="multi_two_lines"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Guarantees" max_length="40" name="guarantees" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="Answer 'Yes' if another member of The Coca-Cola System other than the contracting organization can leverage this agreement through a Participant letter." label="Is System Participation Allowed" max_length="40" name="is_system_participation_allowed" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is This a Freestyle Projext" max_length="40" name="is_this_a_freestyle_projext" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="Answer as appropriate for the request." label="If Required, Has IT Security Approved" max_length="40" name="it_security_approved" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="If this effort has labor services components retrieve job aid from the SharePoint and complete checklist." label="Labor Services Checklist Completed" max_length="40" name="labor_services_checklist_completed" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element dependent="legal_group" dependent_on_field="legal_group" label="Legal Assignee" max_length="32" name="legal_assignee" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element label="Legal Group" max_length="32" name="legal_group" reference="sys_user_group" type="reference"/>
+        <element choice="1" label="Are There Exceptions to LoL" max_length="40" name="lol_exceptions" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="LoL Exception Explanation" max_length="250" name="lol_exception_explanation" type="multi_two_lines"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Long-Term Committments" max_length="40" name="long_term_committments" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Misc Finance Notes" max_length="1000" name="misc_finance_notes" type="string"/>
+        <element label="Misc Legal Notes" max_length="1000" name="misc_legal_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Misc Procurement Notes" max_length="1000" name="misc_procurement_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Misc Vendor Governance Notes" max_length="1000" name="misc_vendor_governance_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Who Will be Disclosing Information?" max_length="40" name="nda_discloser" type="string">
+            <choice>
+                <element label="Supplier Only" sequence="0" value="Supplier Only"/>
+                <element label="TCCC Entity Only" sequence="1" value="TCCC Entity Only"/>
+                <element label="Both" sequence="2" value="Both"/>
+            </choice>
+        </element>
+        <element label="Predated Date" max_length="40" name="nda_predated" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="Answer 'Yes' if this contract represents a new COA with a supplier." label="New COA" max_length="40" name="new_coa" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="Answer 'Yes' if this contract represents a new master agreement with a supplier. Answer 'Yes' if this is an incumbent supplier with a new type of master agreement (e.g. software supplier who has had a MSLA and now has Master SaaS as well)." label="New Master" max_length="40" name="new_master" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="If this is a new master agreement or a new COA, update the contract database located on the internal IT Procurement Teamsite." label="New Master/COA Logged in Contracts DB" max_length="40" name="new_master_coa_logged_in_contracts_db" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element choice="1" hint="Answer 'Yes' if this is a supplier that does not have a master agreement with The Company." label="Engagement of a New Supplier" max_length="40" name="new_supplier" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="Finance should review D&amp;B or some other source to determine if entering into an agreement with this company is low or high risk." label="New Supplier Financial Analysis done" max_length="40" name="new_supplier_financial_analysis_done" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="OPEX Total" max_length="15" name="opex_total" type="currency"/>
+        <element hint="If this was supported by outside counsel, please enter the supporting attorney's name." label="Outside Counsel Support" max_length="40" name="outside_counsel_support" type="string"/>
+        <element attributes="edge_encryption_enabled=true" hint="Type in any financial comments that might be helpful to the approvers." label="Provide Comments for Budget/Exception PO" max_length="1000" name="po_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="Answer 'Yes' if there are any risks to supply, cost escalations, etc. that approvers should be aware of. Describe the risks in the following explanation field." label="Any Noteworthy/Exceptional Risk" max_length="40" name="procurement_risk" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Procurement Risk Explanation" max_length="250" name="procurement_risk_explanation" type="multi_two_lines"/>
+        <element choice="1" hint="Please refer to the &quot;ITP OLA&quot; document link under the &quot;IT-SES Help&quot; section." label="I Have Read The Provided ITP OLA" max_length="40" name="read_itp_ola" type="choice">
+            <choice>
+                <element label="My Request is Within the ITP OLA" sequence="0" value="My Request is Within the ITP OLA"/>
+                <element label="My Request is not Within the ITP OLA" sequence="1" value="My Request is not Within the ITP OLA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Requestor Budget Notes" max_length="1000" name="requestor_budget_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" hint="Enter the total amount of savings achieved through negotiations." label="Savings" max_length="40" name="savings" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="Derivative includes certain commodity-based contracts and purchase agreements that contain embedded derivative-like structures (such as price caps and floors, cash settlement provisions)." label="SFAS 133 - Embedded Derivatives" max_length="40" name="sfas_133_embedded_derivatives" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="Was the contract signed by TCCC after the effective date?" label="Signed After Effective Date" max_length="40" name="signed_after_effective_date" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="Was the contract signed per the Chart of Authortiy?" label="Signed Per Chart of Authority" max_length="40" name="signed_per_chart_of_authority" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="Before loading the final document, be sure you have run spell check as well as read for common grammatical mistakes and made appropriate corrections. Be sure the document is formatted correctly." label="Spelling and Formatting Checked" max_length="40" name="spelling_and_formatting_checked" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element choice="1" label="Standard Indemnifications, Including IP" max_length="40" name="standard_indemnifications" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Standard Indemnification Explanation" max_length="250" name="standard_indemnification_explanation" type="multi_two_lines"/>
+        <element choice="1" label="Standard Representations/Warranties" max_length="40" name="standard_representations" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Standard Representations Explanation" max_length="250" name="standard_representations_explanation" type="multi_two_lines"/>
+        <element attributes="edge_encryption_enabled=true" label="State or Country of Formation" max_length="40" name="state_or_country_of_formation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Suppliers legal Entity Name" max_length="40" name="suppliers_legal_entity_name" type="string"/>
+        <element hint="Enter the email address for the supplier representative for this effort. If you are requesting an RFI or RFP, leave this field blank." label="Supplier Contact Email" max_length="40" name="supplier_contact_email" type="string"/>
+        <element hint="Enter the name of the supplier representative for this effort. If you are requesting an RFI or RFP, leave this field blank." label="Supplier Contact Name" max_length="40" name="supplier_contact_name" type="string"/>
+        <element hint="Enter the telephone number for the supplier representative for this effort. If you are requesting an RFI or RFP, leave this field blank." label="Supplier Contact Phone" max_length="40" name="supplier_contact_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Supplier IP Rights Explanation" max_length="250" name="supplier_ip_rights_explanation" type="multi_two_lines"/>
+        <element hint="Enter the name of the company which the contract will be with. If you are requesting an RFI or RFP, leave this field blank." label="Supplier Name" max_length="32" name="supplier_name" reference="core_company" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Supplier Physical Address" max_length="100" name="supplier_physical_address" type="multi_two_lines"/>
+        <element hint="Please enter the date the contract was signed by TCCC." label="TCCC Contract Signature Date" max_length="40" name="tccc_contract_signature_date" type="glide_date"/>
+        <element hint="Please enter the name of the person who signed the contract for The Company." label="TCCC Signatory" max_length="32" name="tccc_signatory" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="Was the contract signed by the CIO,&#13;&#10;Please select the level of the person who signed the contract for The Company." label="TCCC Signatory Level" max_length="40" name="tccc_signatory_level" type="string">
+            <choice>
+                <element label="CIO" sequence="0" value="CIO"/>
+                <element label="L2" sequence="1" value="L2"/>
+                <element label="L3" sequence="2" value="L3"/>
+                <element label="Other" sequence="3" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Thereafter" max_length="100" name="thereafter" type="string"/>
+        <element label="Total Budget for This Effort" max_length="40" name="total_budget" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Type of Information" max_length="100" name="type_of_information" type="multi_two_lines"/>
+        <element dependent="vendor_governance_group" dependent_on_field="vendor_governance_group" label="Vendor Governance Assignee" max_length="32" name="vendor_governance_assignee" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element label="Vendor Governance Group" max_length="32" name="vendor_governance_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="Answer 'Yes' if the supplier will develop something for The Company and retain ownership of what has been developed. Describe the ownership situation in the following explanation field." label="Will Supplier Retain Rights to New IP" max_length="40" name="will_supplier_retain_rights_to_new_ip" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Year 1" max_length="100" name="year_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Year 2" max_length="100" name="year_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Year 3" max_length="100" name="year_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Year 4" max_length="100" name="year_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Year 5" max_length="100" name="year_5" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="cmdb_serviceorder_product_model" label="IT Purchase Request Request Template" max_length="40" name="x_snc_it_purchase_request_request_template" type="collection"/>
+</database>

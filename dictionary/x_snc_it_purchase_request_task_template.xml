@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="cmdb_servicetask_product_model" label="IT Purchase Request Task Template" max_length="40" name="x_snc_it_purchase_request_task_template" type="collection"/>
+</database>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sm_config">
+    <sm_config action="INSERT_OR_UPDATE">
+        <accept_reject>false</accept_reject>
+        <active>true</active>
+        <admin_role display_value="x_snc_it_purchase_admin" name="x_snc_it_purchase_admin">38bc70f5139792002f92b6004244b02e</admin_role>
+        <agent_role display_value="x_snc_it_purchase_agent" name="x_snc_it_purchase_agent">74bc70f5139792002f92b6004244b02f</agent_role>
+        <app_name>it_purchase_request</app_name>
+        <approval>true</approval>
+        <approval_workflow display_value="IT Purchase Request">bd224be21357d2002f92b6004244b099</approval_workflow>
+        <approver_role display_value="x_snc_it_purchase_approver_user" name="x_snc_it_purchase_approver_user">b0bc70f5139792002f92b6004244b030</approver_role>
+        <associated_task_tables/>
+        <auto_dispatch>false</auto_dispatch>
+        <basic_role display_value="x_snc_it_purchase_basic" name="x_snc_it_purchase_basic">fcbc70f5139792002f92b6004244b030</basic_role>
+        <catalog display_value="IT Purchase Request Catalog">bcdcb0f5139792002f92b6004244b0e1</catalog>
+        <created_with_version>Helsinki: 04-21-2016_1541</created_with_version>
+        <disabled_processes/>
+        <dispatch_group_type display_value="it_purchase_request_dispatch">dfbc70f5139792002f92b6004244b0a3</dispatch_group_type>
+        <dispatch_queue>false</dispatch_queue>
+        <dispatcher_role display_value="x_snc_it_purchase_dispatcher" name="x_snc_it_purchase_dispatcher">0dbc70f5139792002f92b6004244b031</dispatcher_role>
+        <follow_the_sun_priority>{value:,type:,display:}</follow_the_sun_priority>
+        <geolocation_maps>false</geolocation_maps>
+        <inbound_email>false</inbound_email>
+        <initiator_role display_value="x_snc_it_purchase_initiator" name="x_snc_it_purchase_initiator">49bc70f5139792002f92b6004244b032</initiator_role>
+        <kbase display_value="IT Purchase Request Knowledge">f0dcb0f5139792002f92b6004244b0e6</kbase>
+        <knowledge_base>true</knowledge_base>
+        <limit_by_location>false</limit_by_location>
+        <main_model_category display_value="IT Purchase Request Request Template">67ccb0f5139792002f92b6004244b052</main_model_category>
+        <main_model_table>x_snc_it_purchase_request_request_templa</main_model_table>
+        <main_state_flow_table>x_snc_it_purchase_sf_request_request</main_state_flow_table>
+        <main_table>x_snc_it_purchase_request_request</main_table>
+        <managed_docs>true</managed_docs>
+        <mandatory_work_notes>false</mandatory_work_notes>
+        <name>IT Purchase Request</name>
+        <part_requirement>false</part_requirement>
+        <property_prefix>x_snc_it_purchase</property_prefix>
+        <qualification>false</qualification>
+        <qualification_group_type/>
+        <qualifier_role/>
+        <read_role display_value="x_snc_it_purchase_read" name="x_snc_it_purchase_read">85bc70f5139792002f92b6004244b033</read_role>
+        <request_dispatch_method>manual</request_dispatch_method>
+        <request_dispatch_workflow display_value="Request Assignment Workflow for SM">879cca02d7100200e5eb83e80e6103fc</request_dispatch_workflow>
+        <request_driven>true</request_driven>
+        <rollup_work_notes>false</rollup_work_notes>
+        <service_catalog>true</service_catalog>
+        <surveys/>
+        <sys_class_name>sm_config</sys_class_name>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-05-10 17:59:39</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>dedcf0f5139792002f92b6004244b054</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>IT Purchase Request</sys_name>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>sm_config_dedcf0f5139792002f92b6004244b054</sys_update_name>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-05-13 11:46:27</sys_updated_on>
+        <task_activities>false</task_activities>
+        <task_dispatch_method>manual</task_dispatch_method>
+        <task_dispatch_workflow display_value="Assignment Workflow for SM">e1865971d7132100bbc783e80e610365</task_dispatch_workflow>
+        <task_model_category display_value="IT Purchase Request Task Template">e7ccb0f5139792002f92b6004244b052</task_model_category>
+        <task_model_table>x_snc_it_purchase_request_task_template</task_model_table>
+        <task_state_flow_table>x_snc_it_purchase_sf_request_task</task_state_flow_table>
+        <task_table>x_snc_it_purchase_request_task</task_table>
+        <task_work_group_type/>
+        <templates_to_catalog>true</templates_to_catalog>
+        <track_travel>false</track_travel>
+        <use_consistent_assignment>false</use_consistent_assignment>
+        <use_follow_the_sun>true</use_follow_the_sun>
+        <use_location>false</use_location>
+        <use_schedule>false</use_schedule>
+        <use_sf>true</use_sf>
+        <use_skill>none</use_skill>
+        <use_timezone>false</use_timezone>
+        <user_created>true</user_created>
+        <vendor_group_type display_value="it_purchase_request_vendor">53bc70f5139792002f92b6004244b0a4</vendor_group_type>
+        <work_group_type display_value="it_purchase_request">4fbc70f5139792002f92b6004244b0a3</work_group_type>
+    </sm_config>
+</record_update>

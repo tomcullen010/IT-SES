@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Vendor Governance Assessment" section_id="bccab54613db92002f92b6004244b003" sys_domain="global" table="x_snc_it_purchase_request_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:45:43</sys_created_on>
+            <sys_id>33334a4a13db92002f92b6004244b0ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vendor Governance Assessment" display_value="Vendor Governance Assessment" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">bccab54613db92002f92b6004244b003</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:45:43</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tccc_contract_signature_date</element>
+            <position>1</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:45:43</sys_created_on>
+            <sys_id>b3334a4a13db92002f92b6004244b0ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vendor Governance Assessment" display_value="Vendor Governance Assessment" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">bccab54613db92002f92b6004244b003</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:45:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>exception_po</element>
+            <position>2</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:45:43</sys_created_on>
+            <sys_id>37334a4a13db92002f92b6004244b0ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vendor Governance Assessment" display_value="Vendor Governance Assessment" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">bccab54613db92002f92b6004244b003</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:45:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tccc_signatory</element>
+            <position>3</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:45:43</sys_created_on>
+            <sys_id>b7334a4a13db92002f92b6004244b0ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vendor Governance Assessment" display_value="Vendor Governance Assessment" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">bccab54613db92002f92b6004244b003</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:45:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>signed_after_effective_date</element>
+            <position>4</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:45:43</sys_created_on>
+            <sys_id>ff33ca4a13db92002f92b6004244b087</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vendor Governance Assessment" display_value="Vendor Governance Assessment" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">bccab54613db92002f92b6004244b003</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:45:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>signed_per_chart_of_authority</element>
+            <position>5</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:45:43</sys_created_on>
+            <sys_id>7333ca4a13db92002f92b6004244b088</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vendor Governance Assessment" display_value="Vendor Governance Assessment" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">bccab54613db92002f92b6004244b003</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:45:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:45:43</sys_created_on>
+            <sys_id>f333ca4a13db92002f92b6004244b088</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vendor Governance Assessment" display_value="Vendor Governance Assessment" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">bccab54613db92002f92b6004244b003</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:45:43</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>actionable_request</element>
+            <position>7</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:45:43</sys_created_on>
+            <sys_id>7733ca4a13db92002f92b6004244b088</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vendor Governance Assessment" display_value="Vendor Governance Assessment" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">bccab54613db92002f92b6004244b003</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:45:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_effective_date</element>
+            <position>8</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:45:43</sys_created_on>
+            <sys_id>f733ca4a13db92002f92b6004244b088</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vendor Governance Assessment" display_value="Vendor Governance Assessment" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">bccab54613db92002f92b6004244b003</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:45:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_filed_date</element>
+            <position>9</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:45:43</sys_created_on>
+            <sys_id>7b33ca4a13db92002f92b6004244b088</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vendor Governance Assessment" display_value="Vendor Governance Assessment" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">bccab54613db92002f92b6004244b003</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:45:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_classification</element>
+            <position>10</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:45:43</sys_created_on>
+            <sys_id>fb33ca4a13db92002f92b6004244b088</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vendor Governance Assessment" display_value="Vendor Governance Assessment" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">bccab54613db92002f92b6004244b003</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:45:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tccc_signatory_level</element>
+            <position>11</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:45:43</sys_created_on>
+            <sys_id>7f33ca4a13db92002f92b6004244b088</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vendor Governance Assessment" display_value="Vendor Governance Assessment" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">bccab54613db92002f92b6004244b003</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:45:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_classified_as_confidential</element>
+            <position>12</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:45:43</sys_created_on>
+            <sys_id>ff33ca4a13db92002f92b6004244b088</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vendor Governance Assessment" display_value="Vendor Governance Assessment" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">bccab54613db92002f92b6004244b003</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:45:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:45:43</sys_created_on>
+            <sys_id>7333ca4a13db92002f92b6004244b089</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vendor Governance Assessment" display_value="Vendor Governance Assessment" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">bccab54613db92002f92b6004244b003</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:45:43</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>misc_vendor_governance_notes</element>
+            <position>14</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:45:43</sys_created_on>
+            <sys_id>f333ca4a13db92002f92b6004244b089</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vendor Governance Assessment" display_value="Vendor Governance Assessment" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">bccab54613db92002f92b6004244b003</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:45:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Vendor Governance Assessment</caption>
+            <header>false</header>
+            <name>x_snc_it_purchase_request_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:08:39</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bccab54613db92002f92b6004244b003</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Vendor Governance Assessment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+            <sys_update_name>sys_ui_section_bccab54613db92002f92b6004244b003</sys_update_name>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:08:39</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

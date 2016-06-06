@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="request_type" table="x_snc_it_purchase_request_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NDA</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 14:28:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5026ddc24f9f92009b8670f24210c74e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 14:28:36</sys_updated_on>
+            <value>NDA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RFI</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 14:28:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c26ddc24f9f92009b8670f24210c74e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 14:28:37</sys_updated_on>
+            <value>RFI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RFP</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 14:28:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5826ddc24f9f92009b8670f24210c74f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 14:28:37</sys_updated_on>
+            <value>RFP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Eval Agreement</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 14:28:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5426ddc24f9f92009b8670f24210c750</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 14:28:37</sys_updated_on>
+            <value>Eval Agreement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Master</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>4</sequence>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 14:28:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5026ddc24f9f92009b8670f24210c751</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 14:28:37</sys_updated_on>
+            <value>New Master</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SOW</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>5</sequence>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 14:28:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c26ddc24f9f92009b8670f24210c751</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 14:28:37</sys_updated_on>
+            <value>SOW</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>COA</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>6</sequence>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 14:28:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5826ddc24f9f92009b8670f24210c752</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 14:28:37</sys_updated_on>
+            <value>COA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Product Schedule</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>7</sequence>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 14:28:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5426ddc24f9f92009b8670f24210c753</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 14:28:37</sys_updated_on>
+            <value>Product Schedule</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Change in Existing Master</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>8</sequence>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 14:28:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5026ddc24f9f92009b8670f24210c754</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 14:28:37</sys_updated_on>
+            <value>Change in Existing Master</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Change Order</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>9</sequence>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 14:28:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c26ddc24f9f92009b8670f24210c754</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 14:28:37</sys_updated_on>
+            <value>Change Order</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Letter of Termination</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>10</sequence>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 14:28:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c2651064f9f92009b8670f24210c7cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 14:28:37</sys_updated_on>
+            <value>Letter of Termination</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Network Access Agreement</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>11</sequence>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 14:28:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>982651064f9f92009b8670f24210c7d0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 14:32:15</sys_updated_on>
+            <value>Network Access Agreement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other Procurement</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>12</sequence>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 14:28:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>942651064f9f92009b8670f24210c7d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 14:28:37</sys_updated_on>
+            <value>Other Procurement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other Legal</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>13</sequence>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 14:28:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>902651064f9f92009b8670f24210c7d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 14:28:37</sys_updated_on>
+            <value>Other Legal</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>request_type</element>
+            <name>x_snc_it_purchase_request_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 14:24:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b8351dc24f9f92009b8670f24210c7ce</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_name>request_type</sys_name>
+            <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+            <sys_update_name>sys_choice_x_snc_it_purchase_request_request_request_type</sys_update_name>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 14:32:15</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

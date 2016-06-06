@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>d3bc70f5139792002f92b6004244b0a4</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_group">
+    <sys_user_group action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <cost_center/>
+        <default_assignee/>
+        <description/>
+        <email/>
+        <exclude_manager>false</exclude_manager>
+        <include_members>false</include_members>
+        <manager/>
+        <name>IT Purchase Request Assignment</name>
+        <parent/>
+        <roles/>
+        <source/>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-05-10 17:59:10</sys_created_on>
+        <sys_id>d3bc70f5139792002f92b6004244b0a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-05-10 17:59:10</sys_updated_on>
+        <type>4fbc70f5139792002f92b6004244b0a3</type>
+        <vendors/>
+    </sys_user_group>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-05-10 17:59:43</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d3dcf0f5139792002f92b6004244b085</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT Purchase Request Assignment</sys_name>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>sys_metadata_link_d3dcf0f5139792002f92b6004244b085</sys_update_name>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-05-10 17:59:43</sys_updated_on>
+        <tablename>sys_user_group</tablename>
+    </sys_metadata_link>
+</record_update>

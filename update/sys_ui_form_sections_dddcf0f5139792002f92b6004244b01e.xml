@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="dddcf0f5139792002f92b6004244b01e" sys_domain="global" table="x_snc_it_purchase_sf_request_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-10 17:59:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>91dcf0f5139792002f92b6004244b01f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_it_purchase_sf_request_task" name="x_snc_it_purchase_sf_request_task" sys_domain="global" view="Default view">dddcf0f5139792002f92b6004244b01e</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_sf_request_task" sys_domain="global" view="Default view">d1dcf0f5139792002f92b6004244b003</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-10 17:59:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-10 17:59:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>99dcf0f5139792002f92b6004244b020</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_it_purchase_sf_request_task" name="x_snc_it_purchase_sf_request_task" sys_domain="global" view="Default view">dddcf0f5139792002f92b6004244b01e</sys_ui_form>
+            <sys_ui_section caption="Manual" display_value="Manual" name="x_snc_it_purchase_sf_request_task" sys_domain="global" view="Default view">95dcf0f5139792002f92b6004244b01f</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-10 17:59:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-10 17:59:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>55dcf0f5139792002f92b6004244b022</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_it_purchase_sf_request_task" name="x_snc_it_purchase_sf_request_task" sys_domain="global" view="Default view">dddcf0f5139792002f92b6004244b01e</sys_ui_form>
+            <sys_ui_section caption="Automatic" display_value="Automatic" name="x_snc_it_purchase_sf_request_task" sys_domain="global" view="Default view">51dcf0f5139792002f92b6004244b021</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-10 17:59:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-10 17:59:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>51dcf0f5139792002f92b6004244b024</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_it_purchase_sf_request_task" name="x_snc_it_purchase_sf_request_task" sys_domain="global" view="Default view">dddcf0f5139792002f92b6004244b01e</sys_ui_form>
+            <sys_ui_section caption="Field Controls" display_value="Field Controls" name="x_snc_it_purchase_sf_request_task" sys_domain="global" view="Default view">d9dcf0f5139792002f92b6004244b022</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-10 17:59:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_it_purchase_sf_request_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-10 17:59:35</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dddcf0f5139792002f92b6004244b01e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>x_snc_it_purchase_sf_request_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+            <sys_update_name>sys_ui_form_sections_dddcf0f5139792002f92b6004244b01e</sys_update_name>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-10 17:59:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

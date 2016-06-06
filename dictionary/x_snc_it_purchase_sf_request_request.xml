@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="sf_sm_flow" label="IT Purchase Request Request Flow" max_length="40" name="x_snc_it_purchase_sf_request_request" type="collection"/>
+</database>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script>(new sn_sm.SMConfiguration()).isEnabled("it_purchase_request", "inbound_email", false)</condition_script>
+        <description>This inbound email action is triggered when an email is forwarded to this instance, to a mailbox starting with x_snc_it_purchase or with the subject starting with IT Purchase Request and the email is not a reply or forward.&#13;
+&#13;
+This inbound email action can create a new IT Purchase Request Request, setting the opened by, caller, short description, description, contact type. The original email will be stored in the work notes. &#13;
+&#13;
+In addition to being able to explicitly set the values of the above fields within the email, the following is done automatically:&#13;
+&#13;
+1. The caller is set to the the user who sent the email.&#13;
+2. The email subject is set as the short description.&#13;
+3. The whole email is added to the work notes.&#13;
+4. The contact type is set to "email".&#13;
+&#13;
+Example: &#13;
+This email will create a new IT Purchase Request Request for Fred Luddy &#13;
+&#13;
+From: 	Fred Luddy &lt;fred.luddy@example.com&gt;&#13;
+Subject: 	FW: IT Purchase Request:I need assistance&#13;
+Date: 	June 11, 2013 1:44:55 PM PDT&#13;
+To: 	        ServiceNow&#13;
+&#13;
+----- Original Email --------&#13;
+Please provide me with a ..... &#13;
+&#13;
+-----</description>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">recipientsLIKEx_snc_it_purchase@^ORsubjectSTARTSWITHFW: IT Purchase Request:^ORsubjectSTARTSWITHIT Purchase Request:^EQ<item endquery="false" field="recipients" goto="false" newquery="false" operator="LIKE" or="false" value="x_snc_it_purchase@"/>
+            <item endquery="false" field="subject" goto="false" newquery="false" operator="STARTSWITH" or="true" value="FW: IT Purchase Request:"/>
+            <item endquery="false" field="subject" goto="false" newquery="false" operator="STARTSWITH" or="true" value="IT Purchase Request:"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>Create IT Purchase Request Request (Forw</name>
+        <order>80</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[//	Note: current.opened_by is already set to the first UserID that matches the From: email address
+var bodyText = email.body_text;
+if (!bodyText)
+	bodyText = email.body_html;
+// Strip off the FW:
+var subjectLine = email.subject;
+if (subjectLine.toLowerCase().indexOf("fw:") == 0)
+	subjectLine = subjectLine.substring(3).trim();
+
+current.work_notes = "IT Purchase Request Request created by email forwarded by: " + email.origemail + "\n\n" + email.subject + "\n\n" + bodyText;
+current.short_description = subjectLine;
+
+if (email.importance != undefined) {
+   if (email.importance.toLowerCase() == "high")
+      current.priority = 1;
+}
+
+var newId = current.insert();
+    <stop_processing>true</stop_processing>
+gs.eventQueue('iprr.request.email.creation', current, newId, email.from);]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-05-10 17:59:40</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>56dcf0f5139792002f92b6004244b057</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create IT Purchase Request Request (Forw</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>sysevent_in_email_action_56dcf0f5139792002f92b6004244b057</sys_update_name>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-05-10 17:59:40</sys_updated_on>
+        <table>x_snc_it_purchase_request_request</table>
+        <template>contact_type=email^descriptionDYNAMIC367bf121ef3221002841f7f775c0fbe2^callerDYNAMIC2fd8e97bef3221002841f7f775c0fbc1^companyDYNAMICd27bf240ef0321002841f7f775c0fbeb^locationDYNAMIC6d418b40ef0321002841f7f775c0fb46^EQ</template>
+        <type>forward</type>
+    </sysevent_in_email_action>
+</record_update>

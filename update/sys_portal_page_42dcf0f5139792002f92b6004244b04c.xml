@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2016-06-06 14:40:58">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
+        <order>850</order>
+        <read_roles>x_snc_it_purchase_read</read_roles>
+        <roles>x_snc_it_purchase_admin</roles>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-05-10 17:59:38</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>42dcf0f5139792002f92b6004244b04c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT Purchase Request Overview</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>sys_portal_page_42dcf0f5139792002f92b6004244b04c</sys_update_name>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-05-10 17:59:38</sys_updated_on>
+        <title>IT Purchase Request Overview</title>
+        <user/>
+        <view>it_purchase_request_overview</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="IT Purchase Request Overview">42dcf0f5139792002f92b6004244b04c</page>
+                <summary/>
+                <sys_created_by>michael.ritchie@snc</sys_created_by>
+                <sys_created_on>2016-05-13 13:19:32</sys_created_on>
+                <sys_id>0c89536e1357d2002f92b6004244b0d0</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>michael.ritchie@snc</sys_updated_by>
+                <sys_updated_on>2016-05-13 13:19:32</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-05-13 09:19:32">0c89536e1357d2002f92b6004244b0d0</portal_section>
+                        <sys_created_by>michael.ritchie@snc</sys_created_by>
+                        <sys_created_on>2016-05-13 13:19:32</sys_created_on>
+                        <sys_id>0089536e1357d2002f92b6004244b0d1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie@snc</sys_updated_by>
+                        <sys_updated_on>2016-05-13 13:19:32</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-05-13 09:19:32">0c89536e1357d2002f92b6004244b0d0</portal_section>
+                        <sys_created_by>michael.ritchie@snc</sys_created_by>
+                        <sys_created_on>2016-05-13 13:19:32</sys_created_on>
+                        <sys_id>4c89536e1357d2002f92b6004244b0d0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie@snc</sys_updated_by>
+                        <sys_updated_on>2016-05-13 13:19:32</sys_updated_on>
+                        <value>b9dcf0f5139792002f92b6004244b045</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-05-13 09:19:32">0c89536e1357d2002f92b6004244b0d0</portal_section>
+                        <sys_created_by>michael.ritchie@snc</sys_created_by>
+                        <sys_created_on>2016-05-13 13:19:32</sys_created_on>
+                        <sys_id>8489536e1357d2002f92b6004244b0d1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie@snc</sys_updated_by>
+                        <sys_updated_on>2016-05-13 13:19:32</sys_updated_on>
+                        <value>IT Purchase Request Requests</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-05-13 09:19:32">0c89536e1357d2002f92b6004244b0d0</portal_section>
+                        <sys_created_by>michael.ritchie@snc</sys_created_by>
+                        <sys_created_on>2016-05-13 13:19:32</sys_created_on>
+                        <sys_id>c089536e1357d2002f92b6004244b0d1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie@snc</sys_updated_by>
+                        <sys_updated_on>2016-05-13 13:19:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="IT Purchase Request Overview">42dcf0f5139792002f92b6004244b04c</page>
+                <summary/>
+                <sys_created_by>michael.ritchie@snc</sys_created_by>
+                <sys_created_on>2016-05-13 13:19:32</sys_created_on>
+                <sys_id>4c89536e1357d2002f92b6004244b0d2</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>michael.ritchie@snc</sys_updated_by>
+                <sys_updated_on>2016-05-13 13:19:32</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-05-13 09:19:32">4c89536e1357d2002f92b6004244b0d2</portal_section>
+                        <sys_created_by>michael.ritchie@snc</sys_created_by>
+                        <sys_created_on>2016-05-13 13:19:32</sys_created_on>
+                        <sys_id>0489536e1357d2002f92b6004244b0d3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie@snc</sys_updated_by>
+                        <sys_updated_on>2016-05-13 13:19:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-05-13 09:19:32">4c89536e1357d2002f92b6004244b0d2</portal_section>
+                        <sys_created_by>michael.ritchie@snc</sys_created_by>
+                        <sys_created_on>2016-05-13 13:19:32</sys_created_on>
+                        <sys_id>4089536e1357d2002f92b6004244b0d3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie@snc</sys_updated_by>
+                        <sys_updated_on>2016-05-13 13:19:32</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-05-13 09:19:32">4c89536e1357d2002f92b6004244b0d2</portal_section>
+                        <sys_created_by>michael.ritchie@snc</sys_created_by>
+                        <sys_created_on>2016-05-13 13:19:32</sys_created_on>
+                        <sys_id>8c89536e1357d2002f92b6004244b0d2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie@snc</sys_updated_by>
+                        <sys_updated_on>2016-05-13 13:19:32</sys_updated_on>
+                        <value>cadcf0f5139792002f92b6004244b047</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-05-13 09:19:32">4c89536e1357d2002f92b6004244b0d2</portal_section>
+                        <sys_created_by>michael.ritchie@snc</sys_created_by>
+                        <sys_created_on>2016-05-13 13:19:32</sys_created_on>
+                        <sys_id>c489536e1357d2002f92b6004244b0d3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie@snc</sys_updated_by>
+                        <sys_updated_on>2016-05-13 13:19:32</sys_updated_on>
+                        <value>IT Purchase Request Requests by Month</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>1</offset>
+                <page display_value="IT Purchase Request Overview">42dcf0f5139792002f92b6004244b04c</page>
+                <summary/>
+                <sys_created_by>michael.ritchie@snc</sys_created_by>
+                <sys_created_on>2016-05-13 13:19:32</sys_created_on>
+                <sys_id>c889536e1357d2002f92b6004244b0d1</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>michael.ritchie@snc</sys_updated_by>
+                <sys_updated_on>2016-05-13 13:19:32</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-05-13 09:19:32">c889536e1357d2002f92b6004244b0d1</portal_section>
+                        <sys_created_by>michael.ritchie@snc</sys_created_by>
+                        <sys_created_on>2016-05-13 13:19:32</sys_created_on>
+                        <sys_id>0889536e1357d2002f92b6004244b0d2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie@snc</sys_updated_by>
+                        <sys_updated_on>2016-05-13 13:19:32</sys_updated_on>
+                        <value>IT Purchase Request Group Usage</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-05-13 09:19:32">c889536e1357d2002f92b6004244b0d1</portal_section>
+                        <sys_created_by>michael.ritchie@snc</sys_created_by>
+                        <sys_created_on>2016-05-13 13:19:32</sys_created_on>
+                        <sys_id>0c89536e1357d2002f92b6004244b0d1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie@snc</sys_updated_by>
+                        <sys_updated_on>2016-05-13 13:19:32</sys_updated_on>
+                        <value>c6dcf0f5139792002f92b6004244b04a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-05-13 09:19:32">c889536e1357d2002f92b6004244b0d1</portal_section>
+                        <sys_created_by>michael.ritchie@snc</sys_created_by>
+                        <sys_created_on>2016-05-13 13:19:32</sys_created_on>
+                        <sys_id>4489536e1357d2002f92b6004244b0d2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie@snc</sys_updated_by>
+                        <sys_updated_on>2016-05-13 13:19:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2016-05-13 09:19:32">c889536e1357d2002f92b6004244b0d1</portal_section>
+                        <sys_created_by>michael.ritchie@snc</sys_created_by>
+                        <sys_created_on>2016-05-13 13:19:32</sys_created_on>
+                        <sys_id>8089536e1357d2002f92b6004244b0d2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie@snc</sys_updated_by>
+                        <sys_updated_on>2016-05-13 13:19:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-05-13 09:19:32">c889536e1357d2002f92b6004244b0d1</portal_section>
+                        <sys_created_by>michael.ritchie@snc</sys_created_by>
+                        <sys_created_on>2016-05-13 13:19:32</sys_created_on>
+                        <sys_id>cc89536e1357d2002f92b6004244b0d1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie@snc</sys_updated_by>
+                        <sys_updated_on>2016-05-13 13:19:32</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

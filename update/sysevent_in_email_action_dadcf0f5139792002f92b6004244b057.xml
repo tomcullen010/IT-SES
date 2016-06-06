@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script>(new sn_sm.SMConfiguration()).isEnabled("it_purchase_request", "inbound_email", false)</condition_script>
+        <description>All update emails will be added in the work notes</description>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>Update IT Purchase Request Request</name>
+        <order>70</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[if (current.getTableName() == "x_snc_it_purchase_request_request") {
+	var bodyText = email.body_text;
+	if (!bodyText)
+		bodyText = email.body_html;
+	current.work_notes = "Reply from: " + email.origemail + "\n\n" + email.subject + "\n\n" + bodyText;	
+	current.update();
+}]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-05-10 17:59:40</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dadcf0f5139792002f92b6004244b057</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update IT Purchase Request Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>sysevent_in_email_action_dadcf0f5139792002f92b6004244b057</sys_update_name>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-05-10 17:59:40</sys_updated_on>
+        <table>x_snc_it_purchase_request_request</table>
+        <template/>
+        <type>reply</type>
+    </sysevent_in_email_action>
+</record_update>

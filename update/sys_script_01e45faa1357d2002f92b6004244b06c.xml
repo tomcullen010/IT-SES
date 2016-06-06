@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_snc_it_purchase_request_request</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_snc_it_purchase_request_request">stateCHANGESTO10^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="10"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Run Assignment Rules</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	var assignmentRule = new GlideRecord("x_snc_it_purchase_assignment_rules");
+	assignmentRule.addQuery("table", current.getTableName());
+	assignmentRule.addActiveQuery();
+	assignmentRule.orderBy("order");
+	assignmentRule.query();
+	while (assignmentRule.next()) {
+		if (GlideFilter.checkRecord(current,assignmentRule.conditions)) {
+			current.assignment_group = !gs.nil(assignmentRule.procurement_group) ? assignmentRule.procurement_group: current.assignment_group;
+			current.assigned_to = !gs.nil(assignmentRule.procurement_assignee) ? assignmentRule.procurement_assignee: current.assigned_to;
+			current.legal_group = !gs.nil(assignmentRule.legal_group) ? assignmentRule.legal_group: current.legal_group;
+			current.legal_assignee = !gs.nil(assignmentRule.legal_assignee) ? assignmentRule.legal_assignee: current.legal_assignee;
+			current.finance_group = !gs.nil(assignmentRule.finance_group) ? assignmentRule.finance_group: current.finance_group;
+			current.finance_assignee = !gs.nil(assignmentRule.finance_assignee) ? assignmentRule.finance_assignee: current.finance_assignee;
+			current.vendor_governance_group = !gs.nil(assignmentRule.vendor_governance_group) ? assignmentRule.vendor_governance_group: current.vendor_governance_group;
+			current.vendor_governance_assignee = !gs.nil(assignmentRule.vendor_governance_assignee) ? assignmentRule.vendor_governance_assignee: current.vendor_governance_assignee;
+		}
+	}
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-05-13 13:10:14</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>01e45faa1357d2002f92b6004244b06c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Run Assignment Rules</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>sys_script_01e45faa1357d2002f92b6004244b06c</sys_update_name>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-05-27 19:32:29</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=01e45faa1357d2002f92b6004244b06c"/>
+</record_update>

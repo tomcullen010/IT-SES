@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_snc_it_purchase_sf_request_request">
+    <x_snc_it_purchase_sf_request_request action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <automatic_condition/>
+        <automatic_roles/>
+        <automatic_script><![CDATA[(new global.SMTask()).processWOCancellation(current);]]></automatic_script>
+        <automatic_string>current.state.changes()</automatic_string>
+        <business_rule display_value="Cancellation">4ebc70f5139792002f92b6004244b062</business_rule>
+        <change_client_script/>
+        <client_script display_value="x_snc_it_purchase_request_request state ">c89d6a1a4fd3d2009b8670f24210c749</client_script>
+        <comment>IT Purchase Request Request State flow</comment>
+        <derived_from display_value="Cancellation">e9feb353df312100dca6a5f59bf263e3</derived_from>
+        <end_text/>
+        <ending_state/>
+        <event/>
+        <event_rule/>
+        <mandatory_fields/>
+        <manual_condition/>
+        <manual_roles/>
+        <manual_script/>
+        <manual_string/>
+        <name>Cancellation</name>
+        <not_mandatory/>
+        <not_read_only/>
+        <not_visible/>
+        <number>SF0010010</number>
+        <override/>
+        <read_only_fields/>
+        <roles/>
+        <start_text>7</start_text>
+        <starting_state display_value="Cancelled">fcbc70f5139792002f92b6004244b019</starting_state>
+        <sys_class_name>x_snc_it_purchase_sf_request_request</sys_class_name>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-05-10 17:59:05</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>0ebc70f5139792002f92b6004244b062</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Cancellation</sys_name>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>x_snc_it_purchase_sf_request_request_0ebc70f5139792002f92b6004244b062</sys_update_name>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-05-12 15:29:05</sys_updated_on>
+        <table>x_snc_it_purchase_request_request</table>
+        <translated_ending_state/>
+        <translated_starting_state>Cancelled</translated_starting_state>
+        <ui_action/>
+        <visible_fields/>
+        <work_notes/>
+        <work_notes_rule/>
+    </x_snc_it_purchase_sf_request_request>
+</record_update>

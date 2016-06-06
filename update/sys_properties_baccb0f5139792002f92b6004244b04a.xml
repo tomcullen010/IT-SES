@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Time Zone Weight</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_snc_it_purchase.timezone.weight</name>
+        <read_roles>x_snc_it_purchase_admin</read_roles>
+        <suffix>timezone.weight</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-05-10 17:59:26</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>baccb0f5139792002f92b6004244b04a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_it_purchase.timezone.weight</sys_name>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>sys_properties_baccb0f5139792002f92b6004244b04a</sys_update_name>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-05-10 17:59:26</sys_updated_on>
+        <type>integer</type>
+        <value>10</value>
+        <write_roles>x_snc_it_purchase_admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=baccb0f5139792002f92b6004244b04a"/>
+</record_update>

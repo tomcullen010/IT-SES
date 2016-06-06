@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Form 481/581 Reporting" section_id="78cab54613db92002f92b6004244b003" sys_domain="global" table="x_snc_it_purchase_request_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>year_1</element>
+            <position>0</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:51:37</sys_created_on>
+            <sys_id>1e94c68a13db92002f92b6004244b0f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 481/581 Reporting" display_value="Form 481/581 Reporting" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">78cab54613db92002f92b6004244b003</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:51:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>year_2</element>
+            <position>1</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:51:37</sys_created_on>
+            <sys_id>9e94c68a13db92002f92b6004244b0f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 481/581 Reporting" display_value="Form 481/581 Reporting" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">78cab54613db92002f92b6004244b003</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:51:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>year_3</element>
+            <position>2</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:51:37</sys_created_on>
+            <sys_id>1294c68a13db92002f92b6004244b0f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 481/581 Reporting" display_value="Form 481/581 Reporting" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">78cab54613db92002f92b6004244b003</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:51:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>year_4</element>
+            <position>3</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:51:37</sys_created_on>
+            <sys_id>9294c68a13db92002f92b6004244b0f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 481/581 Reporting" display_value="Form 481/581 Reporting" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">78cab54613db92002f92b6004244b003</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:51:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>year_5</element>
+            <position>4</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:51:37</sys_created_on>
+            <sys_id>1694c68a13db92002f92b6004244b0f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 481/581 Reporting" display_value="Form 481/581 Reporting" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">78cab54613db92002f92b6004244b003</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:51:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>thereafter</element>
+            <position>5</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:51:37</sys_created_on>
+            <sys_id>9694c68a13db92002f92b6004244b0f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 481/581 Reporting" display_value="Form 481/581 Reporting" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">78cab54613db92002f92b6004244b003</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:51:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Form 481/581 Reporting</caption>
+            <header>false</header>
+            <name>x_snc_it_purchase_request_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:08:39</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>78cab54613db92002f92b6004244b003</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Form 481/581 Reporting</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+            <sys_update_name>sys_ui_section_78cab54613db92002f92b6004244b003</sys_update_name>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:08:39</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

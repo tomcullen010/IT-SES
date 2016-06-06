@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="it_security_approved" table="x_snc_it_purchase_request_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>it_security_approved</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 18:47:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a51d202131f92002f92b6004244b06c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:47:18</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>it_security_approved</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 18:47:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c651d202131f92002f92b6004244b06d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:47:18</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>it_security_approved</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N/A</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 18:47:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c251d202131f92002f92b6004244b06e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:47:18</sys_updated_on>
+            <value>N/A</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>it_security_approved</element>
+            <name>x_snc_it_purchase_request_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 18:47:18</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>0651d202131f92002f92b6004244b06d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>it_security_approved</sys_name>
+            <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+            <sys_update_name>sys_choice_x_snc_it_purchase_request_request_it_security_approved</sys_update_name>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:47:18</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

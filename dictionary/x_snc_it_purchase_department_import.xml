@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Department Import" max_length="40" name="x_snc_it_purchase_department_import" type="collection">
+        <element attributes="import_attribute_name=Name,edge_encryption_enabled=true" label="Name" max_length="54" name="u_name" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>dfbc70f5139792002f92b6004244b0a5</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_group_has_role">
+    <sys_group_has_role action="INSERT_OR_UPDATE">
+        <granted_by/>
+        <group display_value="IT Purchase Request Dispatchers" name="IT Purchase Request Dispatchers">93bc70f5139792002f92b6004244b0a5</group>
+        <inherits>true</inherits>
+        <role display_value="x_snc_it_purchase_dispatcher" name="x_snc_it_purchase_dispatcher">0dbc70f5139792002f92b6004244b031</role>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-05-10 17:59:11</sys_created_on>
+        <sys_id>dfbc70f5139792002f92b6004244b0a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-05-10 17:59:11</sys_updated_on>
+    </sys_group_has_role>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-05-10 17:59:43</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>1bdcf0f5139792002f92b6004244b086</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2016-05-10 13:59:11</sys_name>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>sys_metadata_link_1bdcf0f5139792002f92b6004244b086</sys_update_name>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-05-10 17:59:43</sys_updated_on>
+        <tablename>sys_group_has_role</tablename>
+    </sys_metadata_link>
+</record_update>

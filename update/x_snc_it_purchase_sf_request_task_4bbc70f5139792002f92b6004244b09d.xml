@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_snc_it_purchase_sf_request_task">
+    <x_snc_it_purchase_sf_request_task action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <automatic_condition table="x_snc_it_purchase_request_task">work_startISNOTEMPTY^EQ<item endquery="false" field="work_start" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </automatic_condition>
+        <automatic_roles/>
+        <automatic_script><![CDATA[var sm = new sn_sm.SMConfiguration();
+var requestDriven = sm.isEnabled(current, 'request_driven', false);
+var parent = new global.SMTask().getParent(current);
+if (requestDriven && parent && parent.assigned_to.nil() && parent.assignment_group.nil()) {
+	parent.assigned_to = current.assigned_to;
+	parent.assignment_group = current.assignment_group;
+	parent.update();
+}]]></automatic_script>
+        <automatic_string/>
+        <business_rule display_value="Start Work">8bbc70f5139792002f92b6004244b09d</business_rule>
+        <change_client_script/>
+        <client_script/>
+        <comment>IT Purchase Request Request State flow</comment>
+        <derived_from display_value="Start Work">edfeb353df312100dca6a5f59bf263e4</derived_from>
+        <end_text>18</end_text>
+        <ending_state display_value="Work In Progress">38bc70f5139792002f92b6004244b01e</ending_state>
+        <event/>
+        <event_rule/>
+        <mandatory_fields/>
+        <manual_condition table="x_snc_it_purchase_request_task">assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^work_startISEMPTY^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="work_start" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </manual_condition>
+        <manual_roles/>
+        <manual_script><![CDATA[current.work_start = new GlideDateTime();
+var sm = new sn_sm.SMConfiguration();
+var requestDriven = sm.isEnabled(current, 'request_driven', false);
+var parent = new global.SMTask().getParent(current);
+if (requestDriven && parent && parent.assigned_to.nil() && parent.assignment_group.nil()) {
+	if (parent && parent.canWrite()) {
+		parent.assigned_to = current.assigned_to;
+		parent.assignment_group = current.assignment_group;
+		parent.update();
+	}
+}
+action.setRedirectURL(current);]]></manual_script>
+        <manual_string>var st = new global.SMTask(); st.isSMOrder(current.parent) ? !st.isParentSuspended(current) : true</manual_string>
+        <name>Start Work</name>
+        <not_mandatory/>
+        <not_read_only/>
+        <not_visible/>
+        <number>SF0010028</number>
+        <override/>
+        <read_only_fields/>
+        <roles/>
+        <start_text>17</start_text>
+        <starting_state display_value="Accepted">b8bc70f5139792002f92b6004244b01d</starting_state>
+        <sys_class_name>x_snc_it_purchase_sf_request_task</sys_class_name>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-05-10 17:59:10</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>4bbc70f5139792002f92b6004244b09d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Start Work</sys_name>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>x_snc_it_purchase_sf_request_task_4bbc70f5139792002f92b6004244b09d</sys_update_name>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-05-10 17:59:10</sys_updated_on>
+        <table>x_snc_it_purchase_request_task</table>
+        <translated_ending_state>Work In Progress</translated_ending_state>
+        <translated_starting_state>Accepted</translated_starting_state>
+        <ui_action display_value="Start Work">8bbc70f5139792002f92b6004244b09e</ui_action>
+        <visible_fields/>
+        <work_notes/>
+        <work_notes_rule/>
+    </x_snc_it_purchase_sf_request_task>
+</record_update>

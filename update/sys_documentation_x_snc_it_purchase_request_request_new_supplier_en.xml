@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="new_supplier" label="Engagement of a New Supplier" language="en" table="x_snc_it_purchase_request_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>new_supplier</element>
+            <help/>
+            <hint>Answer 'Yes' if this is a supplier that does not have a master agreement with The Company.</hint>
+            <label>Engagement of a New Supplier</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <plural>Engagement of a New Suppliers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 15:00:40</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>427d99864f9f92009b8670f24210c74d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Engagement of a New Supplier</sys_name>
+            <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_it_purchase_request_request_new_supplier_en</sys_update_name>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-05-12 19:38:42</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

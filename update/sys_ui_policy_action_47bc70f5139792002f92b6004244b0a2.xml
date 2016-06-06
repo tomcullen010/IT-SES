@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>starting_state</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-05-10 17:59:10</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>47bc70f5139792002f92b6004244b0a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>starting_state</sys_name>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>sys_ui_policy_action_47bc70f5139792002f92b6004244b0a2</sys_update_name>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-05-10 17:59:10</sys_updated_on>
+        <table>x_snc_it_purchase_sf_request_task</table>
+        <ui_policy display_value="Hide start and end state">0fbc70f5139792002f92b6004244b0a1</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

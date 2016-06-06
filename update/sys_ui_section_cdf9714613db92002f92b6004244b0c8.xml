@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="NDA Details" section_id="cdf9714613db92002f92b6004244b0c8" sys_domain="global" table="x_snc_it_purchase_request_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nda_discloser</element>
+            <position>0</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 18:58:55</sys_created_on>
+            <sys_id>4c041a42131f92002f92b6004244b0ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NDA Details" display_value="NDA Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">cdf9714613db92002f92b6004244b0c8</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:58:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_this_a_freestyle_projext</element>
+            <position>1</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 18:58:55</sys_created_on>
+            <sys_id>cc041a42131f92002f92b6004244b0ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NDA Details" display_value="NDA Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">cdf9714613db92002f92b6004244b0c8</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:58:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>suppliers_legal_entity_name</element>
+            <position>2</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 18:58:55</sys_created_on>
+            <sys_id>40041a42131f92002f92b6004244b0f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NDA Details" display_value="NDA Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">cdf9714613db92002f92b6004244b0c8</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:58:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplier_physical_address</element>
+            <position>3</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 18:58:55</sys_created_on>
+            <sys_id>c0041a42131f92002f92b6004244b0f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NDA Details" display_value="NDA Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">cdf9714613db92002f92b6004244b0c8</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:58:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_of_information</element>
+            <position>4</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 18:58:55</sys_created_on>
+            <sys_id>44041a42131f92002f92b6004244b0f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NDA Details" display_value="NDA Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">cdf9714613db92002f92b6004244b0c8</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:58:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 18:58:55</sys_created_on>
+            <sys_id>c4041a42131f92002f92b6004244b0f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NDA Details" display_value="NDA Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">cdf9714613db92002f92b6004244b0c8</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:58:55</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nda_predated</element>
+            <position>6</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 18:58:55</sys_created_on>
+            <sys_id>48041a42131f92002f92b6004244b0f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NDA Details" display_value="NDA Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">cdf9714613db92002f92b6004244b0c8</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:58:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state_or_country_of_formation</element>
+            <position>7</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 18:58:55</sys_created_on>
+            <sys_id>c8041a42131f92002f92b6004244b0f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NDA Details" display_value="NDA Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">cdf9714613db92002f92b6004244b0c8</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:58:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>addressee_name</element>
+            <position>8</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 18:58:55</sys_created_on>
+            <sys_id>4c041a42131f92002f92b6004244b0f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NDA Details" display_value="NDA Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">cdf9714613db92002f92b6004244b0c8</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:58:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>duration_of_nda_of_years</element>
+            <position>9</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 18:58:55</sys_created_on>
+            <sys_id>cc041a42131f92002f92b6004244b0f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NDA Details" display_value="NDA Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">cdf9714613db92002f92b6004244b0c8</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 18:58:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>NDA Details</caption>
+            <header>false</header>
+            <name>x_snc_it_purchase_request_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-11 17:05:07</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cdf9714613db92002f92b6004244b0c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>NDA Details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+            <sys_update_name>sys_ui_section_cdf9714613db92002f92b6004244b0c8</sys_update_name>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-05-11 17:05:07</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
