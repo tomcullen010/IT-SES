@@ -12,7 +12,7 @@
         <associated_task_tables/>
         <auto_dispatch>false</auto_dispatch>
         <basic_role display_value="x_snc_it_purchase_basic" name="x_snc_it_purchase_basic">fcbc70f5139792002f92b6004244b030</basic_role>
-        <catalog display_value="IT Purchase Request Catalog">bcdcb0f5139792002f92b6004244b0e1</catalog>
+        <catalog display_value="ITSES Catalog">bcdcb0f5139792002f92b6004244b0e1</catalog>
         <created_with_version>Helsinki: 04-21-2016_1541</created_with_version>
         <disabled_processes/>
         <dispatch_group_type display_value="it_purchase_request_dispatch">dfbc70f5139792002f92b6004244b0a3</dispatch_group_type>
@@ -29,7 +29,7 @@
         <main_model_table>x_snc_it_purchase_request_request_templa</main_model_table>
         <main_state_flow_table>x_snc_it_purchase_sf_request_request</main_state_flow_table>
         <main_table>x_snc_it_purchase_request_request</main_table>
-        <managed_docs>true</managed_docs>
+        <managed_docs>false</managed_docs>
         <mandatory_work_notes>false</mandatory_work_notes>
         <name>IT Purchase Request</name>
         <part_requirement>false</part_requirement>
@@ -49,7 +49,7 @@
         <sys_created_on>2016-05-10 17:59:39</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>dedcf0f5139792002f92b6004244b054</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>IT Purchase Request</sys_name>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
@@ -57,7 +57,7 @@
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sm_config_dedcf0f5139792002f92b6004244b054</sys_update_name>
         <sys_updated_by>michael.ritchie</sys_updated_by>
-        <sys_updated_on>2016-05-13 11:46:27</sys_updated_on>
+        <sys_updated_on>2016-06-15 18:53:53</sys_updated_on>
         <task_activities>false</task_activities>
         <task_dispatch_method>manual</task_dispatch_method>
         <task_dispatch_workflow display_value="Assignment Workflow for SM">e1865971d7132100bbc783e80e610365</task_dispatch_workflow>
@@ -69,7 +69,7 @@
         <templates_to_catalog>true</templates_to_catalog>
         <track_travel>false</track_travel>
         <use_consistent_assignment>false</use_consistent_assignment>
-        <use_follow_the_sun>true</use_follow_the_sun>
+        <use_follow_the_sun>false</use_follow_the_sun>
         <use_location>false</use_location>
         <use_schedule>false</use_schedule>
         <use_sf>true</use_sf>

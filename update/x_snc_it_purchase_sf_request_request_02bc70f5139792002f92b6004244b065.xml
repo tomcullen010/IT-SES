@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="x_snc_it_purchase_sf_request_request">
     <x_snc_it_purchase_sf_request_request action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <automatic_condition/>
         <automatic_roles/>
         <automatic_script/>
         <automatic_string>(!current.assigned_to.nil() || !current.template.nil()) &amp;&amp; (new sn_sm.SMConfiguration()).isEnabled(current, "approval", false)</automatic_string>
-        <business_rule display_value="Ready for work (approval on)">42bc70f5139792002f92b6004244b065</business_rule>
+        <business_rule/>
         <change_client_script/>
         <client_script display_value="x_snc_it_purchase_request_request state ">c89d6a1a4fd3d2009b8670f24210c749</client_script>
         <comment>IT Purchase Request Request State flow</comment>
         <derived_from display_value="Ready for work (approval on)">edfeb353df312100dca6a5f59bf263e3</derived_from>
-        <end_text>14</end_text>
-        <ending_state display_value="Pending Project Final Budget">78bc70f5139792002f92b6004244b015</ending_state>
+        <end_text>13</end_text>
+        <ending_state display_value="In Process">e8bc70f5139792002f92b6004244b014</ending_state>
         <event/>
         <event_rule/>
         <mandatory_fields/>
@@ -28,14 +28,14 @@
         <override/>
         <read_only_fields/>
         <roles/>
-        <start_text>16</start_text>
-        <starting_state display_value="All Digital Initials Obtained">6cbc70f5139792002f92b6004244b013</starting_state>
+        <start_text>14</start_text>
+        <starting_state display_value="Pending Project Final Budget">78bc70f5139792002f92b6004244b015</starting_state>
         <sys_class_name>x_snc_it_purchase_sf_request_request</sys_class_name>
         <sys_created_by>michael.ritchie</sys_created_by>
         <sys_created_on>2016-05-10 17:59:06</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>02bc70f5139792002f92b6004244b065</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Ready for work (approval on)</sys_name>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
@@ -43,11 +43,11 @@
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>x_snc_it_purchase_sf_request_request_02bc70f5139792002f92b6004244b065</sys_update_name>
         <sys_updated_by>michael.ritchie</sys_updated_by>
-        <sys_updated_on>2016-05-13 12:02:02</sys_updated_on>
+        <sys_updated_on>2016-06-20 17:54:33</sys_updated_on>
         <table>x_snc_it_purchase_request_request</table>
-        <translated_ending_state>Ready</translated_ending_state>
-        <translated_starting_state>Approved</translated_starting_state>
-        <ui_action display_value="Ready for work">42bc70f5139792002f92b6004244b066</ui_action>
+        <translated_ending_state>In Process</translated_ending_state>
+        <translated_starting_state>Pending Project Final Budget</translated_starting_state>
+        <ui_action/>
         <visible_fields/>
         <work_notes/>
         <work_notes_rule/>

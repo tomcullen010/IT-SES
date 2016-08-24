@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_it_purchase_request_request" version="2" view="RPT6bdb7ff2134826002f92b6004244b04d">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>28c910f94f6caa009b8670f24210c710</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>a8c910f94f6caa009b8670f24210c710</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>company</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>2cc910f94f6caa009b8670f24210c710</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>category</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>acc910f94f6caa009b8670f24210c710</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>request_type</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>20c910f94f6caa009b8670f24210c711</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>a0c910f94f6caa009b8670f24210c711</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>caller</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>24c910f94f6caa009b8670f24210c711</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>a4c910f94f6caa009b8670f24210c711</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>28c910f94f6caa009b8670f24210c711</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>legal_assignee</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>a8c910f94f6caa009b8670f24210c711</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>vendor_governance_assignee</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>2cc910f94f6caa009b8670f24210c711</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>acc910f94f6caa009b8670f24210c711</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>capex_total</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>20c910f94f6caa009b8670f24210c712</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>opex_total</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>a0c910f94f6caa009b8670f24210c712</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>due_date</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>24c910f94f6caa009b8670f24210c712</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>new_supplier</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>15</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>a4c910f94f6caa009b8670f24210c712</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>final_budget_validated</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>16</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>28c910f94f6caa009b8670f24210c712</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>finance_assignee</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>17</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>a8c910f94f6caa009b8670f24210c712</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>read_itp_ola</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>18</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>2cc910f94f6caa009b8670f24210c712</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>if_change_order_provide_original_contract_value</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>19</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>acc910f94f6caa009b8670f24210c712</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>primary_assignee_prior_value</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>20</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>20c910f94f6caa009b8670f24210c713</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>supplier_contact_phone</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>21</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>a0c910f94f6caa009b8670f24210c713</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wave1_approved</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>22</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>24c910f94f6caa009b8670f24210c713</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>supplier_contact_name</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>23</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>a4c910f94f6caa009b8670f24210c713</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>supplier_contact_email</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>24</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>28c910f94f6caa009b8670f24210c713</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wave1_rejected</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>25</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>a8c910f94f6caa009b8670f24210c713</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wave2_approved</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>26</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>2cc910f94f6caa009b8670f24210c713</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wave2_rejected</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>27</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>acc910f94f6caa009b8670f24210c713</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wave1_approver_1</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>28</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>20c910f94f6caa009b8670f24210c714</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wave1_approver_2</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>29</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>a0c910f94f6caa009b8670f24210c714</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wave1_approver_3</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>30</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>24c910f94f6caa009b8670f24210c714</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wave1_approver_4</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>31</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>a4c910f94f6caa009b8670f24210c714</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wave1_approver_5</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>32</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>28c910f94f6caa009b8670f24210c714</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wave2_approver_1</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>33</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>a8c910f94f6caa009b8670f24210c714</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wave2_approver_2</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>34</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>2cc910f94f6caa009b8670f24210c714</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wave2_approver_3</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>35</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>acc910f94f6caa009b8670f24210c714</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wave2_approver_4</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>36</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>20c910f94f6caa009b8670f24210c715</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wave2_approver_5</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="23db7ff2134826002f92b6004244b04e">e0c910f94f6caa009b8670f24210c710</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>37</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_id>a0c910f94f6caa009b8670f24210c715</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_it_purchase_request_request</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-07-11 18:44:51</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0c910f94f6caa009b8670f24210c710</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_it_purchase_request_request</sys_name>
+            <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_it_purchase_request_request_RPT6bdb7ff2134826002f92b6004244b04d</sys_update_name>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-07-11 18:44:51</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt6bdb7ff2134826002f92b6004244b04d" name="RPT6bdb7ff2134826002f92b6004244b04d">23db7ff2134826002f92b6004244b04e</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

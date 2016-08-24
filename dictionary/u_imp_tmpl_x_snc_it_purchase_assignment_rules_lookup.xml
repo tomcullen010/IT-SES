@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Snc It Purchase Assignment Rules Lookup" max_length="40" name="u_imp_tmpl_x_snc_it_purchase_assignment_rules_lookup" type="collection">
+        <element attributes="import_attribute_name=Active,edge_encryption_enabled=true" label="Active" max_length="40" name="u_active" type="string"/>
+        <element attributes="import_attribute_name=Catagory,edge_encryption_enabled=true" label="Catagory" max_length="60" name="u_catagory" type="string"/>
+        <element attributes="import_attribute_name=Legal Assignee,edge_encryption_enabled=true" label="Legal Assignee" max_length="50" name="u_legal_assignee" type="string"/>
+        <element attributes="import_attribute_name=Oranization,edge_encryption_enabled=true" label="Oranization" max_length="25" name="u_oranization" type="string"/>
+        <element attributes="import_attribute_name=Procurement Assignee,edge_encryption_enabled=true" label="Procurement Assignee" max_length="50" name="u_procurement_assignee" type="string"/>
+        <element attributes="import_attribute_name=Request Type,edge_encryption_enabled=true" label="Request Type" max_length="50" name="u_request_type" type="string"/>
+        <element attributes="import_attribute_name=Vendor Governance Assignee,edge_encryption_enabled=true" label="Vendor Governance Assignee" max_length="50" name="u_vendor_governance_assignee" type="string"/>
+    </element>
+</database>

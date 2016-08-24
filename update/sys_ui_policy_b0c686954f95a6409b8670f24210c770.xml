@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_snc_it_purchase_request_request">state=10^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="10"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>600</order>
+        <reverse_if_false>false</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+//  display the required section(s) for each Assignee
+	var sections = g_form.getSections();
+	var vFinAssignee = g_form.getValue('finance_assignee');
+	var vLegalAssignee = g_form.getValue('legal_assignee');
+	var vVGovAssignee = g_form.getValue('vendor_governance_assignee');
+	var vProcAssignee = g_form.getValue('procurement_assignee');
+	
+//  alert('in 600 Show Assignee Sections - True');
+//	alert('current user is ' + g_user.userName);
+//	alert('current user ID is ' + g_user.userID);	
+//	alert('finance assignee is ' + vFinAssignee);
+//	alert(' fin Assignee = userID');
+//	alert( 'fin = ' + vFinAssignee + '  user = ' + g_user.userID);
+
+
+	if (vFinAssignee == g_user.userID) {	
+		sections[2].style.display = 'block'; // Budget Detail
+	    sections[7].style.display = 'block'; // Finance Assessment	
+		sections[8].style.display = 'block'; // Form 481/  Reporting
+	} 
+
+	if (vLegalAssignee == g_user.userID) {	
+		sections[10].style.display = 'block'; // Legal Detail	
+	} 
+	
+	if (vVGovAssignee == g_user.userID) {	
+		sections[9].style.display = 'block'; // Vendor Governance 	
+	} 
+	
+	if (vProcAssignee == g_user.userID) {	
+		sections[6].style.display = 'block'; // Procurement	
+	} 
+}]]></script_true>
+        <set_values/>
+        <short_description>Order = 600 - Show Assignee Section(s)</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2016-08-16 20:18:08</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b0c686954f95a6409b8670f24210c770</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>Order = 600 - Show Assignee Section(s)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>sys_ui_policy_b0c686954f95a6409b8670f24210c770</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-08-17 12:38:11</sys_updated_on>
+        <table>x_snc_it_purchase_request_request</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

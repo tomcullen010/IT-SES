@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2016-08-24 09:20:01">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
+        <order/>
+        <read_roles>x_snc_it_purchase_agent</read_roles>
+        <roles>x_snc_it_purchase_admin</roles>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-06-21 13:06:24</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bf7c0893138c26002f92b6004244b03d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ITSES Homepage</sys_name>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>sys_portal_page_bf7c0893138c26002f92b6004244b03d</sys_update_name>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-06-21 13:11:58</sys_updated_on>
+        <title>ITSES Homepage</title>
+        <user/>
+        <view>itses_homepage</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="ITSES Homepage">bf7c0893138c26002f92b6004244b03d</page>
+                <summary/>
+                <sys_created_by>michael.ritchie</sys_created_by>
+                <sys_created_on>2016-06-21 13:09:10</sys_created_on>
+                <sys_id>682d8c93138c26002f92b6004244b097</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>michael.ritchie</sys_updated_by>
+                <sys_updated_on>2016-06-21 13:09:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-21 09:09:10">682d8c93138c26002f92b6004244b097</portal_section>
+                        <sys_created_by>michael.ritchie</sys_created_by>
+                        <sys_created_on>2016-06-21 13:09:10</sys_created_on>
+                        <sys_id>202d8c93138c26002f92b6004244b098</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie</sys_updated_by>
+                        <sys_updated_on>2016-06-21 13:09:10</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-21 09:09:10">682d8c93138c26002f92b6004244b097</portal_section>
+                        <sys_created_by>michael.ritchie</sys_created_by>
+                        <sys_created_on>2016-06-21 13:09:10</sys_created_on>
+                        <sys_id>6c2d8c93138c26002f92b6004244b097</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie</sys_updated_by>
+                        <sys_updated_on>2016-06-21 13:09:10</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-21 09:09:10">682d8c93138c26002f92b6004244b097</portal_section>
+                        <sys_created_by>michael.ritchie</sys_created_by>
+                        <sys_created_on>2016-06-21 13:09:10</sys_created_on>
+                        <sys_id>a42d8c93138c26002f92b6004244b098</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie</sys_updated_by>
+                        <sys_updated_on>2016-06-21 13:09:10</sys_updated_on>
+                        <value>My Work</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-21 09:09:10">682d8c93138c26002f92b6004244b097</portal_section>
+                        <sys_created_by>michael.ritchie</sys_created_by>
+                        <sys_created_on>2016-06-21 13:09:10</sys_created_on>
+                        <sys_id>a82d8c93138c26002f92b6004244b097</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie</sys_updated_by>
+                        <sys_updated_on>2016-06-21 13:09:10</sys_updated_on>
+                        <value>dd0d0c93138c26002f92b6004244b047</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-21 09:09:10">682d8c93138c26002f92b6004244b097</portal_section>
+                        <sys_created_by>michael.ritchie</sys_created_by>
+                        <sys_created_on>2016-06-21 13:09:10</sys_created_on>
+                        <sys_id>e02d8c93138c26002f92b6004244b098</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie</sys_updated_by>
+                        <sys_updated_on>2016-06-21 13:09:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone999</dropzone>
+                <offset>0</offset>
+                <page display_value="ITSES Homepage">bf7c0893138c26002f92b6004244b03d</page>
+                <summary>My Groups Requests</summary>
+                <sys_created_by>michael.ritchie</sys_created_by>
+                <sys_created_on>2016-06-21 13:10:38</sys_created_on>
+                <sys_id>f97d40d3138c26002f92b6004244b07a</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>michael.ritchie</sys_updated_by>
+                <sys_updated_on>2016-06-21 13:10:38</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-21 09:10:38">f97d40d3138c26002f92b6004244b07a</portal_section>
+                        <sys_created_by>michael.ritchie</sys_created_by>
+                        <sys_created_on>2016-06-21 13:10:38</sys_created_on>
+                        <sys_id>3d7d40d3138c26002f92b6004244b07b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie</sys_updated_by>
+                        <sys_updated_on>2016-06-21 13:10:38</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-21 09:10:38">f97d40d3138c26002f92b6004244b07a</portal_section>
+                        <sys_created_by>michael.ritchie</sys_created_by>
+                        <sys_created_on>2016-06-21 13:10:38</sys_created_on>
+                        <sys_id>797d40d3138c26002f92b6004244b07b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie</sys_updated_by>
+                        <sys_updated_on>2016-06-21 13:10:38</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-21 09:10:38">f97d40d3138c26002f92b6004244b07a</portal_section>
+                        <sys_created_by>michael.ritchie</sys_created_by>
+                        <sys_created_on>2016-06-21 13:10:38</sys_created_on>
+                        <sys_id>b57d40d3138c26002f92b6004244b07b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie</sys_updated_by>
+                        <sys_updated_on>2016-06-21 13:10:38</sys_updated_on>
+                        <value>7a6d00d3138c26002f92b6004244b035</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-21 09:10:38">f97d40d3138c26002f92b6004244b07a</portal_section>
+                        <sys_created_by>michael.ritchie</sys_created_by>
+                        <sys_created_on>2016-06-21 13:10:38</sys_created_on>
+                        <sys_id>bd7d40d3138c26002f92b6004244b07a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie</sys_updated_by>
+                        <sys_updated_on>2016-06-21 13:10:38</sys_updated_on>
+                        <value>My Groups Requests</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-21 09:10:38">f97d40d3138c26002f92b6004244b07a</portal_section>
+                        <sys_created_by>michael.ritchie</sys_created_by>
+                        <sys_created_on>2016-06-21 13:10:38</sys_created_on>
+                        <sys_id>f17d40d3138c26002f92b6004244b07b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>michael.ritchie</sys_updated_by>
+                        <sys_updated_on>2016-06-21 13:10:38</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

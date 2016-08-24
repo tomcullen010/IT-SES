@@ -14,16 +14,16 @@
         <sys_created_on>2016-05-10 17:59:33</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>bcdcb0f5139792002f92b6004244b0e1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>IT Purchase Request Catalog</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ITSES Catalog</sys_name>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sc_catalog_bcdcb0f5139792002f92b6004244b0e1</sys_update_name>
         <sys_updated_by>michael.ritchie</sys_updated_by>
-        <sys_updated_on>2016-05-10 17:59:33</sys_updated_on>
-        <title>IT Purchase Request Catalog</title>
+        <sys_updated_on>2016-06-21 13:02:45</sys_updated_on>
+        <title>ITSES Catalog</title>
     </sc_catalog>
     <sys_translated_text action="delete_multiple" query="documentkey=bcdcb0f5139792002f92b6004244b0e1"/>
 </record_update>

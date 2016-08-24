@@ -15,8 +15,8 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent>finance_group</dependent>
-        <dependent_on_field>finance_group</dependent_on_field>
+        <dependent/>
+        <dependent_on_field/>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -37,26 +37,28 @@
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>x_snc_it_purchase_itses_profileLIKEFinance^EQ</reference_qual>
+        <reference_qual_condition table="sys_user">x_snc_it_purchase_itses_profileLIKEFinance^EQ<item endquery="false" field="x_snc_it_purchase_itses_profile" goto="false" newquery="false" operator="LIKE" or="false" value="Finance"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <reference_type/>
         <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>michael.ritchie</sys_created_by>
-        <sys_created_on>2016-05-12 17:17:30</sys_created_on>
+        <sys_created_on>2016-06-21 12:22:18</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>586687de1313d2002f92b6004244b02f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_id>026280df134c26002f92b6004244b0b6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Finance Assignee</sys_name>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_it_purchase_request_request_finance_assignee</sys_update_name>
-        <sys_updated_by>michael.ritchie</sys_updated_by>
-        <sys_updated_on>2016-05-12 17:19:55</sys_updated_on>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-07-11 17:12:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

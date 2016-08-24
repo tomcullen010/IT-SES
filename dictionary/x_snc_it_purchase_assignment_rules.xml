@@ -9,6 +9,7 @@
         <element label="Legal Group" max_length="32" name="legal_group" reference="sys_user_group" type="reference"/>
         <element label="Name" max_length="100" name="name" type="string"/>
         <element label="Order" max_length="40" name="order" type="integer"/>
+        <element label="Primary Assignment Group" max_length="32" name="primary_assignment_group" reference="sys_user_group" type="reference"/>
         <element dependent="procurement_group" dependent_on_field="procurement_group" label="Procurement Assignee" max_length="32" name="procurement_assignee" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element label="Procurement Group" max_length="32" name="procurement_group" reference="sys_user_group" type="reference"/>
         <element attributes="base_start=true" default="x_snc_it_purchase_request_request" label="Table" max_length="80" name="table" type="table_name"/>
@@ -37,6 +38,9 @@
         </index>
         <index name="index8">
             <element name="legal_assignee"/>
+        </index>
+        <index name="index9">
+            <element name="primary_assignment_group"/>
         </index>
     </element>
 </database>

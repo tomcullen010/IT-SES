@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="f7f819244f1966409b8670f24210c7f0" sys_domain="global" table="x_snc_it_purchase_request_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-14 08:55:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fff819244f1966409b8670f24210c7f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_it_purchase_request_request" name="x_snc_it_purchase_request_request" sys_domain="global" view="2758d1244f1966409b8670f24210c783">f7f819244f1966409b8670f24210c7f0</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="2758d1244f1966409b8670f24210c783">ef58d1244f1966409b8670f24210c783</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-14 08:55:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-14 08:55:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>73f819244f1966409b8670f24210c7f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_it_purchase_request_request" name="x_snc_it_purchase_request_request" sys_domain="global" view="2758d1244f1966409b8670f24210c783">f7f819244f1966409b8670f24210c7f0</sys_ui_form>
+            <sys_ui_section caption="Assignee View" display_value="Assignee View" name="x_snc_it_purchase_request_request" sys_domain="global" view="2758d1244f1966409b8670f24210c783">73f819244f1966409b8670f24210c7f0</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-14 08:55:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_it_purchase_request_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-14 08:55:49</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f7f819244f1966409b8670f24210c7f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_it_purchase_request_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+            <sys_update_name>sys_ui_form_sections_f7f819244f1966409b8670f24210c7f0</sys_update_name>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-14 08:55:49</sys_updated_on>
+            <sys_user/>
+            <view display_value="Assignee" name="assignee">2758d1244f1966409b8670f24210c783</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-06-21 15:57:11</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>3593b85b4f8826009b8670f24210c739</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_snc_it_purchase_agent</sys_name>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_security_acl display_value="x_snc_it_purchase_request_request.spelling_and_formatting_checked">b193b85b4f8826009b8670f24210c739</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3593b85b4f8826009b8670f24210c739</sys_update_name>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-06-21 15:57:11</sys_updated_on>
+        <sys_user_role display_value="x_snc_it_purchase_agent" name="x_snc_it_purchase_agent">74bc70f5139792002f92b6004244b02f</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

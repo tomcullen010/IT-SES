@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name>submitRequest</action_name>
+        <action_name>submitDraftRequest</action_name>
         <active>true</active>
-        <client>false</client>
-        <comments/>
-        <condition>current.state==1 &amp;&amp; (new global.StateFlow().validFlow(current, 'f9bc70f5139792002f92b6004244b04f', 'manual'));</condition>
+        <client>true</client>
+        <comments>starting state = "Draft"&#13;
+ending state = "Submitted"</comments>
+        <condition>current.canWrite() &amp;&amp; new global.StateFlow().validFlow(current, 'f9bc70f5139792002f92b6004244b04f', 'manual')</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
@@ -19,9 +20,21 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <name>Submit Request</name>
-        <onclick/>
+        <onclick>submitRequest()</onclick>
         <order>100</order>
-        <script><![CDATA[new global.StateFlow().processFlow(current, 'f9bc70f5139792002f92b6004244b04f', 'manual');]]></script>
+        <script><![CDATA[function submitRequest(){
+	g_form.setValue('state', 10);
+	gsftSubmit(null, g_form.getFormElement(), 'submitDraftRequest'); //MUST call the 'Action name' set in this UI Action
+}
+
+//Code that runs without 'onclick'
+//Ensure call to server-side function with no browser errors
+if (typeof window == 'undefined')
+	serverSubmit();
+
+function serverSubmit(){
+	new global.StateFlow().processFlow(current, 'f9bc70f5139792002f92b6004244b04f', 'manual');
+}]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -33,7 +46,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3dbc70f5139792002f92b6004244b04f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Submit Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
@@ -41,8 +54,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sys_ui_action_3dbc70f5139792002f92b6004244b04f</sys_update_name>
-        <sys_updated_by>michael.ritchie</sys_updated_by>
-        <sys_updated_on>2016-05-11 22:17:39</sys_updated_on>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-08-08 18:07:51</sys_updated_on>
         <table>x_snc_it_purchase_request_request</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

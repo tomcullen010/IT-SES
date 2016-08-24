@@ -2,58 +2,72 @@
 <record_update>
     <sys_ui_section caption="Notes" section_id="69dcf0f5139792002f92b6004244b02b" sys_domain="global" table="x_snc_it_purchase_request_request" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>secure_notes</element>
+            <element>work_notes_list</element>
             <position>0</position>
             <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-11 17:05:12</sys_created_on>
-            <sys_id>5ef9b14613db92002f92b6004244b014</sys_id>
+            <sys_created_on>2016-06-22 16:07:06</sys_created_on>
+            <sys_id>ec7f712b130466002f92b6004244b02f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Notes" display_value="Notes" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">69dcf0f5139792002f92b6004244b02b</sys_ui_section>
             <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-11 17:05:12</sys_updated_on>
+            <sys_updated_on>2016-06-22 16:07:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>1</position>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-06-22 16:07:06</sys_created_on>
+            <sys_id>607f712b130466002f92b6004244b030</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">69dcf0f5139792002f92b6004244b02b</sys_ui_section>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-06-22 16:07:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>work_notes</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-11 17:05:12</sys_created_on>
-            <sys_id>def9b14613db92002f92b6004244b014</sys_id>
+            <sys_created_on>2016-06-22 16:07:06</sys_created_on>
+            <sys_id>e07f712b130466002f92b6004244b030</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Notes" display_value="Notes" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">69dcf0f5139792002f92b6004244b02b</sys_ui_section>
             <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-11 17:05:12</sys_updated_on>
+            <sys_updated_on>2016-06-22 16:07:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>activity.xml</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-11 17:05:12</sys_created_on>
-            <sys_id>52f9b14613db92002f92b6004244b015</sys_id>
+            <sys_created_on>2016-06-22 16:07:06</sys_created_on>
+            <sys_id>647f712b130466002f92b6004244b030</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
             <sys_ui_section caption="Notes" display_value="Notes" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">69dcf0f5139792002f92b6004244b02b</sys_ui_section>
             <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-11 17:05:12</sys_updated_on>
+            <sys_updated_on>2016-06-22 16:07:06</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>service_management_task</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-11 17:05:12</sys_created_on>
-            <sys_id>d2f9b14613db92002f92b6004244b015</sys_id>
+            <sys_created_on>2016-06-22 16:07:06</sys_created_on>
+            <sys_id>e47f712b130466002f92b6004244b030</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="SM request client utils">527033c9c310020055d9db1122d3ae79</sys_ui_formatter>
             <sys_ui_section caption="Notes" display_value="Notes" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">69dcf0f5139792002f92b6004244b02b</sys_ui_section>
             <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-11 17:05:12</sys_updated_on>
+            <sys_updated_on>2016-06-22 16:07:06</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>

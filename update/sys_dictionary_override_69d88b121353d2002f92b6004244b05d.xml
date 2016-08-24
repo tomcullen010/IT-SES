@@ -7,7 +7,7 @@
         <calculation/>
         <calculation_override>false</calculation_override>
         <default_value/>
-        <default_value_override>true</default_value_override>
+        <default_value_override>false</default_value_override>
         <dependent/>
         <dependent_override>false</dependent_override>
         <display_override>false</display_override>
@@ -17,14 +17,14 @@
         <name>x_snc_it_purchase_request_request</name>
         <read_only>false</read_only>
         <read_only_override>false</read_only_override>
-        <reference_qual>parent=e14987de4fd3d2009b8670f24210c720</reference_qual>
+        <reference_qual>typeLIKE4fbc70f5139792002f92b6004244b0a3</reference_qual>
         <reference_qual_override>true</reference_qual_override>
         <sys_class_name>sys_dictionary_override</sys_class_name>
         <sys_created_by>michael.ritchie</sys_created_by>
         <sys_created_on>2016-05-12 17:28:21</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>69d88b121353d2002f92b6004244b05d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>assignment_group</sys_name>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
@@ -32,6 +32,6 @@
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sys_dictionary_override_69d88b121353d2002f92b6004244b05d</sys_update_name>
         <sys_updated_by>michael.ritchie</sys_updated_by>
-        <sys_updated_on>2016-05-27 19:24:37</sys_updated_on>
+        <sys_updated_on>2016-06-21 12:37:48</sys_updated_on>
     </sys_dictionary_override>
 </record_update>

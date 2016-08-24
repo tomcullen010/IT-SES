@@ -29,8 +29,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e2dcf0f5139792002f92b6004244b066</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>IT Purchase Request Request Flows</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>IT Purchase Request Flows</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
@@ -38,9 +38,9 @@
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sys_app_module_e2dcf0f5139792002f92b6004244b066</sys_update_name>
         <sys_updated_by>michael.ritchie</sys_updated_by>
-        <sys_updated_on>2016-05-10 17:59:41</sys_updated_on>
+        <sys_updated_on>2016-06-20 20:01:49</sys_updated_on>
         <timeline_page/>
-        <title>IT Purchase Request Request Flows</title>
+        <title>IT Purchase Request Flows</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

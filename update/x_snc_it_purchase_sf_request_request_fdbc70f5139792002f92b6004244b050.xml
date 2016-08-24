@@ -6,7 +6,7 @@
         <automatic_roles/>
         <automatic_script/>
         <automatic_string/>
-        <business_rule display_value="Start Work">31bc70f5139792002f92b6004244b051</business_rule>
+        <business_rule/>
         <change_client_script/>
         <client_script display_value="x_snc_it_purchase_request_request state ">c89d6a1a4fd3d2009b8670f24210c749</client_script>
         <comment>IT Purchase Request Request State flow</comment>

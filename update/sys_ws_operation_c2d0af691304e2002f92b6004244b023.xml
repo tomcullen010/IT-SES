@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl/>
+        <http_method>GET</http_method>
+        <name>getFieldControls</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+	
+	var tableName = request.pathParams.table_name;
+	var oldState = request.pathParams.start_text;
+	var newState = request.pathParams.end_text;
+	var stateFlow = new GlideRecord("sf_state_flow");
+	stateFlow.addActiveQuery();
+	stateFlow.addQuery("table", tableName);
+	stateFlow.addQuery("start_text", oldState);
+	stateFlow.addQuery("end_text", newState);
+	stateFlow.query();
+	if (stateFlow.next()) {
+		var mandatory = translateFields(stateFlow.mandatory_fields.toString());
+		var readonly = translateFields(stateFlow.read_only_fields.toString());
+		var visible = translateFields(stateFlow.visible_fields.toString());
+		var notmandatory = translateFields(stateFlow.not_mandatory.toString());
+		var notreadonly = translateFields(stateFlow.not_read_only.toString());
+		var notvisible = translateFields(stateFlow.not_visible.toString());
+		
+		return {
+			"mandatory": mandatory,
+			"readonly": readonly,
+			"visible": visible,
+			"notmandatory": notmandatory,
+			"notreadonly": notreadonly,
+			"notvisible": notvisible
+		};
+	}
+	
+	function translateFields(fieldList) {
+		if (fieldList) {
+			var fields = fieldList.split(",");
+			var dict = new GlideRecord("sys_dictionary");
+			var converted = "";
+			for (var i=0; i < fields.length; i++) {
+				if (dict.get(fields[i]))
+					converted += dict.element + ",";
+			}
+			return converted;
+		}
+		return "";
+	}
+	
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_snc_it_purchase/itses_field_controls/getfieldcontrols/{table_name}/{start_text}/{end_text}</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/getfieldcontrols/{table_name}/{start_text}/{end_text}</relative_path>
+        <request_example/>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>false</requires_authentication>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-06-16 18:17:51</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c2d0af691304e2002f92b6004244b023</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>getFieldControls</sys_name>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>sys_ws_operation_c2d0af691304e2002f92b6004244b023</sys_update_name>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-06-16 18:32:12</sys_updated_on>
+        <web_service_definition display_value="ITSES State Flow Field Controls">5670af691304e2002f92b6004244b0cd</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

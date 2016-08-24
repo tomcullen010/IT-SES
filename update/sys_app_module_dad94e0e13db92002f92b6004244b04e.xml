@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <application display_value="IT Purchase Request">56dcf0f5139792002f92b6004244b059</application>
         <assessment/>
         <content_page/>
@@ -15,7 +15,7 @@
         <mobile_title>Budget Details</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_snc_it_purchase_budget_details</name>
-        <order>230</order>
+        <order>190</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dad94e0e13db92002f92b6004244b04e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Budget Details</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
@@ -37,8 +37,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sys_app_module_dad94e0e13db92002f92b6004244b04e</sys_update_name>
-        <sys_updated_by>michael.ritchie</sys_updated_by>
-        <sys_updated_on>2016-05-12 17:40:13</sys_updated_on>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-08-17 17:04:23</sys_updated_on>
         <timeline_page/>
         <title>Budget Details</title>
         <uncancelable>false</uncancelable>

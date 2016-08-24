@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>RPTd25f0c2a137312002f92b6004244b077</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2016-06-06 19:07:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>aa5f0c2a137312002f92b6004244b077</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-06-06 19:07:43</sys_updated_on>
+        <title>Rptd25f0c2a137312002f92b6004244b077</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

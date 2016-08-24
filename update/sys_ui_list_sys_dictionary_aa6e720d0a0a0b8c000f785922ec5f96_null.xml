@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="sys_dictionary" relationship="aa6e720d0a0a0b8c000f785922ec5f96" sys_domain="global" table="sys_dictionary_override" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="sys_dictionary_override" element="NULL" name="sys_dictionary_override" parent="sys_dictionary" relationship="aa6e720d0a0a0b8c000f785922ec5f96" sys_domain="global" view="Default view">0a3d45a337101000dadaa3549dbe5dac</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2011-08-11 09:05:58</sys_created_on>
+            <sys_id>8a3d45a337101000dadaa3549dbe5dac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2011-08-11 09:05:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>reference_qual_override</element>
+            <list_id display_value="sys_dictionary_override" element="NULL" name="sys_dictionary_override" parent="sys_dictionary" relationship="aa6e720d0a0a0b8c000f785922ec5f96" sys_domain="global" view="Default view">0a3d45a337101000dadaa3549dbe5dac</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2011-08-11 09:05:58</sys_created_on>
+            <sys_id>0e3d45a337101000dadaa3549dbe5dac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2011-08-11 09:05:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>dependent_override</element>
+            <list_id display_value="sys_dictionary_override" element="NULL" name="sys_dictionary_override" parent="sys_dictionary" relationship="aa6e720d0a0a0b8c000f785922ec5f96" sys_domain="global" view="Default view">0a3d45a337101000dadaa3549dbe5dac</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2011-08-11 09:05:58</sys_created_on>
+            <sys_id>8e3d45a337101000dadaa3549dbe5dac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2011-08-11 09:05:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>default_value_override</element>
+            <list_id display_value="sys_dictionary_override" element="NULL" name="sys_dictionary_override" parent="sys_dictionary" relationship="aa6e720d0a0a0b8c000f785922ec5f96" sys_domain="global" view="Default view">0a3d45a337101000dadaa3549dbe5dac</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2011-08-11 09:05:58</sys_created_on>
+            <sys_id>023d45a337101000dadaa3549dbe5dad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2011-08-11 09:05:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>attributes_override</element>
+            <list_id display_value="sys_dictionary_override" element="NULL" name="sys_dictionary_override" parent="sys_dictionary" relationship="aa6e720d0a0a0b8c000f785922ec5f96" sys_domain="global" view="Default view">0a3d45a337101000dadaa3549dbe5dac</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2011-08-11 09:05:58</sys_created_on>
+            <sys_id>823d45a337101000dadaa3549dbe5dad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2011-08-11 09:05:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>calculation_override</element>
+            <list_id display_value="sys_dictionary_override" element="NULL" name="sys_dictionary_override" parent="sys_dictionary" relationship="aa6e720d0a0a0b8c000f785922ec5f96" sys_domain="global" view="Default view">0a3d45a337101000dadaa3549dbe5dac</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2011-08-11 09:05:58</sys_created_on>
+            <sys_id>063d45a337101000dadaa3549dbe5dad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2011-08-11 09:05:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>display_override</element>
+            <list_id display_value="sys_dictionary_override" element="NULL" name="sys_dictionary_override" parent="sys_dictionary" relationship="aa6e720d0a0a0b8c000f785922ec5f96" sys_domain="global" view="Default view">0a3d45a337101000dadaa3549dbe5dac</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2011-08-11 09:05:58</sys_created_on>
+            <sys_id>863d45a337101000dadaa3549dbe5dad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2011-08-11 09:05:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sys_dictionary_override</name>
+            <parent>sys_dictionary</parent>
+            <position/>
+            <relationship display_value="Dictionary Overrides">aa6e720d0a0a0b8c000f785922ec5f96</relationship>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-12 21:34:41</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c83f1044f1166409b8670f24210c711</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_dictionary_override</sys_name>
+            <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+            <sys_update_name>sys_ui_list_sys_dictionary_aa6e720d0a0a0b8c000f785922ec5f96_null</sys_update_name>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-12 21:34:41</sys_updated_on>
+            <sys_user display_value="Tom Cullen">aa9f878f130312002f92b6004244b023</sys_user>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

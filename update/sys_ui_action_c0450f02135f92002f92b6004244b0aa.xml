@@ -5,7 +5,7 @@
         <active>true</active>
         <client>false</client>
         <comments/>
-        <condition>current.state == 10 &amp;&amp; (new global.StateFlow().validFlow(current, 'eae44f02135f92002f92b6004244b067', 'manual'));</condition>
+        <condition>current.canWrite() &amp;&amp; new global.StateFlow().validFlow(current, 'eae44f02135f92002f92b6004244b067', 'manual')</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
@@ -33,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c0450f02135f92002f92b6004244b0aa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Information Needed</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
@@ -42,7 +42,7 @@
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sys_ui_action_c0450f02135f92002f92b6004244b0aa</sys_update_name>
         <sys_updated_by>michael.ritchie</sys_updated_by>
-        <sys_updated_on>2016-05-11 22:35:14</sys_updated_on>
+        <sys_updated_on>2016-06-20 21:08:13</sys_updated_on>
         <table>x_snc_it_purchase_request_request</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

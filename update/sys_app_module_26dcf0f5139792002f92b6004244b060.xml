@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <application display_value="IT Purchase Request">56dcf0f5139792002f92b6004244b059</application>
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="x_snc_it_purchase_request_request">active=true^stateIN1,11,13,10^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="1,11,13,10"/>
+        <filter table="x_snc_it_purchase_request_request">active=true^stateIN1,10,11,13^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="1,10,11,13"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>
@@ -18,7 +18,7 @@
         <mobile_title>Open - Unassigned</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_snc_it_purchase_request_request</name>
-        <order>220</order>
+        <order>170</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -32,18 +32,18 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>26dcf0f5139792002f92b6004244b060</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Open - Unassigned</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Open</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sys_app_module_26dcf0f5139792002f92b6004244b060</sys_update_name>
-        <sys_updated_by>michael.ritchie</sys_updated_by>
-        <sys_updated_on>2016-05-10 17:59:40</sys_updated_on>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-08-15 14:53:00</sys_updated_on>
         <timeline_page/>
-        <title>Open - Unassigned</title>
+        <title>Open</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

@@ -102,12 +102,12 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-11 15:15:50</sys_created_on>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-16 14:41:46</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>40f0a10a4f9f92009b8670f24210c7a9</sys_id>
+            <sys_id>7a5bfc914f55a6409b8670f24210c7de</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>sys_user</sys_name>
             <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
@@ -115,9 +115,9 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
             <sys_update_name>sys_ui_list_sys_user_null</sys_update_name>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-11 15:15:50</sys_updated_on>
-            <sys_user display_value="Michael Ritchie">9d3369c40f250600079b1d2be1050e01</sys_user>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-16 14:41:46</sys_updated_on>
+            <sys_user display_value="Tom Cullen">aa9f878f130312002f92b6004244b023</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

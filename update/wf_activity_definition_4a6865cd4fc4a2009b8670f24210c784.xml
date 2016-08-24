@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_activity_definition">
+    <wf_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <action>false</action>
+        <attributes/>
+        <base_provider/>
+        <category>Tasks</category>
+        <default_height/>
+        <default_width/>
+        <description>Uses the assignment rules to create tasks for the various teams</description>
+        <image/>
+        <js_class_name>Create_ITSES_Tasks_Scoped</js_class_name>
+        <name>Create ITSES Tasks-Scoped</name>
+        <script><![CDATA[// Workflow activity definition handler class
+//
+// Implement activity definition handling in the onExecute method
+//
+// Implement any event handlers for the activity definition as a method named 'on[event_name]'
+//     For example, to handle the 'cancel' event, implement an 'onCancel' method
+//
+
+var Create_ITSES_Tasks_ScopedActivityHandler = Class.create();
+Create_ITSES_Tasks_ScopedActivityHandler.prototype = Object.extendsObject(global.WFActivityHandler, {
+	
+	initialize: function() {
+		global.WFActivityHandler.prototype.initialize.call(this);
+	},
+	
+	onExecute: function() {
+		new x_snc_it_purchase.ITSESUtils().createAssignmentTasks(current);
+	},
+	
+	type: 'Create_ITSES_Tasks_ScopedActivityHandler'
+});]]></script>
+        <style/>
+        <sys_class_name>wf_activity_definition</sys_class_name>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-06-14 20:01:37</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>4a6865cd4fc4a2009b8670f24210c784</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Create ITSES Tasks-Scoped</sys_name>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>wf_activity_definition_4a6865cd4fc4a2009b8670f24210c784</sys_update_name>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-06-14 20:14:19</sys_updated_on>
+        <table>x_snc_it_purchase_request_request</table>
+        <version_container_id/>
+    </wf_activity_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=4a6865cd4fc4a2009b8670f24210c784"/>
+</record_update>

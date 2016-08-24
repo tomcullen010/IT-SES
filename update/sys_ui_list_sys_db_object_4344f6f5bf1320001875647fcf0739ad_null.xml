@@ -103,11 +103,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-27 17:20:39</sys_created_on>
+            <sys_created_on>2016-06-20 14:15:08</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>28f6181f4f6312009b8670f24210c7e7</sys_id>
+            <sys_id>b4a21f76130826002f92b6004244b0eb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>sys_dictionary</sys_name>
             <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
@@ -116,7 +116,7 @@
             <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
             <sys_update_name>sys_ui_list_sys_db_object_4344f6f5bf1320001875647fcf0739ad_null</sys_update_name>
             <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-27 17:20:39</sys_updated_on>
+            <sys_updated_on>2016-06-20 14:15:08</sys_updated_on>
             <sys_user display_value="Michael Ritchie">9d3369c40f250600079b1d2be1050e01</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

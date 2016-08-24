@@ -7,7 +7,7 @@
         <action_insert>false</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>true</active>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -39,14 +39,33 @@
 	assignmentRule.query();
 	while (assignmentRule.next()) {
 		if (GlideFilter.checkRecord(current,assignmentRule.conditions)) {
-			current.assignment_group = !gs.nil(assignmentRule.procurement_group) ? assignmentRule.procurement_group: current.assignment_group;
-			current.assigned_to = !gs.nil(assignmentRule.procurement_assignee) ? assignmentRule.procurement_assignee: current.assigned_to;
-			current.legal_group = !gs.nil(assignmentRule.legal_group) ? assignmentRule.legal_group: current.legal_group;
-			current.legal_assignee = !gs.nil(assignmentRule.legal_assignee) ? assignmentRule.legal_assignee: current.legal_assignee;
 			current.finance_group = !gs.nil(assignmentRule.finance_group) ? assignmentRule.finance_group: current.finance_group;
 			current.finance_assignee = !gs.nil(assignmentRule.finance_assignee) ? assignmentRule.finance_assignee: current.finance_assignee;
+			current.legal_group = !gs.nil(assignmentRule.legal_group) ? assignmentRule.legal_group: current.legal_group;
+			current.legal_assignee = !gs.nil(assignmentRule.legal_assignee) ? assignmentRule.legal_assignee: current.legal_assignee;
+			current.procurement_group = !gs.nil(assignmentRule.procurement_group) ? assignmentRule.procurement_group: current.procurement_group;
+			current.procurement_assignee = !gs.nil(assignmentRule.procurement_assignee) ? assignmentRule.procurement_assignee: current.procurement_assignee;
 			current.vendor_governance_group = !gs.nil(assignmentRule.vendor_governance_group) ? assignmentRule.vendor_governance_group: current.vendor_governance_group;
 			current.vendor_governance_assignee = !gs.nil(assignmentRule.vendor_governance_assignee) ? assignmentRule.vendor_governance_assignee: current.vendor_governance_assignee;
+			
+			// Primary Assignment Group
+			current.assignment_group = !gs.nil(assignmentRule.primary_assignment_group) ? assignmentRule.primary_assignment_group: current.assignment_group;
+			
+			// Determine Primary Assignee based on Group
+			switch (current.assignment_group.toString()) {
+				case current.finance_group.toString():
+				current.assigned_to = current.finance_assignee;
+				break;
+				case current.legal_group.toString():
+				current.assigned_to = current.legal_assignee;
+				break;
+				case current.procurement_group.toString():
+				current.assigned_to = current.procurement_assignee;
+				break;
+				case current.vendor_governance_group.toString():
+				current.assigned_to = current.vendor_governance_assignee;
+				break;
+			}
 		}
 	}
 	
@@ -58,7 +77,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>01e45faa1357d2002f92b6004244b06c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Run Assignment Rules</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
@@ -66,8 +85,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sys_script_01e45faa1357d2002f92b6004244b06c</sys_update_name>
-        <sys_updated_by>michael.ritchie</sys_updated_by>
-        <sys_updated_on>2016-05-27 19:32:29</sys_updated_on>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-08-12 21:47:45</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

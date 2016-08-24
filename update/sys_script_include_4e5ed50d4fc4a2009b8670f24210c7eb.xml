@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_it_purchase.ITSESUtils</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ITSESUtils</name>
+        <script><![CDATA[var ITSESUtils = Class.create();
+ITSESUtils.prototype = {
+	initialize: function() {
+	},
+	
+	createAssignmentTasks: function(requestRec) {
+		var requestTask = new GlideRecord("x_snc_it_purchase_request_task");
+		var assignmentRule = new GlideRecord("x_snc_it_purchase_assignment_rules");
+
+		// Procurement Task Assignment
+		requestTask.initialize();
+		assignmentRule.initialize();
+		assignmentRule.addNotNullQuery("procurement_group");
+		assignmentRule.addActiveQuery();
+		assignmentRule.orderBy("order");
+		assignmentRule.query();
+		while (assignmentRule.next()) {
+			if (GlideFilter.checkRecord(requestRec,assignmentRule.conditions)) {
+				requestTask.parent = requestRec.sys_id;
+				requestTask.short_description = "Procurement Task Assignment";
+				requestTask.assignment_group = assignmentRule.procurement_group;
+				requestTask.assigned_to = assignmentRule.procurement_assignee;
+			}
+		}
+		if (!gs.nil(requestTask.short_description)) {
+			requestTask.insert();
+		}
+
+		// Legal Task Assignment
+		requestTask.initialize();
+		assignmentRule.initialize();
+		assignmentRule.addNotNullQuery("legal_group");
+		assignmentRule.addActiveQuery();
+		assignmentRule.orderBy("order");
+		assignmentRule.query();
+		while (assignmentRule.next()) {
+			if (GlideFilter.checkRecord(requestRec,assignmentRule.conditions)) {
+				requestTask.parent = requestRec.sys_id;
+				requestTask.short_description = "Legal Task Assignment";
+				requestTask.assignment_group = assignmentRule.legal_group;
+				requestTask.assigned_to = assignmentRule.legal_assignee;
+			}
+		}
+		if (!gs.nil(requestTask.short_description)) {
+			requestTask.insert();
+		}
+		
+		// Vendor Governance Task Assignment
+		requestTask.initialize();
+		assignmentRule.initialize();
+		assignmentRule.addNotNullQuery("vendor_governance_group");
+		assignmentRule.addActiveQuery();
+		assignmentRule.orderBy("order");
+		assignmentRule.query();
+		while (assignmentRule.next()) {
+			if (GlideFilter.checkRecord(requestRec,assignmentRule.conditions)) {
+				requestTask.parent = requestRec.sys_id;
+				requestTask.short_description = "Vendor Governance Task Assignment";
+				requestTask.assignment_group = assignmentRule.vendor_governance_group;
+				requestTask.assigned_to = assignmentRule.vendor_governance_assignee;
+			}
+		}
+		if (!gs.nil(requestTask.short_description)) {
+			requestTask.insert();
+		}
+	},
+	
+	type: 'ITSESUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-06-14 19:18:51</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>4e5ed50d4fc4a2009b8670f24210c7eb</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>ITSESUtils</sys_name>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>sys_script_include_4e5ed50d4fc4a2009b8670f24210c7eb</sys_update_name>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-06-14 21:12:38</sys_updated_on>
+    </sys_script_include>
+</record_update>

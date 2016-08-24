@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="dl_matcher" label="DLA Assignee Table" max_length="40" name="x_snc_it_purchase_dtl_assignees" type="collection">
+        <element label="Category" max_length="100" name="category" type="string"/>
+        <element label="Finance Assignee" max_length="32" name="finance_assignee" reference="sys_user" reference_qual="x_snc_it_purchase_itses_profileLIKEfinance^EQ" reference_qual_condition="x_snc_it_purchase_itses_profileLIKEfinance^EQ" type="reference"/>
+        <element label="Legal Assignee" max_length="32" name="legal_assignee" reference="sys_user" reference_qual="x_snc_it_purchase_itses_profileLIKElegal^EQ" reference_qual_condition="x_snc_it_purchase_itses_profileLIKElegal^EQ" type="reference"/>
+        <element label="Organization" max_length="32" name="organization" reference="core_company" type="reference"/>
+        <element label="Procurement Assignee" max_length="32" name="procurement_assignee" reference="sys_user" reference_qual="x_snc_it_purchase_itses_profileLIKEProcurement^EQ" reference_qual_condition="x_snc_it_purchase_itses_profileLIKEProcurement^EQ" type="reference"/>
+        <element label="Request Type" max_length="80" name="request_type" type="string"/>
+        <element label="Vendor Governance Assignee" max_length="32" name="vendor_governance_assignee" reference="sys_user" reference_qual="x_snc_it_purchase_itses_profileLIKEvendor govenance^EQ" reference_qual_condition="x_snc_it_purchase_itses_profileLIKEvendor govenance^EQ" type="reference"/>
+        <index name="index">
+            <element name="vendor_governance_assignee"/>
+        </index>
+        <index name="index2">
+            <element name="organization"/>
+        </index>
+        <index name="index3">
+            <element name="procurement_assignee"/>
+        </index>
+        <index name="index4">
+            <element name="finance_assignee"/>
+        </index>
+        <index name="index5">
+            <element name="legal_assignee"/>
+        </index>
+    </element>
+</database>

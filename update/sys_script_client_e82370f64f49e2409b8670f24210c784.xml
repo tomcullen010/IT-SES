@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>load the Requestory phone number</description>
+        <field>actionable_request</field>
+        <global>true</global>
+        <messages/>
+        <name>Set Phone to Requestor</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+
+   if (!g_form.getControl('requestor_phone_number'))
+      return;
+   var caller = g_form.getReference('caller', setUserFields);
+}
+
+function setUserFields(caller) {
+   if (caller)
+       g_form.setValue('requestor_phone_number', caller.phone);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2016-08-08 19:44:20</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e82370f64f49e2409b8670f24210c784</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Set Phone to Requestor</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>sys_script_client_e82370f64f49e2409b8670f24210c784</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-08-15 17:31:23</sys_updated_on>
+        <table>x_snc_it_purchase_request_request</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

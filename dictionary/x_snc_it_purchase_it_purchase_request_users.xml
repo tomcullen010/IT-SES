@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="IT Purchase Request Users" max_length="40" name="x_snc_it_purchase_it_purchase_request_users" type="collection">
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element default="true" label="ITSES_Active" max_length="40" name="itses_active" type="boolean"/>
+        <element label="ITSES_Alias" max_length="50" name="itses_alias" type="string"/>
+        <element label="ITSES_Delegated_Approver" max_length="50" name="itses_delegated_approver" type="string"/>
+        <element label="ITSES_Department" max_length="60" name="itses_department" type="string"/>
+        <element label="ITSES_Profile" max_length="60" name="itses_profile" type="string"/>
+        <element label="ITSES_Username" max_length="60" name="itses_username" type="string"/>
+        <element label="ITSES_Usertype" max_length="50" name="itses_usertype" type="string"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+    </element>
+</database>

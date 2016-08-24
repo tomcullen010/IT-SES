@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="wave1_rejected" label="Wave1 Rejected" language="en" table="x_snc_it_purchase_request_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>wave1_rejected</element>
+            <help/>
+            <hint/>
+            <label>Wave1 Rejected</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <plural>Wave1 Rejected</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-06-21 09:58:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4481a747134c26002f92b6004244b0a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Wave1 Rejected</sys_name>
+            <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_it_purchase_request_request_wave1_rejected_en</sys_update_name>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-06-21 09:58:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

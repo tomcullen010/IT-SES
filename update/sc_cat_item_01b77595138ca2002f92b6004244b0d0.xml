@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Administrative">70dcb0f5139792002f92b6004244b0e3</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><span id="section_tab.d1524917c0a8016501437a6d1510302f" class="tabs2_section tabs2_section_0 tabs2_section0"><span id="section-d1524917c0a8016501437a6d1510302f" class="section "><span id="sys_readonly.sc_cat_item.description">This request will allow you to submit a change in the assignment rules for ITSES.</span></span></span></p>]]></description>
+        <entitlement_script/>
+        <group/>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>ITSES Assignment Routing Request</name>
+        <no_cart>true</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>true</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("./com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=01b77595138ca2002f92b6004244b0d0&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <roles/>
+        <sc_catalogs>bcdcb0f5139792002f92b6004244b0e1</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <short_description>ITSES Assignment Routing Request</short_description>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-06-15 15:50:48</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>01b77595138ca2002f92b6004244b0d0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>ITSES Assignment Routing Request</sys_name>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>sc_cat_item_01b77595138ca2002f92b6004244b0d0</sys_update_name>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-06-21 13:05:10</sys_updated_on>
+        <template/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=01b77595138ca2002f92b6004244b0d0"/>
+    <fx_price action="delete_multiple" query="id=01b77595138ca2002f92b6004244b0d0"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>01b77595138ca2002f92b6004244b0d0</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-06-15 15:50:48</sys_created_on>
+        <sys_id>2d98bd95138ca2002f92b6004244b0a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-06-15 15:50:48</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>01b77595138ca2002f92b6004244b0d0</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2016-06-15 15:50:48</sys_created_on>
+        <sys_id>e598bd95138ca2002f92b6004244b017</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-06-15 15:50:48</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>icon</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>2281</size_bytes>
+        <size_compressed>2064</size_compressed>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2016-08-03 11:34:54</sys_created_on>
+        <sys_id>72e35dc14f8d62409b8670f24210c7b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-08-03 11:34:54</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>01b77595138ca2002f92b6004244b0d0</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="72e35dc14f8d62409b8670f24210c7b2">72e35dc14f8d62409b8670f24210c7b2</sys_attachment>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2016-08-03 11:34:54</sys_created_on>
+        <sys_id>b2e35dc14f8d62409b8670f24210c7b2</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2740</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="72e35dc14f8d62409b8670f24210c7b2">72e35dc14f8d62409b8670f24210c7b2</sys_attachment>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2016-08-03 11:34:54</sys_created_on>
+        <sys_id>36e35dc14f8d62409b8670f24210c7b2</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>2281</size_bytes>
+        <size_compressed>2064</size_compressed>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2016-08-03 11:35:41</sys_created_on>
+        <sys_id>5e1411054f8d62409b8670f24210c735</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-08-03 11:35:41</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>01b77595138ca2002f92b6004244b0d0</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="5e1411054f8d62409b8670f24210c735">5e1411054f8d62409b8670f24210c735</sys_attachment>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2016-08-03 11:35:41</sys_created_on>
+        <sys_id>9e1411054f8d62409b8670f24210c735</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2740</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="5e1411054f8d62409b8670f24210c735">5e1411054f8d62409b8670f24210c735</sys_attachment>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2016-08-03 11:35:41</sys_created_on>
+        <sys_id>121411054f8d62409b8670f24210c736</sys_id>
+    </sys_attachment_doc>
+</record_update>

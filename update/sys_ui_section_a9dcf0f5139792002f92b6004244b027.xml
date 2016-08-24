@@ -4,308 +4,252 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>process_flow.xml</element>
             <position>0</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:14:35</sys_created_on>
-            <sys_id>21b583de1313d2002f92b6004244b04e</sys_id>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-23 12:18:14</sys_created_on>
+            <sys_id>f4ad5c6b4f592a409b8670f24210c716</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Process Flow">41dcb0f5139792002f92b6004244b0fb</sys_ui_formatter>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:14:35</sys_updated_on>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-23 12:18:14</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>1</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:14:35</sys_created_on>
-            <sys_id>a1b583de1313d2002f92b6004244b04e</sys_id>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-23 12:18:14</sys_created_on>
+            <sys_id>78ad5c6b4f592a409b8670f24210c716</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:14:35</sys_updated_on>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-23 12:18:14</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element>state</element>
             <position>2</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:14:35</sys_created_on>
-            <sys_id>25b583de1313d2002f92b6004244b04e</sys_id>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-23 12:18:14</sys_created_on>
+            <sys_id>f8ad5c6b4f592a409b8670f24210c716</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:14:35</sys_updated_on>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-23 12:18:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>company</element>
             <position>3</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:14:35</sys_created_on>
-            <sys_id>a5b583de1313d2002f92b6004244b04e</sys_id>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-23 12:18:14</sys_created_on>
+            <sys_id>7cad5c6b4f592a409b8670f24210c716</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:14:35</sys_updated_on>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-23 12:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>4</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-23 12:18:14</sys_created_on>
+            <sys_id>fcad5c6b4f592a409b8670f24210c716</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-23 12:18:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>request_type</element>
-            <position>4</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:14:35</sys_created_on>
-            <sys_id>29b583de1313d2002f92b6004244b04e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:14:35</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>caller</element>
             <position>5</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:14:35</sys_created_on>
-            <sys_id>a9b583de1313d2002f92b6004244b04e</sys_id>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-23 12:18:14</sys_created_on>
+            <sys_id>70ad5c6b4f592a409b8670f24210c717</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:14:35</sys_updated_on>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-23 12:18:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>caller.phone</element>
+            <element>assigned_to</element>
             <position>6</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:14:35</sys_created_on>
-            <sys_id>2db583de1313d2002f92b6004244b04e</sys_id>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-23 12:18:14</sys_created_on>
+            <sys_id>f0ad5c6b4f592a409b8670f24210c717</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:14:35</sys_updated_on>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-23 12:18:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>caller.manager</element>
+            <element>primary_assignee_prior_value</element>
             <position>7</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:14:35</sys_created_on>
-            <sys_id>adb583de1313d2002f92b6004244b04e</sys_id>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-23 12:18:14</sys_created_on>
+            <sys_id>74ad5c6b4f592a409b8670f24210c717</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:14:35</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>supplier_name</element>
-            <position>8</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:14:35</sys_created_on>
-            <sys_id>21b583de1313d2002f92b6004244b04f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:14:35</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>supplier_contact_name</element>
-            <position>9</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:14:35</sys_created_on>
-            <sys_id>a1b583de1313d2002f92b6004244b04f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:14:35</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>supplier_contact_phone</element>
-            <position>10</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:14:35</sys_created_on>
-            <sys_id>25b583de1313d2002f92b6004244b04f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:14:35</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>supplier_contact_email</element>
-            <position>11</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:14:35</sys_created_on>
-            <sys_id>a5b583de1313d2002f92b6004244b04f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:14:35</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>12</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:14:35</sys_created_on>
-            <sys_id>29b583de1313d2002f92b6004244b04f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:14:35</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>category</element>
-            <position>13</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:14:35</sys_created_on>
-            <sys_id>a9b583de1313d2002f92b6004244b04f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:14:35</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>business_area</element>
-            <position>14</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:14:35</sys_created_on>
-            <sys_id>2db583de1313d2002f92b6004244b04f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:14:35</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>state</element>
-            <position>15</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:14:35</sys_created_on>
-            <sys_id>adb583de1313d2002f92b6004244b04f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:14:35</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>new_supplier</element>
-            <position>16</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:14:35</sys_created_on>
-            <sys_id>21b583de1313d2002f92b6004244b050</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:14:35</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>read_itp_ola</element>
-            <position>17</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:14:35</sys_created_on>
-            <sys_id>a1b583de1313d2002f92b6004244b050</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:14:35</sys_updated_on>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-23 12:18:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>due_date</element>
-            <position>18</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:14:35</sys_created_on>
-            <sys_id>25b583de1313d2002f92b6004244b050</sys_id>
+            <position>8</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-23 12:18:14</sys_created_on>
+            <sys_id>f4ad5c6b4f592a409b8670f24210c717</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:14:35</sys_updated_on>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-23 12:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-23 12:18:14</sys_created_on>
+            <sys_id>78ad5c6b4f592a409b8670f24210c717</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-23 12:18:14</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>10</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-23 12:18:14</sys_created_on>
+            <sys_id>f8ad5c6b4f592a409b8670f24210c717</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-23 12:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>11</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-23 12:18:14</sys_created_on>
+            <sys_id>7cad5c6b4f592a409b8670f24210c717</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-23 12:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>caller</element>
+            <position>12</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-23 12:18:14</sys_created_on>
+            <sys_id>fcad5c6b4f592a409b8670f24210c717</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-23 12:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>caller.mobile_phone</element>
+            <position>13</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-23 12:18:14</sys_created_on>
+            <sys_id>70ad5c6b4f592a409b8670f24210c718</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-23 12:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>caller.manager</element>
+            <position>14</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-23 12:18:14</sys_created_on>
+            <sys_id>f0ad5c6b4f592a409b8670f24210c718</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-23 12:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>read_itp_ola</element>
+            <position>15</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-23 12:18:14</sys_created_on>
+            <sys_id>74ad5c6b4f592a409b8670f24210c718</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-23 12:18:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>19</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:14:35</sys_created_on>
-            <sys_id>a5b583de1313d2002f92b6004244b050</sys_id>
+            <position>16</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-23 12:18:14</sys_created_on>
+            <sys_id>f4ad5c6b4f592a409b8670f24210c718</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:14:35</sys_updated_on>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-23 12:18:14</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>short_description</element>
-            <position>20</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:14:35</sys_created_on>
-            <sys_id>29b583de1313d2002f92b6004244b050</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:14:35</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>21</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:14:35</sys_created_on>
-            <sys_id>a9b583de1313d2002f92b6004244b050</sys_id>
+            <position>17</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-23 12:18:14</sys_created_on>
+            <sys_id>78ad5c6b4f592a409b8670f24210c718</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a9dcf0f5139792002f92b6004244b027</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:14:35</sys_updated_on>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-23 12:18:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

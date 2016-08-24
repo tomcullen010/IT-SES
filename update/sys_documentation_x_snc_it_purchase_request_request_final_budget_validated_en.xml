@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="final_budget_validated" label="FInal Budget Validated" language="en" table="x_snc_it_purchase_request_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>final_budget_validated</element>
+            <help/>
+            <hint/>
+            <label>FInal Budget Validated</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <plural>FInal Budget Validated</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-06-20 21:36:13</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>ce97f0cb138826002f92b6004244b07d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>FInal Budget Validated</sys_name>
+            <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_it_purchase_request_request_final_budget_validated_en</sys_update_name>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-06-20 21:36:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -12,7 +12,7 @@
         <column_label>Finance Group</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>0d7807de4fd3d2009b8670f24210c7cd</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -45,9 +45,9 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>michael.ritchie</sys_created_by>
-        <sys_created_on>2016-05-12 17:17:30</sys_created_on>
+        <sys_created_on>2016-06-21 12:22:18</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>906687de1313d2002f92b6004244b031</sys_id>
+        <sys_id>c66280df134c26002f92b6004244b0b7</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Finance Group</sys_name>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
@@ -56,7 +56,7 @@
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_it_purchase_request_request_finance_group</sys_update_name>
         <sys_updated_by>michael.ritchie</sys_updated_by>
-        <sys_updated_on>2016-05-27 19:26:31</sys_updated_on>
+        <sys_updated_on>2016-06-21 12:40:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

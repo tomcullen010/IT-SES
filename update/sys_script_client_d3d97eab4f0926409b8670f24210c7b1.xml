@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>When state is Submitted, make all fields Read-Only for Requestor</description>
+        <field>actionable_request</field>
+        <global>true</global>
+        <messages/>
+        <name>Set Read-Only for Submitted Requestor</name>
+        <order/>
+        <script><![CDATA[function onLoad(){
+//Make fields Read-only when user is Requestor
+//and State = Submitted
+	
+var vCaller = g_form.getValue('caller');
+if (vCaller != g_user.userID) {
+	return;
+}
+	
+if(g_form.getValue('state') == 10) {	
+	var fields = g_form.getEditableFields();	
+	for (var x = 0; x < fields.length; x++) {  
+		g_form.setReadOnly(fields[x], true);  
+		}  	
+}	
+	
+}
+
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2016-08-11 13:30:06</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d3d97eab4f0926409b8670f24210c7b1</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Set Read-Only for Submitted Requestor</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>sys_script_client_d3d97eab4f0926409b8670f24210c7b1</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-08-11 14:03:09</sys_updated_on>
+        <table>x_snc_it_purchase_request_request</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

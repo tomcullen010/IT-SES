@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="ref_ac_columns_search=true,ref_ac_order_by=name,ref_ac_columns=email,display_image=photo,ref_auto_completer=AJAXTableCompleter,iterativeDelete=true,text_index_translations" create_roles="user_admin" defaultsort="-1" dynamic_creation_script="dynamicUserCreation(current, value);" label="User" max_length="40" name="sys_user" text_index="true" type="collection">
+        <element label="ITSES_Active" max_length="40" name="x_snc_it_purchase_itses_active" type="boolean"/>
+        <element label="ITSES_Alias" max_length="25" name="x_snc_it_purchase_itses_alias" type="string"/>
+        <element label="ITSES_Delegated_Approver" max_length="25" name="x_snc_it_purchase_itses_delegated_approver" type="string"/>
+        <element label="ITSES_Department" max_length="50" name="x_snc_it_purchase_itses_department" type="string"/>
+        <element label="ITSES_Profile" max_length="50" name="x_snc_it_purchase_itses_profile" type="string"/>
+        <element label="ITSES_Usertype" max_length="25" name="x_snc_it_purchase_itses_usertype" type="string"/>
+    </element>
+</database>

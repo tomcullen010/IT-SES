@@ -4,20 +4,20 @@
         <active>true</active>
         <admin_overrides>true</admin_overrides>
         <advanced>true</advanced>
-        <condition table="x_snc_it_purchase_request_request.requested_due_by">callerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORopened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORopened_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_snc_it_purchase_request_request.requested_due_by">callerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORopened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORopened_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^stateIN1,11^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <description>Caller can edit requested due by in draft.</description>
         <name>x_snc_it_purchase_request_request.requested_due_by</name>
         <operation display_value="write">write</operation>
-        <script><![CDATA[var sc = new sn_sm.SMConfiguration();
+        <script><![CDATA[/*var sc = new sn_sm.SMConfiguration();
 var stateFlowsOff = !sc.isEnabled(current, 'use_sf');
-answer = stateFlowsOff || current.state == global.SMConstants.ORDER_DRAFT;]]></script>
+answer = stateFlowsOff || current.state == global.SMConstants.ORDER_DRAFT;*/]]></script>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>michael.ritchie</sys_created_by>
         <sys_created_on>2016-05-10 17:59:30</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>04dcb0f5139792002f92b6004244b09a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>x_snc_it_purchase_request_request.requested_due_by</sys_name>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
@@ -25,7 +25,7 @@ answer = stateFlowsOff || current.state == global.SMConstants.ORDER_DRAFT;]]></s
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sys_security_acl_04dcb0f5139792002f92b6004244b09a</sys_update_name>
         <sys_updated_by>michael.ritchie</sys_updated_by>
-        <sys_updated_on>2016-05-10 17:59:30</sys_updated_on>
+        <sys_updated_on>2016-06-20 14:43:28</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

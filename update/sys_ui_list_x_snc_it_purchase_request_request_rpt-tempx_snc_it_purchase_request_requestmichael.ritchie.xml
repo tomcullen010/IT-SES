@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_it_purchase_request_request" version="2" view="rpt-tempx_snc_it_purchase_request_requestmichael.ritchie">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="4c0d4c93138c26002f92b6004244b0e1">800d4c93138c26002f92b6004244b0e2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-06-21 13:08:36</sys_created_on>
+            <sys_id>840d4c93138c26002f92b6004244b0e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-06-21 13:08:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>request_type</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="4c0d4c93138c26002f92b6004244b0e1">800d4c93138c26002f92b6004244b0e2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-06-21 13:08:36</sys_created_on>
+            <sys_id>080d4c93138c26002f92b6004244b0e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-06-21 13:08:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>category</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="4c0d4c93138c26002f92b6004244b0e1">800d4c93138c26002f92b6004244b0e2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-06-21 13:08:36</sys_created_on>
+            <sys_id>880d4c93138c26002f92b6004244b0e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-06-21 13:08:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="4c0d4c93138c26002f92b6004244b0e1">800d4c93138c26002f92b6004244b0e2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-06-21 13:08:36</sys_created_on>
+            <sys_id>0c0d4c93138c26002f92b6004244b0e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-06-21 13:08:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>caller</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="4c0d4c93138c26002f92b6004244b0e1">800d4c93138c26002f92b6004244b0e2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-06-21 13:08:36</sys_created_on>
+            <sys_id>8c0d4c93138c26002f92b6004244b0e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-06-21 13:08:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="4c0d4c93138c26002f92b6004244b0e1">800d4c93138c26002f92b6004244b0e2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-06-21 13:08:36</sys_created_on>
+            <sys_id>000d4c93138c26002f92b6004244b0e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-06-21 13:08:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>legal_assignee</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="4c0d4c93138c26002f92b6004244b0e1">800d4c93138c26002f92b6004244b0e2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-06-21 13:08:36</sys_created_on>
+            <sys_id>800d4c93138c26002f92b6004244b0e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-06-21 13:08:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>finance_assignee</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="4c0d4c93138c26002f92b6004244b0e1">800d4c93138c26002f92b6004244b0e2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-06-21 13:08:36</sys_created_on>
+            <sys_id>040d4c93138c26002f92b6004244b0e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-06-21 13:08:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>vendor_governance_assignee</element>
+            <list_id display_value="x_snc_it_purchase_request_request" element="NULL" name="x_snc_it_purchase_request_request" parent="NULL" relationship="NULL" sys_domain="global" view="4c0d4c93138c26002f92b6004244b0e1">800d4c93138c26002f92b6004244b0e2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-06-21 13:08:36</sys_created_on>
+            <sys_id>840d4c93138c26002f92b6004244b0e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-06-21 13:08:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_it_purchase_request_request</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-06-21 13:08:36</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>800d4c93138c26002f92b6004244b0e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package/>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-06-21 13:08:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt-tempx_snc_it_purchase_request_requestmichael.ritchie" name="rpt-tempx_snc_it_purchase_request_requestmichael.ritchie">4c0d4c93138c26002f92b6004244b0e1</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

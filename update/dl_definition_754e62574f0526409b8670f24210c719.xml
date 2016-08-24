@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="dl_definition">
+    <dl_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <matcher_table>x_snc_it_purchase_dtl_assignees</matcher_table>
+        <name>DTL Map Assignees</name>
+        <run_on_form_change>true</run_on_form_change>
+        <run_on_insert>true</run_on_insert>
+        <run_on_update>true</run_on_update>
+        <source_table>x_snc_it_purchase_request_request</source_table>
+        <sys_class_name>dl_definition</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2016-08-10 17:56:57</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>754e62574f0526409b8670f24210c719</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>DTL Map Assignees</sys_name>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>dl_definition_754e62574f0526409b8670f24210c719</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-08-17 15:37:12</sys_updated_on>
+    </dl_definition>
+</record_update>

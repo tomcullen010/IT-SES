@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="ITSES Assignment Routing Request">01b77595138ca2002f92b6004244b0d0</sc_cat_item>
+        <sc_catalog display_value="ITSES Catalog">bcdcb0f5139792002f92b6004244b0e1</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>michael.ritchie</sys_created_by>
+        <sys_created_on>2016-06-21 13:03:57</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>b3eb4493138c26002f92b6004244b075</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITSES Catalog.ITSES Assignment Routing Request</sys_name>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_b3eb4493138c26002f92b6004244b075</sys_update_name>
+        <sys_updated_by>michael.ritchie</sys_updated_by>
+        <sys_updated_on>2016-06-21 13:03:57</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

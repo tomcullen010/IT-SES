@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>capex3</field>
+        <global>true</global>
+        <messages/>
+        <name>Capex3 Change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	var capexTotal = 0;
+	var totalBudget = 0;
+	var opexTotal = 0;
+
+	var vCapex1 = g_form.getIntValue('capex1');
+	var vCapex3 = g_form.getIntValue('capex3');
+	var vCapex5 = g_form.getIntValue('capex5');
+	var vOpex2 = g_form.getIntValue('opex2');
+	var vOpex4 = g_form.getIntValue('opex4');
+	var vOpex6 = g_form.getIntValue('opex6');
+		
+	
+	//If Capex is entered, cost center is mandatory
+	//    then display the next Capex pair
+	
+	if (vCapex3 == 0) {
+		g_form.setMandatory('cost_center3', false);
+	} else {
+		g_form.setMandatory('cost_center3', true);
+		g_form.setDisplay('capex5', true);
+		g_form.setDisplay('cost_center5', true);
+	}
+	
+	//Calculate Capex and Budget Totals
+	capexTotal =  parseInt(vCapex1) + parseInt(vCapex3) + parseInt(vCapex5);
+	opexTotal =  parseInt(vOpex2) + parseInt(vOpex4) + parseInt(vOpex6);
+	totalBudget = capexTotal + opexTotal;
+	
+	g_form.setValue('capex_total', capexTotal);
+	g_form.setValue('total_budget', totalBudget);
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2016-08-23 17:38:18</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c5e6a1634fd92a409b8670f24210c799</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Capex3 Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>sys_script_client_c5e6a1634fd92a409b8670f24210c799</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-08-23 18:59:35</sys_updated_on>
+        <table>x_snc_it_purchase_request_request</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

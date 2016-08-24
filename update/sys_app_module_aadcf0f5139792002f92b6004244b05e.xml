@@ -7,7 +7,7 @@
         <content_page/>
         <device_type/>
         <filter/>
-        <hint/>
+        <hint>All Purchase Requests in the system</hint>
         <homepage/>
         <image/>
         <link_type>LIST</link_type>
@@ -15,7 +15,7 @@
         <mobile_title>All It Purchase Request Requests</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_snc_it_purchase_request_request</name>
-        <order>200</order>
+        <order>150</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -29,18 +29,18 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>aadcf0f5139792002f92b6004244b05e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>All IT Purchase Requests</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>All Purchase Requests</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sys_app_module_aadcf0f5139792002f92b6004244b05e</sys_update_name>
-        <sys_updated_by>michael.ritchie</sys_updated_by>
-        <sys_updated_on>2016-05-13 12:24:36</sys_updated_on>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-08-15 15:09:39</sys_updated_on>
         <timeline_page/>
-        <title>All IT Purchase Requests</title>
+        <title>All Purchase Requests</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

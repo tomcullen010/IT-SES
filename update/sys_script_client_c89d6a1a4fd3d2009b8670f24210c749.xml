@@ -5,7 +5,7 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field/>
+        <field>actionable_request</field>
         <global>true</global>
         <messages/>
         <name>x_snc_it_purchase_request_request state </name>
@@ -62,7 +62,7 @@ function ajaxResponse(serverResponse) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c89d6a1a4fd3d2009b8670f24210c749</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>x_snc_it_purchase_request_request state </sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
@@ -71,7 +71,7 @@ function ajaxResponse(serverResponse) {
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sys_script_client_c89d6a1a4fd3d2009b8670f24210c749</sys_update_name>
         <sys_updated_by>michael.ritchie</sys_updated_by>
-        <sys_updated_on>2016-05-12 15:29:05</sys_updated_on>
+        <sys_updated_on>2016-06-15 19:27:00</sys_updated_on>
         <table>x_snc_it_purchase_request_request</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

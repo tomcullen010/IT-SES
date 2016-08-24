@@ -11,9 +11,9 @@
             <plural>Finance Assignees</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-12 17:17:30</sys_created_on>
+            <sys_created_on>2016-06-21 12:22:18</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>d86687de1313d2002f92b6004244b030</sys_id>
+            <sys_id>026280df134c26002f92b6004244b0b7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Finance Assignee</sys_name>
             <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
@@ -22,7 +22,7 @@
             <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
             <sys_update_name>sys_documentation_x_snc_it_purchase_request_request_finance_assignee_en</sys_update_name>
             <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-12 17:17:30</sys_updated_on>
+            <sys_updated_on>2016-06-21 12:22:18</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

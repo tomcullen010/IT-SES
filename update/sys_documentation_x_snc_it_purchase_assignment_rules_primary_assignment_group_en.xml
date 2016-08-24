@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="primary_assignment_group" label="Primary Assignment Group" language="en" table="x_snc_it_purchase_assignment_rules">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>primary_assignment_group</element>
+            <help/>
+            <hint/>
+            <label>Primary Assignment Group</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_assignment_rules</name>
+            <plural>Primary Assignment Groups</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-06-21 12:47:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>01388c13138c26002f92b6004244b037</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Primary Assignment Group</sys_name>
+            <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_it_purchase_assignment_rules_primary_assignment_group_en</sys_update_name>
+            <sys_updated_by>michael.ritchie</sys_updated_by>
+            <sys_updated_on>2016-06-21 12:47:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

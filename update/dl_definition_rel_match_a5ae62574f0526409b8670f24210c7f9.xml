@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="dl_definition_rel_match">
+    <dl_definition_rel_match action="INSERT_OR_UPDATE">
+        <dl_definition display_value="DTL Map Assignees">754e62574f0526409b8670f24210c719</dl_definition>
+        <exact_match>true</exact_match>
+        <matcher_table>x_snc_it_purchase_dtl_assignees</matcher_table>
+        <matcher_table_field>category</matcher_table_field>
+        <source_table>x_snc_it_purchase_request_request</source_table>
+        <source_table_field>category</source_table_field>
+        <sys_class_name>dl_definition_rel_match</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2016-08-10 17:58:32</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a5ae62574f0526409b8670f24210c7f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>category</sys_name>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>dl_definition_rel_match_a5ae62574f0526409b8670f24210c7f9</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-08-10 17:58:32</sys_updated_on>
+    </dl_definition_rel_match>
+</record_update>
