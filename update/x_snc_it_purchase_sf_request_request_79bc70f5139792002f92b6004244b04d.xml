@@ -8,7 +8,7 @@
         <automatic_string/>
         <business_rule/>
         <change_client_script/>
-        <client_script display_value="x_snc_it_purchase_request_request state ">c89d6a1a4fd3d2009b8670f24210c749</client_script>
+        <client_script display_value="">c89d6a1a4fd3d2009b8670f24210c749</client_script>
         <comment>IT Purchase Request Request State flow</comment>
         <derived_from display_value="Resume">6dfeb353df312100dca6a5f59bf263e3</derived_from>
         <end_text>13</end_text>
@@ -52,7 +52,7 @@ current.sla_suspended_on = "";]]></manual_script>
         <table>x_snc_it_purchase_request_request</table>
         <translated_ending_state>In Process</translated_ending_state>
         <translated_starting_state/>
-        <ui_action display_value="Resume">b9bc70f5139792002f92b6004244b04d</ui_action>
+        <ui_action display_value="">b9bc70f5139792002f92b6004244b04d</ui_action>
         <visible_fields/>
         <work_notes/>
         <work_notes_rule/>

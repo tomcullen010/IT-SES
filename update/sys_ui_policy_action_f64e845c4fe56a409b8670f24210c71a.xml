@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>true</disabled>
+        <field>requestor_budget_notes</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2016-08-25 19:07:26</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>f64e845c4fe56a409b8670f24210c71a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>requestor_budget_notes</sys_name>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f64e845c4fe56a409b8670f24210c71a</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-08-26 13:09:18</sys_updated_on>
+        <table>x_snc_it_purchase_request_request</table>
+        <ui_policy display_value="Order = 100 - Hide Final Budget Validated until State is &quot;pending project final budget&quot; ">ec36d6f74f116a409b8670f24210c7bf</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

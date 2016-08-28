@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2016-08-24 14:52:52</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ef9acab34f116a409b8670f24210c7f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accept.Primary Assignee</sys_name>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_ui_action display_value="Accept">6abc70f5139792002f92b6004244b08f</sys_ui_action>
+        <sys_ui_view display_value="Primary Assignee" name="primary_assignee">9899c2b34f116a409b8670f24210c7f9</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_ef9acab34f116a409b8670f24210c7f9</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-08-24 14:52:52</sys_updated_on>
+        <visibility>include</visibility>
+    </sys_ui_action_view>
+</record_update>

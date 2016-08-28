@@ -8,7 +8,7 @@
         <automatic_string/>
         <business_rule/>
         <change_client_script/>
-        <client_script display_value="x_snc_it_purchase_request_request state ">c89d6a1a4fd3d2009b8670f24210c749</client_script>
+        <client_script display_value="">c89d6a1a4fd3d2009b8670f24210c749</client_script>
         <comment>IT Purchase Request Request initial request state</comment>
         <derived_from display_value="Initial State">2bdb345547232100158b949b6c9a7116</derived_from>
         <end_text>1</end_text>
@@ -25,7 +25,7 @@
         <not_read_only/>
         <not_visible/>
         <number>SF0010002</number>
-        <override display_value="state">69bc70f5139792002f92b6004244b04a</override>
+        <override display_value="">69bc70f5139792002f92b6004244b04a</override>
         <read_only_fields/>
         <roles/>
         <start_text/>

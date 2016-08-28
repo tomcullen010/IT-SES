@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Wave1 Approver 4</column_label>
+        <column_label>Wave2 Approver 4</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -55,15 +55,15 @@
         <sys_created_on>2016-06-21 10:01:56</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>2d02a747134c26002f92b6004244b0d3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Wave1 Approver 4</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Wave2 Approver 4</sys_name>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_it_purchase_request_request_wave2_approver_4</sys_update_name>
         <sys_updated_by>tom.cullen</sys_updated_by>
-        <sys_updated_on>2016-08-22 17:44:55</sys_updated_on>
+        <sys_updated_on>2016-08-25 00:40:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

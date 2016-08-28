@@ -8,11 +8,11 @@
         <automatic_string/>
         <business_rule/>
         <change_client_script/>
-        <client_script display_value="x_snc_it_purchase_request_request state ">c89d6a1a4fd3d2009b8670f24210c749</client_script>
+        <client_script display_value="">c89d6a1a4fd3d2009b8670f24210c749</client_script>
         <comment>IT Purchase Request Request State flow</comment>
         <derived_from/>
         <end_text>3</end_text>
-        <ending_state display_value="Complete">f0bc70f5139792002f92b6004244b018</ending_state>
+        <ending_state display_value="Completed">f0bc70f5139792002f92b6004244b018</ending_state>
         <event/>
         <event_rule/>
         <mandatory_fields/>
@@ -22,10 +22,11 @@
         </manual_condition>
         <manual_roles/>
         <manual_script><![CDATA[var success  = current.update();
-if (success)
+/*if (success)
 	new sn_sm.SMConfiguration().startWorkFlow(current, 'approval_workflow');
 else
 	current.setAbortAction(true);
+*/
 action.setRedirectURL(current);]]></manual_script>
         <manual_string>new sn_sm.SMConfiguration().isEnabled(current, "request_driven", false)</manual_string>
         <name>RFx Complete</name>
@@ -43,19 +44,19 @@ action.setRedirectURL(current);]]></manual_script>
         <sys_created_on>2016-06-20 21:24:12</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>cad43c4b138826002f92b6004244b09a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>RFx Complete</sys_name>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>x_snc_it_purchase_sf_request_request_cad43c4b138826002f92b6004244b09a</sys_update_name>
-        <sys_updated_by>michael.ritchie</sys_updated_by>
-        <sys_updated_on>2016-06-20 21:24:12</sys_updated_on>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-08-26 20:04:14</sys_updated_on>
         <table>x_snc_it_purchase_request_request</table>
-        <translated_ending_state>Complete</translated_ending_state>
+        <translated_ending_state>Completed</translated_ending_state>
         <translated_starting_state>In Process</translated_starting_state>
-        <ui_action display_value="RFx Complete">4ed43c4b138826002f92b6004244b09a</ui_action>
+        <ui_action display_value="">4ed43c4b138826002f92b6004244b09a</ui_action>
         <visible_fields/>
         <work_notes/>
         <work_notes_rule/>

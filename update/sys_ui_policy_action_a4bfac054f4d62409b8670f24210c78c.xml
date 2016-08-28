@@ -19,7 +19,7 @@
         <sys_updated_by>tom.cullen</sys_updated_by>
         <sys_updated_on>2016-08-03 09:01:40</sys_updated_on>
         <table>x_snc_it_purchase_request_request</table>
-        <ui_policy display_value="Once state is &gt; draft ... Display submitted by and make read only">f71fa8054f4d62409b8670f24210c7a8</ui_policy>
+        <ui_policy display_value="N/A Once state is &gt; draft ... Display submitted by and make read only">f71fa8054f4d62409b8670f24210c7a8</ui_policy>
         <visible>true</visible>
     </sys_ui_policy_action>
 </record_update>

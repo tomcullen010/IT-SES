@@ -11,10 +11,10 @@
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
         <hint>Agent is available and able to work on assigned IT Purchase Request Task at scheduled time</hint>
-        <list_action>true</list_action>
+        <list_action>false</list_action>
         <list_banner_button>false</list_banner_button>
         <list_button>false</list_button>
-        <list_choice>true</list_choice>
+        <list_choice>false</list_choice>
         <list_context_menu>false</list_context_menu>
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
@@ -33,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6abc70f5139792002f92b6004244b08f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Accept</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
@@ -41,8 +41,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sys_ui_action_6abc70f5139792002f92b6004244b08f</sys_update_name>
-        <sys_updated_by>michael.ritchie</sys_updated_by>
-        <sys_updated_on>2016-05-10 17:59:08</sys_updated_on>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-08-24 23:13:27</sys_updated_on>
         <table>x_snc_it_purchase_request_task</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

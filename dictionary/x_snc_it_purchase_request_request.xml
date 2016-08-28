@@ -6,9 +6,9 @@
         <element attributes="edge_encryption_enabled=true" hint="Currently this is a CCNAG and CONA requirement. This is the contract number from eSourcing." label="Agreement ID" max_length="40" name="agreement_id" type="string"/>
         <element hint="Select the IT team that owns this agreement" label="Business Area" max_length="32" name="business_area" reference="cmn_department" type="reference"/>
         <element label="caller business phone" max_length="32" name="caller_phone" reference="x_snc_it_purchase_request_request" type="reference"/>
-        <element attributes="format=none" label="Capex1" max_length="40" name="capex1" type="integer"/>
-        <element label="Capex3" max_length="40" name="capex3" type="integer"/>
-        <element label="Capex5" max_length="40" name="capex5" type="integer"/>
+        <element attributes="format=currency" label="Capex1" max_length="40" name="capex1" type="integer"/>
+        <element label="Capex2" max_length="40" name="capex3" type="integer"/>
+        <element label="Capex3" max_length="40" name="capex5" type="integer"/>
         <element attributes="omit_sys_original=true" label="CAPEX total" max_length="15" name="capex_total" read_only="true" type="currency"/>
         <element attributes="edge_encryption_enabled=true" choice="1" hint="Please indicate the security classification for this contract." label="Contract Classification" max_length="40" name="contract_classification" type="string">
             <choice>
@@ -27,12 +27,12 @@
         <element hint="Please enter the effective date as documented in the contract" label="Contract Effective Date" max_length="40" name="contract_effective_date" type="glide_date"/>
         <element hint="Please enter the date that the fully executed contract was loaded into iManage" label="Contract Filed Date" max_length="40" name="contract_filed_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" hint="Enter the total amount of cost avoidance achieved through negotiations." label="Cost Avoidance" max_length="40" name="cost_avoidance" type="string"/>
-        <element label="Cost Center1" max_length="32" name="cost_center1" reference="cmn_cost_center" type="reference"/>
-        <element label="Cost Center2" max_length="32" name="cost_center2" reference="cmn_cost_center" type="reference"/>
-        <element label="Cost Center3" max_length="32" name="cost_center3" reference="cmn_cost_center" type="reference"/>
-        <element label="Cost Center4" max_length="32" name="cost_center4" reference="cmn_cost_center" type="reference"/>
-        <element label="Cost Center5" max_length="32" name="cost_center5" reference="cmn_cost_center" type="reference"/>
-        <element label="Cost Center6" max_length="32" name="cost_center6" reference="cmn_cost_center" type="reference"/>
+        <element label="Project/Cost Center" max_length="32" name="cost_center1" type="string"/>
+        <element label="Project/Cost Center" max_length="32" name="cost_center2" type="string"/>
+        <element label="Project/Cost Center" max_length="32" name="cost_center3" type="string"/>
+        <element label="Project/Cost Center" max_length="32" name="cost_center4" type="string"/>
+        <element label="Cost Center" max_length="32" name="cost_center5" reference="cmn_cost_center" type="reference"/>
+        <element label="Cost Center" max_length="32" name="cost_center6" reference="cmn_cost_center" type="reference"/>
         <element label="Duration of NDA(# of Years)" max_length="40" name="duration_of_nda_of_years" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="1" hint="Answer 'Yes' if there is a penalty for early termination. Describe how the early termination fee is calculated in the following explanation field." label="Are There Fees for Early Termination" max_length="40" name="early_termination_fees" type="string">
             <choice>
@@ -151,9 +151,9 @@
                 <element label="N/A" sequence="2" value="N/A"/>
             </choice>
         </element>
-        <element label="Opex2" max_length="40" name="opex2" type="integer"/>
-        <element label="Opex4" max_length="40" name="opex4" type="integer"/>
-        <element label="Opex6" max_length="40" name="opex6" type="integer"/>
+        <element label="Opex1" max_length="40" name="opex2" type="integer"/>
+        <element label="Opex2" max_length="40" name="opex4" type="integer"/>
+        <element label="Opex3" max_length="40" name="opex6" type="integer"/>
         <element attributes="omit_sys_original=true" label="OPEX Total" max_length="15" name="opex_total" read_only="true" type="currency"/>
         <element hint="If this was supported by outside counsel, please enter the supporting attorney's name." label="Outside Counsel Support" max_length="40" name="outside_counsel_support" type="string"/>
         <element attributes="edge_encryption_enabled=true" hint="Type in any financial comments that might be helpful to the approvers." label="Provide Comments for Budget/Exception PO" max_length="1000" name="po_comments" type="string"/>
@@ -167,12 +167,6 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Procurement Risk Explanation" max_length="250" name="procurement_risk_explanation" type="multi_two_lines"/>
-        <element choice="1" hint="Please refer to the &quot;ITP OLA&quot; document link under the &quot;IT-SES Help&quot; section." label="I Have Read The Provided ITP OLA" max_length="40" name="read_itp_ola" type="choice">
-            <choice>
-                <element label="My Request is Within the ITP OLA" sequence="0" value="My Request is Within the ITP OLA"/>
-                <element label="My Request is not Within the ITP OLA" sequence="1" value="My Request is not Within the ITP OLA"/>
-            </choice>
-        </element>
         <element attributes="edge_encryption_enabled=true" label="Requestor Budget Notes" max_length="1000" name="requestor_budget_notes" type="string"/>
         <element attributes="edge_encryption_enabled=true" hint="Enter the total amount of savings achieved through negotiations." label="Savings" max_length="40" name="savings" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" hint="Derivative includes certain commodity-based contracts and purchase agreements that contain embedded derivative-like structures (such as price caps and floors, cash settlement provisions)." label="SFAS 133 - Embedded Derivatives" max_length="40" name="sfas_133_embedded_derivatives" type="string">
@@ -232,7 +226,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Thereafter" max_length="100" name="thereafter" type="string"/>
-        <element label="Total Budget for This Effort" max_length="40" name="total_budget" type="currency"/>
+        <element label="Total Budget for This Effort" max_length="40" name="total_budget" read_only="true" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Type of Information" max_length="100" name="type_of_information" type="multi_two_lines"/>
         <element label="Vendor Governance Assignee" max_length="32" name="vendor_governance_assignee" read_only="true" reference="sys_user" reference_qual="x_snc_it_purchase_itses_profileLIKEGovernance^EQ" reference_qual_condition="x_snc_it_purchase_itses_profileLIKEGovernance^EQ" type="reference" use_dependent_field="true"/>
         <element label="Vendor Governance Group" max_length="32" name="vendor_governance_group" reference="sys_user_group" reference_qual="typeLIKE4fbc70f5139792002f92b6004244b0a3^EQ" reference_qual_condition="typeLIKE4fbc70f5139792002f92b6004244b0a3^EQ" type="reference"/>
@@ -241,15 +235,17 @@
         <element label="Wave1 Approver 2" max_length="32" name="wave1_approver_2" reference="sys_user" type="reference"/>
         <element label="Wave1 Approver 3" max_length="32" name="wave1_approver_3" reference="sys_user" type="reference"/>
         <element label="Wave1 Approver 4" max_length="32" name="wave1_approver_4" reference="sys_user" type="reference"/>
-        <element label="Wave1 Approver 5" max_length="32" name="wave1_approver_5" reference="sys_user" type="reference"/>
+        <element label="Wave1 Approver 5" max_length="32" name="wave1_approver_5" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element label="Wave1 Rejected" max_length="40" name="wave1_rejected" type="boolean"/>
         <element label="Wave2 Approved" max_length="40" name="wave2_approved" type="boolean"/>
-        <element label="Wave1 Approver 1" max_length="32" name="wave2_approver_1" reference="sys_user" reference_qual="x_snc_it_purchase_itses_profileLIKEITSES^EQ" reference_qual_condition="x_snc_it_purchase_itses_profileLIKEITSES^EQ" type="reference"/>
-        <element label="Wave1 Approver 2" max_length="32" name="wave2_approver_2" reference="sys_user" reference_qual="x_snc_it_purchase_itses_profileLIKEITSES^EQ" reference_qual_condition="x_snc_it_purchase_itses_profileLIKEITSES^EQ" type="reference"/>
-        <element label="Wave1 Approver 3" max_length="32" name="wave2_approver_3" reference="sys_user" reference_qual="x_snc_it_purchase_itses_profileLIKEITSES^EQ" reference_qual_condition="x_snc_it_purchase_itses_profileLIKEITSES^EQ" type="reference"/>
-        <element label="Wave1 Approver 4" max_length="32" name="wave2_approver_4" reference="sys_user" reference_qual="x_snc_it_purchase_itses_profileLIKEITSES^EQ" reference_qual_condition="x_snc_it_purchase_itses_profileLIKEITSES^EQ" type="reference"/>
-        <element label="Wave1 Approver 5" max_length="32" name="wave2_approver_5" reference="sys_user" reference_qual="x_snc_it_purchase_itses_profileLIKEITSES^EQ" reference_qual_condition="x_snc_it_purchase_itses_profileLIKEITSES^EQ" type="reference"/>
+        <element label="Wave2 Approver 1" max_length="32" name="wave2_approver_1" reference="sys_user" reference_qual="x_snc_it_purchase_itses_profileLIKEITSES^EQ" reference_qual_condition="x_snc_it_purchase_itses_profileLIKEITSES^EQ" type="reference"/>
+        <element label="Wave2 Approver 2" max_length="32" name="wave2_approver_2" reference="sys_user" reference_qual="x_snc_it_purchase_itses_profileLIKEITSES^EQ" reference_qual_condition="x_snc_it_purchase_itses_profileLIKEITSES^EQ" type="reference"/>
+        <element label="Wave2 Approver 3" max_length="32" name="wave2_approver_3" reference="sys_user" reference_qual="x_snc_it_purchase_itses_profileLIKEITSES^EQ" reference_qual_condition="x_snc_it_purchase_itses_profileLIKEITSES^EQ" type="reference"/>
+        <element label="Wave2 Approver 4" max_length="32" name="wave2_approver_4" reference="sys_user" reference_qual="x_snc_it_purchase_itses_profileLIKEITSES^EQ" reference_qual_condition="x_snc_it_purchase_itses_profileLIKEITSES^EQ" type="reference"/>
+        <element label="Wave2 Approver 5" max_length="32" name="wave2_approver_5" reference="sys_user" reference_qual="x_snc_it_purchase_itses_profileLIKEITSES^EQ" reference_qual_condition="x_snc_it_purchase_itses_profileLIKEITSES^EQ" type="reference"/>
         <element label="Wave2 Rejected" max_length="40" name="wave2_rejected" type="boolean"/>
+        <element label="WAVE 3 Approver2" max_length="32" name="wave3_approver2" reference="sys_user" type="reference"/>
+        <element label="WAVE 3 Approver 1" max_length="32" name="wave3_approver_1" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" hint="Answer 'Yes' if the supplier will develop something for The Company and retain ownership of what has been developed. Describe the ownership situation in the following explanation field." label="Will Supplier Retain Rights to New IP" max_length="40" name="will_supplier_retain_rights_to_new_ip" type="string">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>

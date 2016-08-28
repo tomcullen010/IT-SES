@@ -119,7 +119,7 @@
 	java.lang.Thread.run(Thread.java:745)
 </example_stack_trace>
         <read_access>true</read_access>
-        <source_scope display_value="TC SES">902ccc9213f8ee002f92b6004244b032</source_scope>
+        <source_scope/>
         <sys_class_name>sys_scope_table_access</sys_class_name>
         <sys_created_by>tom.cullen</sys_created_by>
         <sys_created_on>2016-07-30 08:29:36</sys_created_on>

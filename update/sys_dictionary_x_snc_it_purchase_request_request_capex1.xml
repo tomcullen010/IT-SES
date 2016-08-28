@@ -3,7 +3,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="capex1" table="x_snc_it_purchase_request_request">
         <active>true</active>
         <array>false</array>
-        <attributes>format=none</attributes>
+        <attributes>format=currency</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -53,7 +53,7 @@
         <sys_created_on>2016-08-23 11:50:15</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>4b2610e74f592a409b8670f24210c73b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Capex1</sys_name>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
@@ -61,7 +61,7 @@
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_it_purchase_request_request_capex1</sys_update_name>
         <sys_updated_by>tom.cullen</sys_updated_by>
-        <sys_updated_on>2016-08-23 14:51:32</sys_updated_on>
+        <sys_updated_on>2016-08-27 13:44:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

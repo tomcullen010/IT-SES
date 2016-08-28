@@ -317,7 +317,7 @@
 	java.lang.Thread.run(Thread.java:745)
 </example_stack_trace>
         <script_name>SMConstants</script_name>
-        <source_scope display_value="TC SES">902ccc9213f8ee002f92b6004244b032</source_scope>
+        <source_scope/>
         <sys_class_name>sys_scope_script_access</sys_class_name>
         <sys_created_by>tom.cullen</sys_created_by>
         <sys_created_on>2016-07-26 14:48:40</sys_created_on>

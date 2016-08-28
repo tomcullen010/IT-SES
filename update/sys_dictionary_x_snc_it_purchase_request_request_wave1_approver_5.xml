@@ -53,7 +53,7 @@
         <sys_created_on>2016-06-21 09:58:32</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>97316b07134c26002f92b6004244b06d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Wave1 Approver 5</sys_name>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
@@ -61,11 +61,11 @@
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_it_purchase_request_request_wave1_approver_5</sys_update_name>
         <sys_updated_by>tom.cullen</sys_updated_by>
-        <sys_updated_on>2016-06-21 09:58:32</sys_updated_on>
+        <sys_updated_on>2016-08-25 09:04:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
+        <use_dependent_field>true</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>

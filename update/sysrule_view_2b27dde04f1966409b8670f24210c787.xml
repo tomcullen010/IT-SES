@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sysrule_view">
     <sysrule_view action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <advanced>false</advanced>
         <condition table="x_snc_it_purchase_request_request">finance_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORlegal_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORprocurement_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORvendor_governance_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="finance_assignee" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
             <item endquery="false" field="legal_assignee" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2b27dde04f1966409b8670f24210c787</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Change to Assignee View</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sysrule_view_2b27dde04f1966409b8670f24210c787</sys_update_name>
         <sys_updated_by>tom.cullen</sys_updated_by>
-        <sys_updated_on>2016-08-14 09:31:56</sys_updated_on>
+        <sys_updated_on>2016-08-24 14:57:21</sys_updated_on>
         <table>x_snc_it_purchase_request_request</table>
         <view>Assignee View</view>
     </sysrule_view>

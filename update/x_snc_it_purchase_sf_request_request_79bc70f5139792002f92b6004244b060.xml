@@ -6,9 +6,9 @@
         <automatic_roles/>
         <automatic_script><![CDATA[//new sn_sm.SMConfiguration().isEnabled(current, "request_driven", false) && (new global.SMTask()).isAssigned(current)]]></automatic_script>
         <automatic_string/>
-        <business_rule/>
+        <business_rule display_value="Assigned">dbdac05513edaa402f92b6004244b05e</business_rule>
         <change_client_script/>
-        <client_script display_value="x_snc_it_purchase_request_request state ">c89d6a1a4fd3d2009b8670f24210c749</client_script>
+        <client_script display_value="">c89d6a1a4fd3d2009b8670f24210c749</client_script>
         <comment>IT Purchase Request Request State flow</comment>
         <derived_from display_value="Assigned">cf3c878147232100158b949b6c9a7148</derived_from>
         <end_text>12</end_text>
@@ -46,7 +46,7 @@
         <sys_updated_on>2016-05-13 12:04:24</sys_updated_on>
         <table>x_snc_it_purchase_request_request</table>
         <translated_ending_state>Assigned</translated_ending_state>
-        <translated_starting_state>Ready</translated_starting_state>
+        <translated_starting_state>Pending Project Final Budget</translated_starting_state>
         <ui_action/>
         <visible_fields/>
         <work_notes/>

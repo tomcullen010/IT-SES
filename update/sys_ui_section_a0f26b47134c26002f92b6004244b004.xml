@@ -2,86 +2,226 @@
 <record_update>
     <sys_ui_section caption="Approver Details" section_id="a0f26b47134c26002f92b6004244b004" sys_domain="global" table="x_snc_it_purchase_request_request" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>wave2_approver_1</element>
+            <element>wave1_approver_1</element>
             <position>0</position>
             <sys_created_by>tom.cullen</sys_created_by>
-            <sys_created_on>2016-06-21 10:09:54</sys_created_on>
-            <sys_id>ea14a787134c26002f92b6004244b020</sys_id>
+            <sys_created_on>2016-08-25 09:28:27</sys_created_on>
+            <sys_id>89f94a004f656a409b8670f24210c729</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Approver Details" display_value="Approver Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a0f26b47134c26002f92b6004244b004</sys_ui_section>
             <sys_updated_by>tom.cullen</sys_updated_by>
-            <sys_updated_on>2016-06-21 10:09:54</sys_updated_on>
+            <sys_updated_on>2016-08-25 09:28:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>wave2_approver_2</element>
+            <element>wave1_approver_2</element>
             <position>1</position>
             <sys_created_by>tom.cullen</sys_created_by>
-            <sys_created_on>2016-06-21 10:09:54</sys_created_on>
-            <sys_id>6e14a787134c26002f92b6004244b020</sys_id>
+            <sys_created_on>2016-08-25 09:28:27</sys_created_on>
+            <sys_id>0df94a004f656a409b8670f24210c729</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Approver Details" display_value="Approver Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a0f26b47134c26002f92b6004244b004</sys_ui_section>
             <sys_updated_by>tom.cullen</sys_updated_by>
-            <sys_updated_on>2016-06-21 10:09:54</sys_updated_on>
+            <sys_updated_on>2016-08-25 09:28:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>wave2_approver_3</element>
+            <element>wave1_approver_3</element>
             <position>2</position>
             <sys_created_by>tom.cullen</sys_created_by>
-            <sys_created_on>2016-06-21 10:09:54</sys_created_on>
-            <sys_id>ee14a787134c26002f92b6004244b020</sys_id>
+            <sys_created_on>2016-08-25 09:28:27</sys_created_on>
+            <sys_id>8df94a004f656a409b8670f24210c729</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Approver Details" display_value="Approver Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a0f26b47134c26002f92b6004244b004</sys_ui_section>
             <sys_updated_by>tom.cullen</sys_updated_by>
-            <sys_updated_on>2016-06-21 10:09:54</sys_updated_on>
+            <sys_updated_on>2016-08-25 09:28:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wave1_approver_4</element>
+            <position>3</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-25 09:28:27</sys_created_on>
+            <sys_id>01f94a004f656a409b8670f24210c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approver Details" display_value="Approver Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a0f26b47134c26002f92b6004244b004</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-25 09:28:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wave1_approver_5</element>
+            <position>4</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-25 09:28:27</sys_created_on>
+            <sys_id>81f94a004f656a409b8670f24210c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approver Details" display_value="Approver Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a0f26b47134c26002f92b6004244b004</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-25 09:28:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>5</position>
             <sys_created_by>tom.cullen</sys_created_by>
-            <sys_created_on>2016-06-21 10:09:54</sys_created_on>
-            <sys_id>6214a787134c26002f92b6004244b021</sys_id>
+            <sys_created_on>2016-08-25 09:28:27</sys_created_on>
+            <sys_id>05f94a004f656a409b8670f24210c72a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Approver Details" display_value="Approver Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a0f26b47134c26002f92b6004244b004</sys_ui_section>
             <sys_updated_by>tom.cullen</sys_updated_by>
-            <sys_updated_on>2016-06-21 10:09:54</sys_updated_on>
+            <sys_updated_on>2016-08-25 09:28:27</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>wave2_approver_4</element>
-            <position>4</position>
+            <element>wave2_approver_1</element>
+            <position>6</position>
             <sys_created_by>tom.cullen</sys_created_by>
-            <sys_created_on>2016-06-21 10:09:54</sys_created_on>
-            <sys_id>e214a787134c26002f92b6004244b021</sys_id>
+            <sys_created_on>2016-08-25 09:28:27</sys_created_on>
+            <sys_id>85f94a004f656a409b8670f24210c72a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Approver Details" display_value="Approver Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a0f26b47134c26002f92b6004244b004</sys_ui_section>
             <sys_updated_by>tom.cullen</sys_updated_by>
-            <sys_updated_on>2016-06-21 10:09:54</sys_updated_on>
+            <sys_updated_on>2016-08-25 09:28:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wave2_approver_2</element>
+            <position>7</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-25 09:28:27</sys_created_on>
+            <sys_id>09f94a004f656a409b8670f24210c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approver Details" display_value="Approver Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a0f26b47134c26002f92b6004244b004</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-25 09:28:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wave2_approver_3</element>
+            <position>8</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-25 09:28:27</sys_created_on>
+            <sys_id>89f94a004f656a409b8670f24210c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approver Details" display_value="Approver Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a0f26b47134c26002f92b6004244b004</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-25 09:28:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wave2_approver_4</element>
+            <position>9</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-25 09:28:27</sys_created_on>
+            <sys_id>0df94a004f656a409b8670f24210c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approver Details" display_value="Approver Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a0f26b47134c26002f92b6004244b004</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-25 09:28:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>wave2_approver_5</element>
-            <position>5</position>
+            <position>10</position>
             <sys_created_by>tom.cullen</sys_created_by>
-            <sys_created_on>2016-06-21 10:09:54</sys_created_on>
-            <sys_id>6614a787134c26002f92b6004244b021</sys_id>
+            <sys_created_on>2016-08-25 09:28:27</sys_created_on>
+            <sys_id>8df94a004f656a409b8670f24210c72a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Approver Details" display_value="Approver Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a0f26b47134c26002f92b6004244b004</sys_ui_section>
             <sys_updated_by>tom.cullen</sys_updated_by>
-            <sys_updated_on>2016-06-21 10:09:54</sys_updated_on>
+            <sys_updated_on>2016-08-25 09:28:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-25 09:28:27</sys_created_on>
+            <sys_id>01f94a004f656a409b8670f24210c72b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approver Details" display_value="Approver Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a0f26b47134c26002f92b6004244b004</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-25 09:28:27</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>12</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-25 09:28:27</sys_created_on>
+            <sys_id>81f94a004f656a409b8670f24210c72b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approver Details" display_value="Approver Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a0f26b47134c26002f92b6004244b004</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-25 09:28:27</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wave3_approver_1</element>
+            <position>13</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-25 09:28:27</sys_created_on>
+            <sys_id>05f94a004f656a409b8670f24210c72b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approver Details" display_value="Approver Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a0f26b47134c26002f92b6004244b004</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-25 09:28:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>14</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-25 09:28:27</sys_created_on>
+            <sys_id>85f94a004f656a409b8670f24210c72b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approver Details" display_value="Approver Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a0f26b47134c26002f92b6004244b004</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-25 09:28:27</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wave3_approver2</element>
+            <position>15</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-25 09:28:27</sys_created_on>
+            <sys_id>09f94a004f656a409b8670f24210c72b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approver Details" display_value="Approver Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="Default view">a0f26b47134c26002f92b6004244b004</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-25 09:28:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

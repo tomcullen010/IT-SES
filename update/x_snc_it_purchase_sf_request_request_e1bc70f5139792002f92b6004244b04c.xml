@@ -8,7 +8,7 @@
         <automatic_string/>
         <business_rule/>
         <change_client_script/>
-        <client_script display_value="x_snc_it_purchase_request_request state ">c89d6a1a4fd3d2009b8670f24210c749</client_script>
+        <client_script display_value="">c89d6a1a4fd3d2009b8670f24210c749</client_script>
         <comment>IT Purchase Request Request State flow</comment>
         <derived_from display_value="Suspend">69feb353df312100dca6a5f59bf263e3</derived_from>
         <end_text>17</end_text>
@@ -51,7 +51,7 @@ current.sla_suspended_on = new GlideDateTime();]]></manual_script>
         <table>x_snc_it_purchase_request_request</table>
         <translated_ending_state>On Hold</translated_ending_state>
         <translated_starting_state>In Process</translated_starting_state>
-        <ui_action display_value="On Hold">25bc70f5139792002f92b6004244b04c</ui_action>
+        <ui_action display_value="">25bc70f5139792002f92b6004244b04c</ui_action>
         <visible_fields/>
         <work_notes/>
         <work_notes_rule/>

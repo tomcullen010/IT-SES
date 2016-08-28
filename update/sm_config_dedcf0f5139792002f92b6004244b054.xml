@@ -6,7 +6,7 @@
         <admin_role display_value="x_snc_it_purchase_admin" name="x_snc_it_purchase_admin">38bc70f5139792002f92b6004244b02e</admin_role>
         <agent_role display_value="x_snc_it_purchase_agent" name="x_snc_it_purchase_agent">74bc70f5139792002f92b6004244b02f</agent_role>
         <app_name>it_purchase_request</app_name>
-        <approval>true</approval>
+        <approval>false</approval>
         <approval_workflow display_value="IT Purchase Request">bd224be21357d2002f92b6004244b099</approval_workflow>
         <approver_role display_value="x_snc_it_purchase_approver_user" name="x_snc_it_purchase_approver_user">b0bc70f5139792002f92b6004244b030</approver_role>
         <associated_task_tables/>
@@ -49,15 +49,15 @@
         <sys_created_on>2016-05-10 17:59:39</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>dedcf0f5139792002f92b6004244b054</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>IT Purchase Request</sys_name>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sm_config_dedcf0f5139792002f92b6004244b054</sys_update_name>
-        <sys_updated_by>michael.ritchie</sys_updated_by>
-        <sys_updated_on>2016-06-15 18:53:53</sys_updated_on>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-08-26 19:23:34</sys_updated_on>
         <task_activities>false</task_activities>
         <task_dispatch_method>manual</task_dispatch_method>
         <task_dispatch_workflow display_value="Assignment Workflow for SM">e1865971d7132100bbc783e80e610365</task_dispatch_workflow>

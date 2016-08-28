@@ -61,21 +61,21 @@
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
-            <hint>Task is assigned, pending staff acceptance</hint>
+            <hint>Primary Assignee accepted the request for review</hint>
             <inactive>false</inactive>
-            <label>Assigned</label>
+            <label>Accepted for Review</label>
             <language>en</language>
             <name>x_snc_it_purchase_request_request</name>
             <sequence>3</sequence>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-10 17:59:00</sys_created_on>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-26 17:02:14</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f4bc70f5139792002f92b6004244b016</sys_id>
+            <sys_id>07da30244f6d6a409b8670f24210c71b</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-11 20:31:04</sys_updated_on>
-            <value>12</value>
+            <sys_updated_on>2016-08-26 19:12:19</sys_updated_on>
+            <value>8</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -251,9 +251,28 @@
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
+            <hint>Task is assigned, pending staff acceptance</hint>
+            <inactive>false</inactive>
+            <label>Assigned</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <sequence>13</sequence>
+            <sys_created_by>michael.ritchie</sys_created_by>
+            <sys_created_on>2016-05-10 17:59:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f4bc70f5139792002f92b6004244b016</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-26 17:03:37</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
             <hint>Work has been completed to specification</hint>
             <inactive>false</inactive>
-            <label>Complete</label>
+            <label>Completed</label>
             <language>en</language>
             <name>x_snc_it_purchase_request_request</name>
             <sequence>13</sequence>
@@ -262,9 +281,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f0bc70f5139792002f92b6004244b018</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-11 20:30:08</sys_updated_on>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-24 15:27:07</sys_updated_on>
             <value>3</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
@@ -275,7 +294,7 @@
             <sys_created_on>2016-05-10 17:59:00</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>68bc70f5139792002f92b6004244b012</sys_id>
-            <sys_mod_count>59</sys_mod_count>
+            <sys_mod_count>65</sys_mod_count>
             <sys_name>state</sys_name>
             <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
             <sys_policy/>
@@ -283,7 +302,7 @@
             <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
             <sys_update_name>sys_choice_x_snc_it_purchase_request_request_state</sys_update_name>
             <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-11 22:12:38</sys_updated_on>
+            <sys_updated_on>2016-08-26 19:12:19</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

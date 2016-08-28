@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Cost Center1</column_label>
+        <column_label>Project/Cost Center</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -30,7 +30,7 @@
         <element>cost_center1</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
         <name>x_snc_it_purchase_request_request</name>
@@ -38,7 +38,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="cmn_cost_center">cmn_cost_center</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -53,15 +53,15 @@
         <sys_created_on>2016-08-23 11:50:19</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>a4e6d4e74f592a409b8670f24210c707</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Cost Center1</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Project/Cost Center</sys_name>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_it_purchase_request_request_cost_center1</sys_update_name>
         <sys_updated_by>tom.cullen</sys_updated_by>
-        <sys_updated_on>2016-08-23 11:50:19</sys_updated_on>
+        <sys_updated_on>2016-08-24 15:36:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

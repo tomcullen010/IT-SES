@@ -19,7 +19,7 @@
         <sys_updated_by>tom.cullen</sys_updated_by>
         <sys_updated_on>2016-06-21 20:29:31</sys_updated_on>
         <table>x_snc_it_purchase_request_request</table>
-        <ui_policy display_value="Order = 100 - Display For Change Order">7821f993130066002f92b6004244b026</ui_policy>
+        <ui_policy display_value="N/A Order = 100 - Display For Change Order">7821f993130066002f92b6004244b026</ui_policy>
         <visible>true</visible>
     </sys_ui_policy_action>
 </record_update>

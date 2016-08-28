@@ -6,9 +6,9 @@
         <automatic_roles/>
         <automatic_script><![CDATA[(new global.SMTask()).processWOCancellation(current);]]></automatic_script>
         <automatic_string>current.state.changes()</automatic_string>
-        <business_rule/>
+        <business_rule display_value="Cancellation">dfdac05513edaa402f92b6004244b060</business_rule>
         <change_client_script/>
-        <client_script display_value="x_snc_it_purchase_request_request state ">c89d6a1a4fd3d2009b8670f24210c749</client_script>
+        <client_script display_value="">c89d6a1a4fd3d2009b8670f24210c749</client_script>
         <comment>IT Purchase Request Request State flow</comment>
         <derived_from display_value="Cancellation">e9feb353df312100dca6a5f59bf263e3</derived_from>
         <end_text/>

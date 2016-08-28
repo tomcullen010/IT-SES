@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>If we fill in the 4th Approver .. open up the fifth</description>
+        <field>wave2_approver_4</field>
+        <global>true</global>
+        <messages/>
+        <name>Wave2 Approver4  Change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+	var vW2Appr4 = g_form.getValue('wave2_approver_4');
+	
+	//If Wave Approver 4 is entered .. then display approver 5
+	//    then display the next Capex pair
+	if (vW2Appr4 == ' ') {
+		g_form.setDisplay('wave2_approver_5', false);
+	} else {
+		g_form.setDisplay('wave2_approver_5', true);
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2016-08-25 09:32:08</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0fca0e004f656a409b8670f24210c791</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Wave2 Approver4  Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>sys_script_client_0fca0e004f656a409b8670f24210c791</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-08-25 09:32:45</sys_updated_on>
+        <table>x_snc_it_purchase_request_request</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
