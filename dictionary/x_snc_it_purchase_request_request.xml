@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="hasLabels=true" audit="true" extends="sm_order" label="IT Purchase Request" max_length="40" name="x_snc_it_purchase_request_request" sizeclass="2" type="collection">
+    <element attributes="hasLabels=true" audit="true" extends="sm_order" label="IT Purchase Request" max_length="40" name="x_snc_it_purchase_request_request" sizeclass="1" type="collection">
         <element label="Actionable Request" max_length="40" name="actionable_request" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Addressee Name" max_length="40" name="addressee_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" hint="Currently this is a CCNAG and CONA requirement. This is the contract number from eSourcing." label="Agreement ID" max_length="40" name="agreement_id" type="string"/>
@@ -56,6 +56,7 @@
                 <element label="No" sequence="1" value="No"/>
             </choice>
         </element>
+        <element label="Final Contract Signature Date" max_length="40" name="final_contract_signature_date" type="glide_date"/>
         <element label="Finance Assignee" max_length="32" name="finance_assignee" reference="sys_user" reference_qual="x_snc_it_purchase_itses_profileLIKEFinance^EQ" reference_qual_condition="x_snc_it_purchase_itses_profileLIKEFinance^EQ" type="reference" use_dependent_field="true"/>
         <element default="0d7807de4fd3d2009b8670f24210c7cd" label="Finance Group" max_length="32" name="finance_group" reference="sys_user_group" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Financial Analysis Explanation" max_length="250" name="financial_analysis_explanation" type="multi_two_lines"/>

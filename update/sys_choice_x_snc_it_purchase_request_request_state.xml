@@ -275,15 +275,15 @@
             <label>Completed</label>
             <language>en</language>
             <name>x_snc_it_purchase_request_request</name>
-            <sequence>13</sequence>
+            <sequence>14</sequence>
             <sys_created_by>michael.ritchie</sys_created_by>
             <sys_created_on>2016-05-10 17:59:00</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f0bc70f5139792002f92b6004244b018</sys_id>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>tom.cullen</sys_updated_by>
-            <sys_updated_on>2016-08-24 15:27:07</sys_updated_on>
+            <sys_updated_on>2016-08-29 11:35:52</sys_updated_on>
             <value>3</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">

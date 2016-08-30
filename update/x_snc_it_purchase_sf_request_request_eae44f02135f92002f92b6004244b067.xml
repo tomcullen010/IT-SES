@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="x_snc_it_purchase_sf_request_request">
     <x_snc_it_purchase_sf_request_request action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <automatic_condition/>
         <automatic_roles/>
         <automatic_script/>
@@ -44,15 +44,15 @@ else
         <sys_created_on>2016-05-11 22:34:05</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>eae44f02135f92002f92b6004244b067</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Information Needed</sys_name>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>x_snc_it_purchase_sf_request_request_eae44f02135f92002f92b6004244b067</sys_update_name>
-        <sys_updated_by>dott.buchanan</sys_updated_by>
-        <sys_updated_on>2016-08-26 19:32:20</sys_updated_on>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-08-29 12:32:26</sys_updated_on>
         <table>x_snc_it_purchase_request_request</table>
         <translated_ending_state>Pending More Info Needed</translated_ending_state>
         <translated_starting_state>Submitted</translated_starting_state>
