@@ -19,7 +19,7 @@
         <sys_updated_by>tom.cullen</sys_updated_by>
         <sys_updated_on>2016-08-29 11:35:33</sys_updated_on>
         <table>x_snc_it_purchase_request_request</table>
-        <ui_policy display_value="Hide Final Contract Signature Date until state is All Digital Signatures Obtained">02ec475913a1ea402f92b6004244b061</ui_policy>
+        <ui_policy display_value="Order = 100 - Hide Final Contract Signature Date until state is All Digital Signatures Obtained">02ec475913a1ea402f92b6004244b061</ui_policy>
         <visible>true</visible>
     </sys_ui_policy_action>
 </record_update>

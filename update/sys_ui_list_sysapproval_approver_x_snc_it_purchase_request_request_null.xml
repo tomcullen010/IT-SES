@@ -12,12 +12,12 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>connie.peltier</sys_created_by>
-            <sys_created_on>2016-08-29 14:41:25</sys_created_on>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-30 18:49:56</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>2cf73b5913e1ea402f92b6004244b08a</sys_id>
+            <sys_id>ee6a39b913a9ea402f92b6004244b025</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>sysapproval_approver</sys_name>
             <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
@@ -25,9 +25,9 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
             <sys_update_name>sys_ui_list_sysapproval_approver_x_snc_it_purchase_request_request_null</sys_update_name>
-            <sys_updated_by>connie.peltier</sys_updated_by>
-            <sys_updated_on>2016-08-29 14:41:25</sys_updated_on>
-            <sys_user display_value="Connie Peltier">b96d73474f2312009b8670f24210c706</sys_user>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-30 18:49:56</sys_updated_on>
+            <sys_user display_value="Tom Cullen">aa9f878f130312002f92b6004244b023</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

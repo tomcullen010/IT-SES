@@ -4,6 +4,8 @@
         <element label="Actionable Request" max_length="40" name="actionable_request" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Addressee Name" max_length="40" name="addressee_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" hint="Currently this is a CCNAG and CONA requirement. This is the contract number from eSourcing." label="Agreement ID" max_length="40" name="agreement_id" type="string"/>
+        <element label="All Assignees Approve" max_length="40" name="all_assignees_approve" type="boolean"/>
+        <element label="assignee approval cleanup" max_length="40" name="assignee_approval_cleanup" type="boolean"/>
         <element hint="Select the IT team that owns this agreement" label="Business Area" max_length="32" name="business_area" reference="cmn_department" type="reference"/>
         <element label="caller business phone" max_length="32" name="caller_phone" reference="x_snc_it_purchase_request_request" type="reference"/>
         <element attributes="format=currency" label="Capex1" max_length="40" name="capex1" type="integer"/>

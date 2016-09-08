@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="all_assignees_approve" label="All Assignees Approve" language="en" table="x_snc_it_purchase_request_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>all_assignees_approve</element>
+            <help/>
+            <hint/>
+            <label>All Assignees Approve</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_request</name>
+            <plural>All Assignees Approves</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-08-30 18:10:28</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1c61b9b513a9ea402f92b6004244b09e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>All Assignees Approve</sys_name>
+            <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_it_purchase_request_request_all_assignees_approve_en</sys_update_name>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-08-30 18:10:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

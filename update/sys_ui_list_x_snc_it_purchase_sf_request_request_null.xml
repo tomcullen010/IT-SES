@@ -88,11 +88,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>tom.cullen</sys_created_by>
-            <sys_created_on>2016-08-29 13:38:03</sys_created_on>
+            <sys_created_on>2016-08-30 20:20:28</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5c79a31513e1ea402f92b6004244b096</sys_id>
+            <sys_id>742f4ef113e9ea402f92b6004244b002</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_snc_it_purchase_sf_request_request</sys_name>
             <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
@@ -101,7 +101,7 @@
             <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
             <sys_update_name>sys_ui_list_x_snc_it_purchase_sf_request_request_null</sys_update_name>
             <sys_updated_by>tom.cullen</sys_updated_by>
-            <sys_updated_on>2016-08-29 13:38:03</sys_updated_on>
+            <sys_updated_on>2016-08-30 20:20:28</sys_updated_on>
             <sys_user display_value="Tom Cullen">aa9f878f130312002f92b6004244b023</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

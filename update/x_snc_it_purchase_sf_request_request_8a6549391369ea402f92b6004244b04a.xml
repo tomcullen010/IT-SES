@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_snc_it_purchase_sf_request_request">
+    <x_snc_it_purchase_sf_request_request action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <automatic_condition/>
+        <automatic_roles/>
+        <automatic_script/>
+        <automatic_string/>
+        <business_rule/>
+        <change_client_script/>
+        <client_script display_value="">c89d6a1a4fd3d2009b8670f24210c749</client_script>
+        <comment>Set the corresponding sysapproval_user record to "aproved"</comment>
+        <derived_from/>
+        <end_text>13</end_text>
+        <ending_state display_value="In Process">e8bc70f5139792002f92b6004244b014</ending_state>
+        <event/>
+        <event_rule/>
+        <mandatory_fields/>
+        <manual_condition table="x_snc_it_purchase_request_request">finance_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORlegal_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORvendor_governance_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORprocurement_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state=13^all_assignees_approve=false^EQ<item endquery="false" field="finance_assignee" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="legal_assignee" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="vendor_governance_assignee" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="procurement_assignee" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="13"/>
+            <item endquery="false" field="all_assignees_approve" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </manual_condition>
+        <manual_roles/>
+        <manual_script><![CDATA[//Set corresponding approval rec to "approved"
+var rec = new GlideRecord('sysapproval_approver');
+rec.addQuery('sysapproval', current.sys_id); 
+rec.addQuery('approver', gs.getUserID());
+rec.query();
+while (rec.next()) {
+  rec.state = 'approved';
+  rec.update();
+  gs.addInfoMessage('Request has been Accepted by ' + gs.getUserDisplayName());
+}
+]]></manual_script>
+        <manual_string/>
+        <name>Assignee Accept Request</name>
+        <not_mandatory/>
+        <not_read_only/>
+        <not_visible/>
+        <number>SF0010083</number>
+        <override/>
+        <read_only_fields/>
+        <roles/>
+        <start_text>13</start_text>
+        <starting_state display_value="In Process">e8bc70f5139792002f92b6004244b014</starting_state>
+        <sys_class_name>x_snc_it_purchase_sf_request_request</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2016-08-30 15:07:04</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>8a6549391369ea402f92b6004244b04a</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Assignee Accept Request</sys_name>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>x_snc_it_purchase_sf_request_request_8a6549391369ea402f92b6004244b04a</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-08-30 18:21:05</sys_updated_on>
+        <table>x_snc_it_purchase_request_request</table>
+        <translated_ending_state>In Process</translated_ending_state>
+        <translated_starting_state>In Process</translated_starting_state>
+        <ui_action display_value="Assignee Accept Request">f56781791369ea402f92b6004244b002</ui_action>
+        <visible_fields/>
+        <work_notes/>
+        <work_notes_rule/>
+    </x_snc_it_purchase_sf_request_request>
+</record_update>
