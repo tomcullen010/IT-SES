@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name>accept</action_name>
-        <active>true</active>
+        <active>false</active>
         <client>false</client>
         <comments>Assignee accepts this task</comments>
         <condition>current.state==16 &amp;&amp; (new global.StateFlow().validFlow(current, '2abc70f5139792002f92b6004244b08f', 'manual'));</condition>
@@ -33,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6abc70f5139792002f92b6004244b08f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Accept</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
@@ -42,7 +42,7 @@
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sys_ui_action_6abc70f5139792002f92b6004244b08f</sys_update_name>
         <sys_updated_by>tom.cullen</sys_updated_by>
-        <sys_updated_on>2016-08-24 23:13:27</sys_updated_on>
+        <sys_updated_on>2016-09-10 13:26:36</sys_updated_on>
         <table>x_snc_it_purchase_request_task</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

@@ -24,7 +24,7 @@
             <dependent_value/>
             <element>state</element>
             <hint>Task is ready to be assigned</hint>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Pending Assignment</label>
             <language>en</language>
             <name>x_snc_it_purchase_request_task</name>
@@ -34,9 +34,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>bcbc70f5139792002f92b6004244b01b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-10 17:59:01</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-10 13:22:50</sys_updated_on>
             <value>10</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -53,16 +53,16 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>3cbc70f5139792002f92b6004244b01c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-10 17:59:01</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-10 14:50:52</sys_updated_on>
             <value>16</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint>Task is assigned, acknowledged and pending work to start</hint>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Accepted</label>
             <language>en</language>
             <name>x_snc_it_purchase_request_task</name>
@@ -72,16 +72,16 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>b8bc70f5139792002f92b6004244b01d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-10 17:59:01</sys_updated_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-10 14:51:00</sys_updated_on>
             <value>17</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint>Work has started</hint>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Work In Progress</label>
             <language>en</language>
             <name>x_snc_it_purchase_request_task</name>
@@ -91,17 +91,36 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>38bc70f5139792002f92b6004244b01e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-10 17:59:01</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-10 13:22:03</sys_updated_on>
             <value>18</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
-            <hint>Work has been completed to specification</hint>
+            <hint>Request is being Reviewed</hint>
             <inactive>false</inactive>
-            <label>Closed Complete</label>
+            <label>Reviewing Request</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_task</name>
+            <sequence>4</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-09 15:17:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27a9240d4f3922009b8670f24210c71e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-09 15:17:27</sys_updated_on>
+            <value>19</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>Request has been completed to specification</hint>
+            <inactive>false</inactive>
+            <label>Request Accepted</label>
             <language>en</language>
             <name>x_snc_it_purchase_request_task</name>
             <sequence>5</sequence>
@@ -110,17 +129,17 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>b4bc70f5139792002f92b6004244b01f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-10 17:59:01</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-09 15:58:07</sys_updated_on>
             <value>3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
-            <hint>Work could not be completed as specified</hint>
+            <hint>Request could not be completed as specified</hint>
             <inactive>false</inactive>
-            <label>Closed Incomplete</label>
+            <label>Request Rejected</label>
             <language>en</language>
             <name>x_snc_it_purchase_request_task</name>
             <sequence>6</sequence>
@@ -129,9 +148,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f8bc70f5139792002f92b6004244b02c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-10 17:59:01</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-09 15:58:43</sys_updated_on>
             <value>4</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -161,15 +180,15 @@
             <sys_created_on>2016-05-10 17:59:00</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>38bc70f5139792002f92b6004244b01b</sys_id>
-            <sys_mod_count>16</sys_mod_count>
+            <sys_mod_count>28</sys_mod_count>
             <sys_name>state</sys_name>
             <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
             <sys_update_name>sys_choice_x_snc_it_purchase_request_task_state</sys_update_name>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-10 17:59:43</sys_updated_on>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-10 14:51:00</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

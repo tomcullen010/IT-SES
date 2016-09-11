@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_snc_it_purchase_sf_request_task">
+    <x_snc_it_purchase_sf_request_task action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <automatic_condition table="x_snc_it_purchase_request_task">state=16^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="16"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </automatic_condition>
+        <automatic_roles/>
+        <automatic_script/>
+        <automatic_string/>
+        <business_rule display_value="Review Request">fa01ed994f7d22009b8670f24210c78f</business_rule>
+        <change_client_script/>
+        <client_script/>
+        <comment/>
+        <derived_from/>
+        <end_text>19</end_text>
+        <ending_state display_value="Reviewing Request">27a9240d4f3922009b8670f24210c71e</ending_state>
+        <event/>
+        <event_rule/>
+        <mandatory_fields/>
+        <manual_condition table="x_snc_it_purchase_request_task">assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state=16^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="16"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </manual_condition>
+        <manual_roles/>
+        <manual_script/>
+        <manual_string/>
+        <name>Review Request</name>
+        <not_mandatory/>
+        <not_read_only/>
+        <not_visible/>
+        <number>SF0010092</number>
+        <override/>
+        <read_only_fields/>
+        <roles/>
+        <start_text>16</start_text>
+        <starting_state display_value="Assigned">3cbc70f5139792002f92b6004244b01c</starting_state>
+        <sys_class_name>x_snc_it_purchase_sf_request_task</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2016-09-10 13:57:49</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>6ab0ed994f7d22009b8670f24210c78b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Review Request</sys_name>
+        <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+        <sys_update_name>x_snc_it_purchase_sf_request_task_6ab0ed994f7d22009b8670f24210c78b</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-09-10 14:58:52</sys_updated_on>
+        <table>x_snc_it_purchase_request_task</table>
+        <translated_ending_state>Reviewing Request</translated_ending_state>
+        <translated_starting_state>Assigned</translated_starting_state>
+        <ui_action display_value="Review Request">8d0faddd4f7d22009b8670f24210c7be</ui_action>
+        <visible_fields/>
+        <work_notes/>
+        <work_notes_rule/>
+    </x_snc_it_purchase_sf_request_task>
+</record_update>

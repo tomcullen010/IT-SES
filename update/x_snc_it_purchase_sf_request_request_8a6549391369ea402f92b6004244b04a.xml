@@ -25,13 +25,13 @@
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </manual_condition>
         <manual_roles/>
-        <manual_script><![CDATA[//Set corresponding approval rec to "approved"
-var rec = new GlideRecord('sysapproval_approver');
-rec.addQuery('sysapproval', current.sys_id); 
-rec.addQuery('approver', gs.getUserID());
+        <manual_script><![CDATA[//Set corresponding TASK rec to "Accepted"
+var rec = new GlideRecord('x_snc_it_purchase_request_task');
+rec.addQuery('parent', current.sys_id); 
+rec.addQuery('assigned_to', gs.getUserID());
 rec.query();
 while (rec.next()) {
-  rec.state = 'approved';
+  rec.state = 3;
   rec.update();
   gs.addInfoMessage('Request has been Accepted by ' + gs.getUserDisplayName());
 }
@@ -52,7 +52,7 @@ while (rec.next()) {
         <sys_created_on>2016-08-30 15:07:04</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>8a6549391369ea402f92b6004244b04a</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Assignee Accept Request</sys_name>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
@@ -60,7 +60,7 @@ while (rec.next()) {
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>x_snc_it_purchase_sf_request_request_8a6549391369ea402f92b6004244b04a</sys_update_name>
         <sys_updated_by>tom.cullen</sys_updated_by>
-        <sys_updated_on>2016-08-30 18:21:05</sys_updated_on>
+        <sys_updated_on>2016-09-10 16:06:09</sys_updated_on>
         <table>x_snc_it_purchase_request_request</table>
         <translated_ending_state>In Process</translated_ending_state>
         <translated_starting_state>In Process</translated_starting_state>

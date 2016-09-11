@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="hasLabels=true" audit="true" extends="sm_order" label="IT Purchase Request" max_length="40" name="x_snc_it_purchase_request_request" sizeclass="1" type="collection">
+    <element attributes="hasLabels=true" audit="true" extends="sm_order" label="IT Purchase Request" max_length="40" name="x_snc_it_purchase_request_request" sizeclass="2" type="collection">
         <element label="Actionable Request" max_length="40" name="actionable_request" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Addressee Name" max_length="40" name="addressee_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" hint="Currently this is a CCNAG and CONA requirement. This is the contract number from eSourcing." label="Agreement ID" max_length="40" name="agreement_id" type="string"/>

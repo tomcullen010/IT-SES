@@ -4,7 +4,7 @@
         <active>true</active>
         <category>Other Professional Services</category>
         <finance_assignee/>
-        <legal_assignee display_value="Ashley Heffron">ce8d3f474f2312009b8670f24210c77c</legal_assignee>
+        <legal_assignee display_value="Tom Cullen">aa9f878f130312002f92b6004244b023</legal_assignee>
         <order>100</order>
         <organization display_value="BIG IT">81fbfe03ac1d55eb286d832de58ae1fd</organization>
         <procurement_assignee display_value="Heather Almond">0439ac534fa312009b8670f24210c7e7</procurement_assignee>
@@ -14,7 +14,7 @@
         <sys_created_on>2016-08-10 22:03:26</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>8ae6a7174f4526409b8670f24210c7b6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>100</sys_name>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
@@ -22,7 +22,7 @@
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>x_snc_it_purchase_dtl_assignees_8ae6a7174f4526409b8670f24210c7b6</sys_update_name>
         <sys_updated_by>tom.cullen</sys_updated_by>
-        <sys_updated_on>2016-08-10 22:03:26</sys_updated_on>
+        <sys_updated_on>2016-09-09 12:51:26</sys_updated_on>
         <vendor_governance_assignee display_value="Jaela Jones-Wofford">3b543b8313ebd6002f92b6004244b05d</vendor_governance_assignee>
     </x_snc_it_purchase_dtl_assignees>
 </record_update>

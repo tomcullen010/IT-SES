@@ -49,7 +49,7 @@
         <sys_created_on>2016-05-10 17:59:39</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>dedcf0f5139792002f92b6004244b054</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>IT Purchase Request</sys_name>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
@@ -57,7 +57,7 @@
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sm_config_dedcf0f5139792002f92b6004244b054</sys_update_name>
         <sys_updated_by>tom.cullen</sys_updated_by>
-        <sys_updated_on>2016-08-26 19:23:34</sys_updated_on>
+        <sys_updated_on>2016-09-08 12:39:26</sys_updated_on>
         <task_activities>false</task_activities>
         <task_dispatch_method>manual</task_dispatch_method>
         <task_dispatch_workflow display_value="Assignment Workflow for SM">e1865971d7132100bbc783e80e610365</task_dispatch_workflow>

@@ -25,15 +25,22 @@
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </manual_condition>
         <manual_roles/>
-        <manual_script><![CDATA[//Set corresponding approval rec to "rejected"
-var rec = new GlideRecord('sysapproval_approver');
-rec.addQuery('sysapproval', current.sys_id); 
-rec.addQuery('approver', gs.getUserID());
+        <manual_script><![CDATA[//Set corresponding TASK rec to "Rejected"
+// When 1 assignee rejects the request, it is Rejected ..
+var rec = new GlideRecord('x_snc_it_purchase_request_task');
+rec.addQuery('parent', current.sys_id); 
 rec.query();
 while (rec.next()) {
-  rec.state = 'rejected';
-  rec.update();
-  gs.addInfoMessage('Request has been Rejected by ' + gs.getUserDisplayName());
+	if (rec.assigned_to == gs.getUserID()) {   //mark the current assignee task Rejected
+		  rec.state = 4;
+          rec.update();
+		  gs.addInfoMessage('Request has been Rejected by ' + gs.getUserDisplayName());
+	}
+	if (rec.state == 19) {  //Mark all (open) Reviewing Tasks Cancelled
+		rec.state = 7;
+		rec.update();
+	}
+
 }
 ]]></manual_script>
         <manual_string/>
@@ -52,7 +59,7 @@ while (rec.next()) {
         <sys_created_on>2016-08-30 16:48:58</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>2abdd9fd1369ea402f92b6004244b0f5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Assignee Reject Request</sys_name>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
@@ -60,7 +67,7 @@ while (rec.next()) {
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>x_snc_it_purchase_sf_request_request_2abdd9fd1369ea402f92b6004244b0f5</sys_update_name>
         <sys_updated_by>tom.cullen</sys_updated_by>
-        <sys_updated_on>2016-08-30 18:21:26</sys_updated_on>
+        <sys_updated_on>2016-09-11 12:55:06</sys_updated_on>
         <table>x_snc_it_purchase_request_request</table>
         <translated_ending_state>In Process</translated_ending_state>
         <translated_starting_state>In Process</translated_starting_state>

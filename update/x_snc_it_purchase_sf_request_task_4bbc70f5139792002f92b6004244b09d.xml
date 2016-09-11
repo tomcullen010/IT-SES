@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="x_snc_it_purchase_sf_request_task">
     <x_snc_it_purchase_sf_request_task action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <automatic_condition table="x_snc_it_purchase_request_task">work_startISNOTEMPTY^EQ<item endquery="false" field="work_start" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </automatic_condition>
@@ -34,6 +34,10 @@ if (requestDriven && parent && parent.assigned_to.nil() && parent.assignment_gro
 var sm = new sn_sm.SMConfiguration();
 var requestDriven = sm.isEnabled(current, 'request_driven', false);
 var parent = new global.SMTask().getParent(current);
+
+gs.addInfoMessage('requestDriven = ' + requestDriven);
+gs.addInfoMessage('parent = ' + parent);
+
 if (requestDriven && parent && parent.assigned_to.nil() && parent.assignment_group.nil()) {
 	if (parent && parent.canWrite()) {
 		parent.assigned_to = current.assigned_to;
@@ -58,15 +62,15 @@ action.setRedirectURL(current);]]></manual_script>
         <sys_created_on>2016-05-10 17:59:10</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>4bbc70f5139792002f92b6004244b09d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Start Work</sys_name>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>x_snc_it_purchase_sf_request_task_4bbc70f5139792002f92b6004244b09d</sys_update_name>
-        <sys_updated_by>michael.ritchie</sys_updated_by>
-        <sys_updated_on>2016-05-10 17:59:10</sys_updated_on>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-09-09 15:23:12</sys_updated_on>
         <table>x_snc_it_purchase_request_task</table>
         <translated_ending_state>Work In Progress</translated_ending_state>
         <translated_starting_state>Accepted</translated_starting_state>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="x_snc_it_purchase_sf_request_task">
     <x_snc_it_purchase_sf_request_task action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <automatic_condition/>
         <automatic_roles/>
         <automatic_script/>
@@ -12,7 +12,7 @@
         <comment>IT Purchase Request Request State flow</comment>
         <derived_from display_value="Close Complete">29feb353df312100dca6a5f59bf263e4</derived_from>
         <end_text>3</end_text>
-        <ending_state display_value="Closed Complete">b4bc70f5139792002f92b6004244b01f</ending_state>
+        <ending_state display_value="Request Accepted">b4bc70f5139792002f92b6004244b01f</ending_state>
         <event/>
         <event_rule/>
         <mandatory_fields/>
@@ -46,17 +46,17 @@ if (current.work_end.nil())
         <sys_created_on>2016-05-10 17:59:07</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>96bc70f5139792002f92b6004244b086</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Close Complete</sys_name>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>x_snc_it_purchase_sf_request_task_96bc70f5139792002f92b6004244b086</sys_update_name>
-        <sys_updated_by>michael.ritchie</sys_updated_by>
-        <sys_updated_on>2016-05-10 17:59:07</sys_updated_on>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-09-10 13:49:07</sys_updated_on>
         <table>x_snc_it_purchase_request_task</table>
-        <translated_ending_state>Closed Complete</translated_ending_state>
+        <translated_ending_state>Accepted Complete</translated_ending_state>
         <translated_starting_state>Work In Progress</translated_starting_state>
         <ui_action display_value="Close Complete">d6bc70f5139792002f92b6004244b086</ui_action>
         <visible_fields/>
