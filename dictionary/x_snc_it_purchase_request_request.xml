@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="hasLabels=true" audit="true" extends="sm_order" label="IT Purchase Request" max_length="40" name="x_snc_it_purchase_request_request" sizeclass="2" type="collection">
+    <element attributes="hasLabels=true" audit="true" extends="sm_order" label="IT Purchase Request" max_length="40" name="x_snc_it_purchase_request_request" sizeclass="1" type="collection">
         <element label="Actionable Request" max_length="40" name="actionable_request" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Addressee Name" max_length="40" name="addressee_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" hint="Currently this is a CCNAG and CONA requirement. This is the contract number from eSourcing." label="Agreement ID" max_length="40" name="agreement_id" type="string"/>
@@ -171,6 +171,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Procurement Risk Explanation" max_length="250" name="procurement_risk_explanation" type="multi_two_lines"/>
         <element attributes="edge_encryption_enabled=true" label="Requestor Budget Notes" max_length="1000" name="requestor_budget_notes" type="string"/>
+        <element label="Request Stage" max_length="80" name="request_stage" type="workflow"/>
         <element attributes="edge_encryption_enabled=true" hint="Enter the total amount of savings achieved through negotiations." label="Savings" max_length="40" name="savings" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" hint="Derivative includes certain commodity-based contracts and purchase agreements that contain embedded derivative-like structures (such as price caps and floors, cash settlement provisions)." label="SFAS 133 - Embedded Derivatives" max_length="40" name="sfas_133_embedded_derivatives" type="string">
             <choice>

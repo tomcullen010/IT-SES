@@ -3,7 +3,7 @@
     <sys_ui_related sys_domain="global" table="x_snc_it_purchase_request_task" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="It Purchase Request Task - Default view" name="x_snc_it_purchase_request_task" related_list="NULL" sys_domain="global" view="Default view">71dcf0f5139792002f92b6004244b03f</list_id>
+            <list_id display_value="Assignee Acceptance Tasks - Default view" name="x_snc_it_purchase_request_task" related_list="NULL" sys_domain="global" view="Default view">71dcf0f5139792002f92b6004244b03f</list_id>
             <order_by/>
             <position>0</position>
             <related_list>task_sla.task</related_list>
@@ -17,7 +17,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="It Purchase Request Task - Default view" name="x_snc_it_purchase_request_task" related_list="NULL" sys_domain="global" view="Default view">71dcf0f5139792002f92b6004244b03f</list_id>
+            <list_id display_value="Assignee Acceptance Tasks - Default view" name="x_snc_it_purchase_request_task" related_list="NULL" sys_domain="global" view="Default view">71dcf0f5139792002f92b6004244b03f</list_id>
             <order_by/>
             <position>1</position>
             <related_list>task_ci.task</related_list>
@@ -31,7 +31,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="It Purchase Request Task - Default view" name="x_snc_it_purchase_request_task" related_list="NULL" sys_domain="global" view="Default view">71dcf0f5139792002f92b6004244b03f</list_id>
+            <list_id display_value="Assignee Acceptance Tasks - Default view" name="x_snc_it_purchase_request_task" related_list="NULL" sys_domain="global" view="Default view">71dcf0f5139792002f92b6004244b03f</list_id>
             <order_by/>
             <position>2</position>
             <related_list>sm_part_requirement.service_order_task</related_list>
@@ -45,7 +45,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="It Purchase Request Task - Default view" name="x_snc_it_purchase_request_task" related_list="NULL" sys_domain="global" view="Default view">71dcf0f5139792002f92b6004244b03f</list_id>
+            <list_id display_value="Assignee Acceptance Tasks - Default view" name="x_snc_it_purchase_request_task" related_list="NULL" sys_domain="global" view="Default view">71dcf0f5139792002f92b6004244b03f</list_id>
             <order_by/>
             <position>3</position>
             <related_list>alm_transfer_order.service_order_task</related_list>
@@ -59,7 +59,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="It Purchase Request Task - Default view" name="x_snc_it_purchase_request_task" related_list="NULL" sys_domain="global" view="Default view">71dcf0f5139792002f92b6004244b03f</list_id>
+            <list_id display_value="Assignee Acceptance Tasks - Default view" name="x_snc_it_purchase_request_task" related_list="NULL" sys_domain="global" view="Default view">71dcf0f5139792002f92b6004244b03f</list_id>
             <order_by/>
             <position>4</position>
             <related_list>sm_asset_usage.service_order_task</related_list>
@@ -73,7 +73,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="It Purchase Request Task - Default view" name="x_snc_it_purchase_request_task" related_list="NULL" sys_domain="global" view="Default view">71dcf0f5139792002f92b6004244b03f</list_id>
+            <list_id display_value="Assignee Acceptance Tasks - Default view" name="x_snc_it_purchase_request_task" related_list="NULL" sys_domain="global" view="Default view">71dcf0f5139792002f92b6004244b03f</list_id>
             <order_by/>
             <position>5</position>
             <related_list>sm_m2m_task_dependency.downstream_task</related_list>
@@ -87,7 +87,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="It Purchase Request Task - Default view" name="x_snc_it_purchase_request_task" related_list="NULL" sys_domain="global" view="Default view">71dcf0f5139792002f92b6004244b03f</list_id>
+            <list_id display_value="Assignee Acceptance Tasks - Default view" name="x_snc_it_purchase_request_task" related_list="NULL" sys_domain="global" view="Default view">71dcf0f5139792002f92b6004244b03f</list_id>
             <order_by/>
             <position>6</position>
             <related_list>sm_m2m_task_dependency.upstream_task</related_list>
@@ -101,7 +101,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="It Purchase Request Task - Default view" name="x_snc_it_purchase_request_task" related_list="NULL" sys_domain="global" view="Default view">71dcf0f5139792002f92b6004244b03f</list_id>
+            <list_id display_value="Assignee Acceptance Tasks - Default view" name="x_snc_it_purchase_request_task" related_list="NULL" sys_domain="global" view="Default view">71dcf0f5139792002f92b6004244b03f</list_id>
             <order_by/>
             <position>7</position>
             <related_list>sm_incidentals.parent_task</related_list>
@@ -115,7 +115,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="It Purchase Request Task - Default view" name="x_snc_it_purchase_request_task" related_list="NULL" sys_domain="global" view="Default view">71dcf0f5139792002f92b6004244b03f</list_id>
+            <list_id display_value="Assignee Acceptance Tasks - Default view" name="x_snc_it_purchase_request_task" related_list="NULL" sys_domain="global" view="Default view">71dcf0f5139792002f92b6004244b03f</list_id>
             <order_by/>
             <position>8</position>
             <related_list>sm_m2m_task_contract.task</related_list>
@@ -129,7 +129,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="It Purchase Request Task - Default view" name="x_snc_it_purchase_request_task" related_list="NULL" sys_domain="global" view="Default view">71dcf0f5139792002f92b6004244b03f</list_id>
+            <list_id display_value="Assignee Acceptance Tasks - Default view" name="x_snc_it_purchase_request_task" related_list="NULL" sys_domain="global" view="Default view">71dcf0f5139792002f92b6004244b03f</list_id>
             <order_by/>
             <position>9</position>
             <related_list>REL:e8675c6947232100158b949b6c9a71db</related_list>
@@ -143,7 +143,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="It Purchase Request Task - Default view" name="x_snc_it_purchase_request_task" related_list="NULL" sys_domain="global" view="Default view">71dcf0f5139792002f92b6004244b03f</list_id>
+            <list_id display_value="Assignee Acceptance Tasks - Default view" name="x_snc_it_purchase_request_task" related_list="NULL" sys_domain="global" view="Default view">71dcf0f5139792002f92b6004244b03f</list_id>
             <order_by/>
             <position>10</position>
             <related_list>task_activity.task</related_list>
@@ -156,7 +156,7 @@
             <sys_updated_on>2016-05-10 17:59:37</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>It Purchase Request Task - Default view</calculated_name>
+            <calculated_name>Assignee Acceptance Tasks - Default view</calculated_name>
             <filter/>
             <name>x_snc_it_purchase_request_task</name>
             <order_by/>

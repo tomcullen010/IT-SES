@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="701e6c9613b962002f92b6004244b0a1" sys_domain="global" table="x_snc_it_purchase_request_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:49:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>853eac9613b962002f92b6004244b05c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_it_purchase_request_request" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">701e6c9613b962002f92b6004244b0a1</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">4d3eac9613b962002f92b6004244b057</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:49:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:49:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>781e6c9613b962002f92b6004244b0a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_it_purchase_request_request" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">701e6c9613b962002f92b6004244b0a1</sys_ui_form>
+            <sys_ui_section caption="Supplier Details" display_value="Supplier Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">781e6c9613b962002f92b6004244b09d</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:49:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:49:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c1e6c9613b962002f92b6004244b0a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_it_purchase_request_request" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">701e6c9613b962002f92b6004244b0a1</sys_ui_form>
+            <sys_ui_section caption="Budget Details" display_value="Budget Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">bc1e6c9613b962002f92b6004244b09d</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:49:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:49:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc1e6c9613b962002f92b6004244b0a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_it_purchase_request_request" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">701e6c9613b962002f92b6004244b0a1</sys_ui_form>
+            <sys_ui_section caption="Assignees" display_value="Assignees" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">f01e6c9613b962002f92b6004244b09e</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:49:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:49:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b01e6c9613b962002f92b6004244b0a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_it_purchase_request_request" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">701e6c9613b962002f92b6004244b0a1</sys_ui_form>
+            <sys_ui_section caption="Approver Details" display_value="Approver Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">381e6c9613b962002f92b6004244b09e</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:49:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:49:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>451e6c9613b962002f92b6004244b0a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_it_purchase_request_request" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">701e6c9613b962002f92b6004244b0a1</sys_ui_form>
+            <sys_ui_section caption="NDA Details" display_value="NDA Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">7c1e6c9613b962002f92b6004244b09e</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:49:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:49:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>091e6c9613b962002f92b6004244b0a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_it_purchase_request_request" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">701e6c9613b962002f92b6004244b0a1</sys_ui_form>
+            <sys_ui_section caption="Procurement Details" display_value="Procurement Details" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">b01e6c9613b962002f92b6004244b09f</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:49:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:49:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c91e6c9613b962002f92b6004244b0a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_it_purchase_request_request" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">701e6c9613b962002f92b6004244b0a1</sys_ui_form>
+            <sys_ui_section caption="Finance Assessment" display_value="Finance Assessment" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">f41e6c9613b962002f92b6004244b09f</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:49:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>8</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:49:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8d1e6c9613b962002f92b6004244b0a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_it_purchase_request_request" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">701e6c9613b962002f92b6004244b0a1</sys_ui_form>
+            <sys_ui_section caption="Form 481/581 Reporting" display_value="Form 481/581 Reporting" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">3c1e6c9613b962002f92b6004244b09f</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:49:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>9</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:49:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>411e6c9613b962002f92b6004244b0a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_it_purchase_request_request" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">701e6c9613b962002f92b6004244b0a1</sys_ui_form>
+            <sys_ui_section caption="Vendor Governance Assessment" display_value="Vendor Governance Assessment" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">701e6c9613b962002f92b6004244b0a0</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:49:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>10</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:49:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>051e6c9613b962002f92b6004244b0a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_it_purchase_request_request" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">701e6c9613b962002f92b6004244b0a1</sys_ui_form>
+            <sys_ui_section caption="Legal Assessment" display_value="Legal Assessment" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">b41e6c9613b962002f92b6004244b0a0</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:49:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>11</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:49:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c51e6c9613b962002f92b6004244b0a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_it_purchase_request_request" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">701e6c9613b962002f92b6004244b0a1</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_snc_it_purchase_request_request" sys_domain="global" view="3ef9f2034f4312009b8670f24210c7a2">f81e6c9613b962002f92b6004244b0a0</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:49:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_it_purchase_request_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:49:03</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>701e6c9613b962002f92b6004244b0a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_it_purchase_request_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+            <sys_update_name>sys_ui_form_sections_701e6c9613b962002f92b6004244b0a1</sys_update_name>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:49:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="Mobile" name="Mobile">3ef9f2034f4312009b8670f24210c7a2</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

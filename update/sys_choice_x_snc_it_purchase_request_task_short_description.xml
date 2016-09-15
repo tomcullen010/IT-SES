@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="short_description" table="x_snc_it_purchase_request_task" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Issue with a web page</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_task</name>
+            <sequence>0</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:05:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0024a89213b962002f92b6004244b06e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:05:35</sys_updated_on>
+            <value>Issue with a web page</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Issue with email</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_task</name>
+            <sequence>1</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:05:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c24a89213b962002f92b6004244b06e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:05:35</sys_updated_on>
+            <value>Issue with email</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Issue with networking</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_task</name>
+            <sequence>2</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:05:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8824a89213b962002f92b6004244b06f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:05:35</sys_updated_on>
+            <value>Issue with networking</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New employee hire</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_task</name>
+            <sequence>3</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:05:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8424a89213b962002f92b6004244b070</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:05:35</sys_updated_on>
+            <value>New employee hire</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request for a Blackberry</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_task</name>
+            <sequence>4</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:05:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8024a89213b962002f92b6004244b071</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:05:35</sys_updated_on>
+            <value>Request for a Blackberry</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request for a new service</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_task</name>
+            <sequence>5</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:05:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c24a89213b962002f92b6004244b071</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:05:35</sys_updated_on>
+            <value>Request for a new service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request for help</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_task</name>
+            <sequence>6</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:05:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8824a89213b962002f92b6004244b072</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:05:35</sys_updated_on>
+            <value>Request for help</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request for new or upgraded hardware</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_task</name>
+            <sequence>7</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:05:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8424a89213b962002f92b6004244b073</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:05:35</sys_updated_on>
+            <value>Request for new or upgraded hardware</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request for new or upgraded software</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_task</name>
+            <sequence>8</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:05:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8024a89213b962002f92b6004244b074</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:05:35</sys_updated_on>
+            <value>Request for new or upgraded software</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reset my password</label>
+            <language>en</language>
+            <name>x_snc_it_purchase_request_task</name>
+            <sequence>9</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:05:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c24a89213b962002f92b6004244b074</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:05:35</sys_updated_on>
+            <value>Reset my password</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <name>x_snc_it_purchase_request_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2016-09-13 12:05:35</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>c824a89213b962002f92b6004244b06e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>short_description</sys_name>
+            <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
+            <sys_update_name>sys_choice_x_snc_it_purchase_request_task_short_description</sys_update_name>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:05:35</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

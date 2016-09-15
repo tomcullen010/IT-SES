@@ -15,34 +15,6 @@
             <sys_updated_by>michael.ritchie</sys_updated_by>
             <sys_updated_on>2016-05-10 17:59:37</sys_updated_on>
         </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-10 17:59:37</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>31dcf0f5139792002f92b6004244b03d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_snc_it_purchase_request_task" name="x_snc_it_purchase_request_task" sys_domain="global" view="Default view">69dcf0f5139792002f92b6004244b03a</sys_ui_form>
-            <sys_ui_section caption="Planned" display_value="Planned" name="x_snc_it_purchase_request_task" sys_domain="global" view="Default view">31dcf0f5139792002f92b6004244b03b</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-10 17:59:37</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>2</position>
-            <sys_created_by>michael.ritchie</sys_created_by>
-            <sys_created_on>2016-05-10 17:59:37</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>f9dcf0f5139792002f92b6004244b03e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_snc_it_purchase_request_task" name="x_snc_it_purchase_request_task" sys_domain="global" view="Default view">69dcf0f5139792002f92b6004244b03a</sys_ui_form>
-            <sys_ui_section caption="Actual" display_value="Actual" name="x_snc_it_purchase_request_task" sys_domain="global" view="Default view">f5dcf0f5139792002f92b6004244b03d</sys_ui_section>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-10 17:59:37</sys_updated_on>
-        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_snc_it_purchase_request_task</name>
             <roles/>
@@ -53,7 +25,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>69dcf0f5139792002f92b6004244b03a</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_name>x_snc_it_purchase_request_task</sys_name>
             <sys_overrides/>
             <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
@@ -61,8 +33,8 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
             <sys_update_name>sys_ui_form_sections_69dcf0f5139792002f92b6004244b03a</sys_update_name>
-            <sys_updated_by>michael.ritchie</sys_updated_by>
-            <sys_updated_on>2016-05-10 17:59:37</sys_updated_on>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2016-09-13 12:05:35</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
