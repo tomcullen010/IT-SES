@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="hasLabels=true" audit="true" extends="sm_order" label="IT Purchase Request" max_length="40" name="x_snc_it_purchase_request_request" sizeclass="1" type="collection">
+    <element attributes="hasLabels=true" audit="true" extends="sm_order" label="IT Purchase Request" max_length="40" name="x_snc_it_purchase_request_request" sizeclass="3" type="collection">
         <element label="Actionable Request" max_length="40" name="actionable_request" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Addressee Name" max_length="40" name="addressee_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" hint="Currently this is a CCNAG and CONA requirement. This is the contract number from eSourcing." label="Agreement ID" max_length="40" name="agreement_id" type="string"/>
@@ -232,6 +232,8 @@
         <element attributes="edge_encryption_enabled=true" label="Thereafter" max_length="100" name="thereafter" type="string"/>
         <element label="Total Budget for This Effort" max_length="40" name="total_budget" read_only="true" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Type of Information" max_length="100" name="type_of_information" type="multi_two_lines"/>
+        <element attributes="edge_encryption_enabled=true" default="Mobile" label="VIEW" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="Default view" label="VIEW" max_length="40" name="u_string_2" type="string"/>
         <element label="Vendor Governance Assignee" max_length="32" name="vendor_governance_assignee" read_only="true" reference="sys_user" reference_qual="x_snc_it_purchase_itses_profileLIKEGovernance^EQ" reference_qual_condition="x_snc_it_purchase_itses_profileLIKEGovernance^EQ" type="reference" use_dependent_field="true"/>
         <element label="Vendor Governance Group" max_length="32" name="vendor_governance_group" reference="sys_user_group" reference_qual="typeLIKE4fbc70f5139792002f92b6004244b0a3^EQ" reference_qual_condition="typeLIKE4fbc70f5139792002f92b6004244b0a3^EQ" type="reference"/>
         <element label="Wave1 Approved" max_length="40" name="wave1_approved" type="boolean"/>

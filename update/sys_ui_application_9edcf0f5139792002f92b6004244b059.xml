@@ -5,7 +5,7 @@
         <hint/>
         <name>IT Purchase Request</name>
         <order/>
-        <roles>x_snc_it_purchase_read</roles>
+        <roles>x_snc_it_purchase_read,x_snc_it_purchase_approver_user,x_snc_it_purchase_basic,x_snc_it_purchase_initiator</roles>
         <sys_class_name>sys_ui_application</sys_class_name>
         <sys_created_by>michael.ritchie</sys_created_by>
         <sys_created_on>2016-05-10 17:59:40</sys_created_on>
@@ -13,7 +13,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9edcf0f5139792002f92b6004244b059</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>IT Purchase Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
@@ -21,7 +21,7 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
         <sys_update_name>sys_ui_application_9edcf0f5139792002f92b6004244b059</sys_update_name>
-        <sys_updated_by>michael.ritchie</sys_updated_by>
-        <sys_updated_on>2016-05-10 17:59:40</sys_updated_on>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2016-09-15 12:13:22</sys_updated_on>
     </sys_ui_application>
 </record_update>

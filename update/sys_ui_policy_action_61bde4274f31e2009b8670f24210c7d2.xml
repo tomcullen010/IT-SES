@@ -2,24 +2,24 @@
 <record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
         <disabled>ignore</disabled>
-        <field>description</field>
-        <mandatory>true</mandatory>
+        <field>wave1_approver_1</field>
+        <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>tom.cullen</sys_created_by>
-        <sys_created_on>2016-08-08 15:45:17</sys_created_on>
+        <sys_created_on>2016-09-17 10:00:19</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>972dbba64f09e2409b8670f24210c7b5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>description</sys_name>
+        <sys_id>61bde4274f31e2009b8670f24210c7d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>wave1_approver_1</sys_name>
         <sys_package display_value="IT Purchase Request" source="x_snc_it_purchase">80bcfcb5139792002f92b6004244b0f7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IT Purchase Request">80bcfcb5139792002f92b6004244b0f7</sys_scope>
-        <sys_update_name>sys_ui_policy_action_972dbba64f09e2409b8670f24210c7b5</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_61bde4274f31e2009b8670f24210c7d2</sys_update_name>
         <sys_updated_by>tom.cullen</sys_updated_by>
-        <sys_updated_on>2016-09-15 16:34:35</sys_updated_on>
+        <sys_updated_on>2016-09-17 10:00:19</sys_updated_on>
         <table>x_snc_it_purchase_request_request</table>
-        <ui_policy display_value="Order = 500 - Request Type = SOW">072dbba64f09e2409b8670f24210c7b1</ui_policy>
-        <visible>true</visible>
+        <ui_policy display_value="Order = 010 - Hide All Sections when Request Type = -none-">e42decc14f4d62409b8670f24210c76c</ui_policy>
+        <visible>false</visible>
     </sys_ui_policy_action>
 </record_update>
