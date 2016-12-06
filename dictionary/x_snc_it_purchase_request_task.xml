@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="sm_task" label="Assignee Acceptance Tasks" max_length="40" name="x_snc_it_purchase_request_task" sizeclass="4" type="collection"/>
+    <element audit="true" extends="sm_task" label="Assignee Acceptance Tasks" max_length="40" name="x_snc_it_purchase_request_task" sizeclass="12" type="collection"/>
 </database>
